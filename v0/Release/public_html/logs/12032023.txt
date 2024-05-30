@@ -1,0 +1,523 @@
+0:44:09   index.php  15: Init CSolutionINFO Class  
+0:44:09   index.php  130: Init BBDD MySQL Class  
+0:44:09   index.php  31: Init GetSchemaBB Functions  
+0:44:09   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:44:09   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:09   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:10   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:44:10   index.php  31: Init GetSchemaBB Functions  
+0:44:10   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:44:10   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:10   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:10   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:44:10   index.php  14: Init CReporters Class  
+0:44:10   index.php  130: Init BBDD MySQL Class  
+0:44:10   index.php  96: Init BBDD SQLite Class  
+0:44:10   index.php  27: Init Register Visit Functions  
+0:44:10   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:44:10   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:44:10   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:44:10   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:44:10   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:44:10   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:44:20   index.php  15: Init CSolutionINFO Class  
+0:44:20   index.php  130: Init BBDD MySQL Class  
+0:44:20   index.php  31: Init GetSchemaBB Functions  
+0:44:20   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:44:20   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:20   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:20   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:44:20   index.php  31: Init GetSchemaBB Functions  
+0:44:20   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:44:20   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:20   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:20   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:44:20   index.php  14: Init CReporters Class  
+0:44:20   index.php  130: Init BBDD MySQL Class  
+0:44:21   index.php  96: Init BBDD SQLite Class  
+0:44:21   index.php  55 Query Key: GET_USER_QUERY  
+0:44:21   index.php  56 Query Before treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+0:44:21   index.php  72 Query after treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+0:44:22   welcome.php  15: Init CSolutionINFO Class  
+0:44:22   welcome.php  130: Init BBDD MySQL Class  
+0:44:22   welcome.php  31: Init GetSchemaBB Functions  
+0:44:22   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+0:44:22   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:22   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:22   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:44:22   welcome.php  31: Init GetSchemaBB Functions  
+0:44:22   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+0:44:22   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:22   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:22   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:44:22   welcome.php  14: Init CReporters Class  
+0:44:22   welcome.php  130: Init BBDD MySQL Class  
+0:44:22   welcome.php  96: Init BBDD SQLite Class  
+0:44:22   welcome.php  27: Init Register Visit Functions  
+0:44:22   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:44:22   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:44:22   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:44:23   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:44:23   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:44:23   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:44:23   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+0:44:23   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+0:44:23   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+0:44:23   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+0:44:23   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+0:44:23   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+0:44:23   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+0:44:23   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+0:44:23   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+0:44:26   read_article.php  15: Init CSolutionINFO Class  
+0:44:26   read_article.php  130: Init BBDD MySQL Class  
+0:44:26   read_article.php  31: Init GetSchemaBB Functions  
+0:44:26   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+0:44:26   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:26   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:26   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:44:26   read_article.php  31: Init GetSchemaBB Functions  
+0:44:26   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+0:44:26   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:26   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:44:26   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:44:26   read_article.php  14: Init CReporters Class  
+0:44:26   read_article.php  130: Init BBDD MySQL Class  
+0:44:26   read_article.php  96: Init BBDD SQLite Class  
+0:44:26   read_article.php  27: Init Register Visit Functions  
+0:44:26   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:44:26   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:44:27   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:44:27   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+0:44:27   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+0:44:27   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+0:44:27   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+0:44:27   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+0:44:27   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+0:44:27   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+0:44:27   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+0:44:27   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+0:44:27   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+0:44:27   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+0:44:27   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+0:44:27   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+0:44:27   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+0:44:27   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+0:44:27   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+0:44:27   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+0:44:27   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+0:46:38   welcome.php  15: Init CSolutionINFO Class  
+0:46:38   welcome.php  130: Init BBDD MySQL Class  
+0:46:38   welcome.php  31: Init GetSchemaBB Functions  
+0:46:38   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+0:46:38   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:46:38   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:46:38   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:46:38   welcome.php  31: Init GetSchemaBB Functions  
+0:46:38   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+0:46:38   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:46:38   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:46:38   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:46:38   welcome.php  14: Init CReporters Class  
+0:46:38   welcome.php  130: Init BBDD MySQL Class  
+0:46:39   welcome.php  96: Init BBDD SQLite Class  
+0:46:39   welcome.php  27: Init Register Visit Functions  
+0:46:39   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:46:39   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:46:39   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:46:39   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:46:39   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:46:39   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:46:39   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+0:46:39   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+0:46:39   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+0:46:39   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+0:46:39   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+0:46:39   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+0:46:39   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+0:46:39   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+0:46:39   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+1:23:44   welcome.php  15: Init CSolutionINFO Class  
+1:23:44   welcome.php  130: Init BBDD MySQL Class  
+1:23:44   welcome.php  31: Init GetSchemaBB Functions  
+1:23:44   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:44   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:44   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:44   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:44   welcome.php  31: Init GetSchemaBB Functions  
+1:23:44   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:44   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:44   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:45   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:45   welcome.php  14: Init CReporters Class  
+1:23:45   welcome.php  130: Init BBDD MySQL Class  
+1:23:45   welcome.php  96: Init BBDD SQLite Class  
+1:23:45   welcome.php  27: Init Register Visit Functions  
+1:23:45   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:23:45   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:23:45   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:23:45   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:23:45   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:23:45   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:23:45   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+1:23:45   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:23:45   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:23:45   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+1:23:45   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+1:23:45   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+1:23:45   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+1:23:45   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+1:23:45   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+14:22:08   index.php  15: Init CSolutionINFO Class  
+14:22:08   index.php  130: Init BBDD MySQL Class  
+14:22:08   index.php  31: Init GetSchemaBB Functions  
+14:22:08   index.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:08   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:08   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:08   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:08   index.php  31: Init GetSchemaBB Functions  
+14:22:08   index.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:08   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:08   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:08   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:08   index.php  14: Init CReporters Class  
+14:22:08   index.php  130: Init BBDD MySQL Class  
+14:22:09   index.php  96: Init BBDD SQLite Class  
+14:22:09   index.php  27: Init Register Visit Functions  
+14:22:09   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+14:22:09   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:22:09   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:22:09   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+14:22:09   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+14:22:09   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+14:22:22   index.php  15: Init CSolutionINFO Class  
+14:22:22   index.php  130: Init BBDD MySQL Class  
+14:22:22   index.php  31: Init GetSchemaBB Functions  
+14:22:22   index.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:22   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:22   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:22   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:22   index.php  31: Init GetSchemaBB Functions  
+14:22:22   index.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:22   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:22   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:22   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:22   index.php  14: Init CReporters Class  
+14:22:22   index.php  130: Init BBDD MySQL Class  
+14:22:23   index.php  96: Init BBDD SQLite Class  
+14:22:23   index.php  55 Query Key: GET_USER_QUERY  
+14:22:23   index.php  56 Query Before treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+14:22:23   index.php  72 Query after treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+14:22:23   welcome.php  15: Init CSolutionINFO Class  
+14:22:23   welcome.php  130: Init BBDD MySQL Class  
+14:22:23   welcome.php  31: Init GetSchemaBB Functions  
+14:22:23   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:23   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:23   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:23   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:23   welcome.php  31: Init GetSchemaBB Functions  
+14:22:23   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:23   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:23   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:23   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:23   welcome.php  14: Init CReporters Class  
+14:22:23   welcome.php  130: Init BBDD MySQL Class  
+14:22:24   welcome.php  96: Init BBDD SQLite Class  
+14:22:24   welcome.php  27: Init Register Visit Functions  
+14:22:24   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+14:22:24   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:22:24   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:22:24   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+14:22:24   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+14:22:24   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+14:22:24   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+14:22:24   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:22:24   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:22:24   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+14:22:24   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+14:22:24   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+14:22:24   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+14:22:24   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+14:22:24   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+14:22:28   read_article.php  15: Init CSolutionINFO Class  
+14:22:28   read_article.php  130: Init BBDD MySQL Class  
+14:22:28   read_article.php  31: Init GetSchemaBB Functions  
+14:22:28   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:28   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:28   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:28   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:28   read_article.php  31: Init GetSchemaBB Functions  
+14:22:28   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:28   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:28   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:28   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:28   read_article.php  14: Init CReporters Class  
+14:22:28   read_article.php  130: Init BBDD MySQL Class  
+14:22:28   read_article.php  96: Init BBDD SQLite Class  
+14:22:28   read_article.php  27: Init Register Visit Functions  
+14:22:28   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+14:22:28   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:22:29   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:22:29   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+14:22:29   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:22:29   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:22:29   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+14:22:29   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:22:29   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:22:29   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+14:22:29   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+14:22:29   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+14:22:29   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+14:22:29   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+14:22:29   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+14:22:29   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+14:22:29   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+14:22:29   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+14:22:29   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+14:22:29   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:22:29   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:22:32   welcome.php  15: Init CSolutionINFO Class  
+14:22:32   welcome.php  130: Init BBDD MySQL Class  
+14:22:32   welcome.php  31: Init GetSchemaBB Functions  
+14:22:32   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:32   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:32   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:32   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:32   welcome.php  31: Init GetSchemaBB Functions  
+14:22:32   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:32   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:32   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:32   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:32   welcome.php  14: Init CReporters Class  
+14:22:32   welcome.php  130: Init BBDD MySQL Class  
+14:22:33   welcome.php  96: Init BBDD SQLite Class  
+14:22:33   welcome.php  27: Init Register Visit Functions  
+14:22:33   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+14:22:33   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:22:33   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:22:33   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+14:22:33   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+14:22:33   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+14:22:33   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+14:22:33   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:22:33   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:22:33   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+14:22:33   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+14:22:33   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+14:22:33   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+14:22:33   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+14:22:33   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+14:22:34   read_article.php  15: Init CSolutionINFO Class  
+14:22:34   read_article.php  130: Init BBDD MySQL Class  
+14:22:34   read_article.php  31: Init GetSchemaBB Functions  
+14:22:34   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:34   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:34   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:34   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:34   read_article.php  31: Init GetSchemaBB Functions  
+14:22:34   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+14:22:34   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:35   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:22:35   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:22:35   read_article.php  14: Init CReporters Class  
+14:22:35   read_article.php  130: Init BBDD MySQL Class  
+14:22:35   read_article.php  96: Init BBDD SQLite Class  
+14:22:35   read_article.php  27: Init Register Visit Functions  
+14:22:35   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+14:22:35   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:22:35   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:22:35   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+14:22:35   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:22:35   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:22:35   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+14:22:35   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:22:35   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:22:35   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+14:22:35   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+14:22:35   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+14:22:35   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+14:22:35   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+14:22:35   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+14:22:35   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+14:22:35   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+14:22:35   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+14:22:35   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+14:22:35   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:22:35   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:26:00   welcome.php  15: Init CSolutionINFO Class  
+14:26:00   welcome.php  130: Init BBDD MySQL Class  
+14:26:01   welcome.php  31: Init GetSchemaBB Functions  
+14:26:01   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+14:26:01   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:01   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:01   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:26:01   welcome.php  31: Init GetSchemaBB Functions  
+14:26:01   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+14:26:01   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:01   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:01   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:26:01   welcome.php  14: Init CReporters Class  
+14:26:01   welcome.php  130: Init BBDD MySQL Class  
+14:26:01   welcome.php  96: Init BBDD SQLite Class  
+14:26:01   welcome.php  27: Init Register Visit Functions  
+14:26:01   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+14:26:01   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:26:01   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:26:02   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+14:26:02   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+14:26:02   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+14:26:02   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+14:26:02   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:26:02   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:26:02   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+14:26:02   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+14:26:02   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+14:26:02   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+14:26:02   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+14:26:02   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+14:26:56   read_article.php  15: Init CSolutionINFO Class  
+14:26:56   read_article.php  130: Init BBDD MySQL Class  
+14:26:56   read_article.php  31: Init GetSchemaBB Functions  
+14:26:56   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+14:26:56   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:56   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:56   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:26:56   read_article.php  31: Init GetSchemaBB Functions  
+14:26:56   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+14:26:56   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:56   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:56   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:26:56   read_article.php  14: Init CReporters Class  
+14:26:56   read_article.php  130: Init BBDD MySQL Class  
+14:26:57   read_article.php  96: Init BBDD SQLite Class  
+14:26:57   read_article.php  27: Init Register Visit Functions  
+14:26:57   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+14:26:57   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:26:57   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:26:57   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+14:26:57   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:26:57   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:26:57   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+14:26:57   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:26:57   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:26:57   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+14:26:57   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+14:26:57   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+14:26:57   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+14:26:57   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+14:26:57   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+14:26:57   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+14:26:57   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+14:26:57   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+14:26:57   read_article.php  15: Init CSolutionINFO Class  
+14:26:57   read_article.php  130: Init BBDD MySQL Class  
+14:26:57   read_article.php  31: Init GetSchemaBB Functions  
+14:26:57   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+14:26:57   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:57   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:58   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:26:58   read_article.php  31: Init GetSchemaBB Functions  
+14:26:58   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+14:26:58   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:58   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+14:26:58   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+14:26:58   read_article.php  14: Init CReporters Class  
+14:26:58   read_article.php  130: Init BBDD MySQL Class  
+14:26:58   read_article.php  96: Init BBDD SQLite Class  
+14:26:58   read_article.php  27: Init Register Visit Functions  
+14:26:58   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+14:26:58   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:26:58   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+14:26:58   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+14:26:58   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:26:58   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:26:58   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+14:26:58   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:26:58   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+14:26:58   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+14:26:58   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+14:26:58   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+14:26:58   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+14:26:58   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+14:26:58   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+14:26:58   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+14:26:58   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+14:26:58   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+14:26:58   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+14:26:58   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+14:26:58   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+19:15:02   index.php  15: Init CSolutionINFO Class  
+19:15:02   index.php  130: Init BBDD MySQL Class  
+19:15:03   index.php  31: Init GetSchemaBB Functions  
+19:15:03   index.php  55 Query Key: GET_SchemaBD_QUERY  
+19:15:03   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+19:15:03   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+19:15:03   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+19:15:03   index.php  31: Init GetSchemaBB Functions  
+19:15:03   index.php  55 Query Key: GET_SchemaBD_QUERY  
+19:15:03   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+19:15:03   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+19:15:03   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+19:15:03   index.php  14: Init CReporters Class  
+19:15:03   index.php  130: Init BBDD MySQL Class  
+19:15:03   index.php  96: Init BBDD SQLite Class  
+19:15:03   index.php  27: Init Register Visit Functions  
+19:15:03   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+19:15:03   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+19:15:03   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+19:15:04   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+19:15:04   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+19:15:04   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+19:20:10   welcome.php  15: Init CSolutionINFO Class  
+19:20:10   welcome.php  130: Init BBDD MySQL Class  
+19:20:10   welcome.php  31: Init GetSchemaBB Functions  
+19:20:10   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+19:20:10   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+19:20:11   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+19:20:11   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+19:20:11   welcome.php  31: Init GetSchemaBB Functions  
+19:20:11   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+19:20:11   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+19:20:11   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+19:20:11   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+19:20:11   welcome.php  14: Init CReporters Class  
+19:20:11   welcome.php  130: Init BBDD MySQL Class  
+19:20:11   welcome.php  96: Init BBDD SQLite Class  
+19:20:11   welcome.php  27: Init Register Visit Functions  
+19:20:11   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+19:20:11   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+19:20:11   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+19:20:11   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+19:20:11   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+19:20:11   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+19:20:11   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+19:20:11   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+19:20:11   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+19:20:11   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+19:20:11   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+19:20:11   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+19:20:11   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+19:20:11   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+19:20:11   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+22:51:08   index.php  15: Init CSolutionINFO Class  
+22:51:08   index.php  130: Init BBDD MySQL Class  
+22:51:09   index.php  31: Init GetSchemaBB Functions  
+22:51:09   index.php  55 Query Key: GET_SchemaBD_QUERY  
+22:51:09   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+22:51:09   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+22:51:09   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+22:51:09   index.php  31: Init GetSchemaBB Functions  
+22:51:09   index.php  55 Query Key: GET_SchemaBD_QUERY  
+22:51:09   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+22:51:09   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+22:51:09   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+22:51:09   index.php  14: Init CReporters Class  
+22:51:09   index.php  130: Init BBDD MySQL Class  
+22:51:09   index.php  96: Init BBDD SQLite Class  
+22:51:09   index.php  27: Init Register Visit Functions  
+22:51:09   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+22:51:09   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+22:51:09   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+22:51:09   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+22:51:09   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+22:51:09   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  

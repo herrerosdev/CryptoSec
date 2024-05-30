@@ -1,0 +1,1940 @@
+0:26:36   index.php  15: Init CSolutionINFO Class  
+0:26:36   index.php  130: Init BBDD MySQL Class  
+0:26:37   index.php  31: Init GetSchemaBB Functions  
+0:26:37   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:26:37   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:26:37   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:26:37   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:26:37   index.php  31: Init GetSchemaBB Functions  
+0:26:37   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:26:37   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:26:37   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:26:37   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:26:37   index.php  14: Init CReporters Class  
+0:26:37   index.php  130: Init BBDD MySQL Class  
+0:26:38   index.php  96: Init BBDD SQLite Class  
+0:26:38   index.php  27: Init Register Visit Functions  
+0:26:38   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:26:38   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:26:38   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:26:38   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:26:38   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:26:38   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:26:38   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:26:38   index.php  56 Query Before treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:26:38   index.php  72 Query after treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:26:38   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:26:38   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:26:38   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:26:38   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:26:38   index.php  101: RESULTS QUERY =  Array  
+0:26:38   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:26:40   index.php  15: Init CSolutionINFO Class  
+0:26:40   index.php  130: Init BBDD MySQL Class  
+0:26:40   index.php  31: Init GetSchemaBB Functions  
+0:26:40   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:26:40   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:26:40   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:26:41   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:26:41   index.php  31: Init GetSchemaBB Functions  
+0:26:41   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:26:41   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:26:41   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:26:41   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:26:41   index.php  14: Init CReporters Class  
+0:26:41   index.php  130: Init BBDD MySQL Class  
+0:26:41   index.php  96: Init BBDD SQLite Class  
+0:26:41   index.php  27: Init Register Visit Functions  
+0:26:41   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:26:41   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:26:41   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:26:41   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:26:41   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:26:41   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:26:41   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:26:41   index.php  56 Query Before treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:26:41   index.php  72 Query after treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:26:41   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:26:41   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:26:41   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:26:41   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:26:41   index.php  101: RESULTS QUERY =  Array  
+0:26:41   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:27:48   index.php  15: Init CSolutionINFO Class  
+0:27:48   index.php  130: Init BBDD MySQL Class  
+0:27:49   index.php  31: Init GetSchemaBB Functions  
+0:27:49   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:27:49   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:27:49   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:27:49   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:27:49   index.php  31: Init GetSchemaBB Functions  
+0:27:49   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:27:49   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:27:49   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:27:49   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:27:49   index.php  14: Init CReporters Class  
+0:27:49   index.php  130: Init BBDD MySQL Class  
+0:27:49   index.php  96: Init BBDD SQLite Class  
+0:27:49   index.php  27: Init Register Visit Functions  
+0:27:49   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:27:49   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:27:49   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:27:50   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:27:50   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:27:50   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:27:50   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:27:50   index.php  56 Query Before treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:27:50   index.php  72 Query after treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:27:50   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:27:50   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:27:50   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:27:50   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:27:50   index.php  101: RESULTS QUERY =  Array  
+0:27:50   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:27:53   index.php  15: Init CSolutionINFO Class  
+0:27:53   index.php  130: Init BBDD MySQL Class  
+0:27:53   index.php  31: Init GetSchemaBB Functions  
+0:27:53   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:27:53   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:27:53   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:27:53   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:27:53   index.php  31: Init GetSchemaBB Functions  
+0:27:53   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:27:53   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:27:53   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:27:53   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:27:53   index.php  14: Init CReporters Class  
+0:27:53   index.php  130: Init BBDD MySQL Class  
+0:27:54   index.php  96: Init BBDD SQLite Class  
+0:27:54   index.php  27: Init Register Visit Functions  
+0:27:54   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:27:54   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:27:54   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:27:54   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:27:54   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:27:54   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:27:54   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:27:54   index.php  56 Query Before treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:27:54   index.php  72 Query after treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:27:54   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:27:54   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:27:54   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:27:54   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:27:54   index.php  101: RESULTS QUERY =  Array  
+0:27:54   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:28:01   index.php  15: Init CSolutionINFO Class  
+0:28:01   index.php  130: Init BBDD MySQL Class  
+0:28:02   index.php  31: Init GetSchemaBB Functions  
+0:28:02   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:28:02   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:28:02   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:28:02   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:28:02   index.php  31: Init GetSchemaBB Functions  
+0:28:02   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:28:02   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:28:02   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:28:02   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:28:02   index.php  14: Init CReporters Class  
+0:28:02   index.php  130: Init BBDD MySQL Class  
+0:28:02   index.php  96: Init BBDD SQLite Class  
+0:28:02   index.php  27: Init Register Visit Functions  
+0:28:02   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:28:02   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:28:02   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:28:02   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:28:02   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:28:02   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:28:02   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:28:02   index.php  56 Query Before treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:28:02   index.php  72 Query after treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:28:02   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:28:02   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:28:02   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:28:02   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:28:02   index.php  101: RESULTS QUERY =  Array  
+0:28:02   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:28:41   index.php  15: Init CSolutionINFO Class  
+0:28:41   index.php  130: Init BBDD MySQL Class  
+0:28:41   index.php  31: Init GetSchemaBB Functions  
+0:28:41   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:28:41   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:28:41   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:28:41   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:28:41   index.php  31: Init GetSchemaBB Functions  
+0:28:41   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:28:41   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:28:41   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:28:41   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:28:41   index.php  14: Init CReporters Class  
+0:28:41   index.php  130: Init BBDD MySQL Class  
+0:28:42   index.php  96: Init BBDD SQLite Class  
+0:28:42   index.php  27: Init Register Visit Functions  
+0:28:42   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:28:42   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:28:42   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:28:42   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:28:42   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:28:42   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:28:42   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:28:42   index.php  56 Query Before treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:28:42   index.php  72 Query after treatment: SELECT VALUE FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:28:42   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:28:42   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:28:42   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:28:42   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:28:42   index.php  101: RESULTS QUERY =  Array  
+0:28:42   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:33:46   index.php  15: Init CSolutionINFO Class  
+0:33:46   index.php  130: Init BBDD MySQL Class  
+0:33:46   index.php  31: Init GetSchemaBB Functions  
+0:33:46   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:33:46   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:33:46   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:33:46   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:33:46   index.php  31: Init GetSchemaBB Functions  
+0:33:46   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:33:46   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:33:46   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:33:46   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:33:46   index.php  14: Init CReporters Class  
+0:33:46   index.php  130: Init BBDD MySQL Class  
+0:33:47   index.php  96: Init BBDD SQLite Class  
+0:33:47   index.php  27: Init Register Visit Functions  
+0:33:47   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:33:47   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:33:47   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:33:47   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:33:47   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:33:47   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:33:47   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:33:47   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:33:47   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:33:47   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:33:47   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:33:47   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:33:47   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:33:47   index.php  101: RESULTS QUERY =  Array  
+0:33:47   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:34:20   index.php  15: Init CSolutionINFO Class  
+0:34:20   index.php  130: Init BBDD MySQL Class  
+0:34:20   index.php  31: Init GetSchemaBB Functions  
+0:34:20   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:34:20   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:34:20   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:34:21   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:34:21   index.php  31: Init GetSchemaBB Functions  
+0:34:21   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:34:21   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:34:21   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:34:21   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:34:21   index.php  14: Init CReporters Class  
+0:34:21   index.php  130: Init BBDD MySQL Class  
+0:34:21   index.php  96: Init BBDD SQLite Class  
+0:34:21   index.php  27: Init Register Visit Functions  
+0:34:21   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:34:21   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:34:21   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:34:21   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:34:21   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:34:21   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:34:21   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:34:21   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:34:21   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:34:21   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:34:21   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:34:21   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:34:21   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:34:21   index.php  101: RESULTS QUERY =  Array  
+0:34:21   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:40:13   index.php  15: Init CSolutionINFO Class  
+0:40:13   index.php  130: Init BBDD MySQL Class  
+0:40:13   index.php  31: Init GetSchemaBB Functions  
+0:40:13   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:40:13   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:13   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:13   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:40:13   index.php  31: Init GetSchemaBB Functions  
+0:40:13   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:40:13   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:13   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:14   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:40:14   index.php  14: Init CReporters Class  
+0:40:14   index.php  130: Init BBDD MySQL Class  
+0:40:14   index.php  96: Init BBDD SQLite Class  
+0:40:14   index.php  27: Init Register Visit Functions  
+0:40:14   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:40:14   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:40:14   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:40:14   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:40:14   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:40:14   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:40:14   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:40:14   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:40:14   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:40:14   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:40:14   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:40:14   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:40:14   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:40:14   index.php  101: RESULTS QUERY =  Array  
+0:40:14   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:40:29   index.php  15: Init CSolutionINFO Class  
+0:40:29   index.php  130: Init BBDD MySQL Class  
+0:40:30   index.php  31: Init GetSchemaBB Functions  
+0:40:30   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:40:30   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:30   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:30   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:40:30   index.php  31: Init GetSchemaBB Functions  
+0:40:30   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:40:30   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:30   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:30   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:40:30   index.php  14: Init CReporters Class  
+0:40:30   index.php  130: Init BBDD MySQL Class  
+0:40:30   index.php  96: Init BBDD SQLite Class  
+0:40:30   index.php  27: Init Register Visit Functions  
+0:40:30   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:40:30   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:40:31   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:40:31   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:40:31   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:40:31   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:40:31   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:40:31   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:40:31   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:40:31   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:40:31   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:40:31   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:40:31   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:40:31   index.php  101: RESULTS QUERY =  Array  
+0:40:31   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:40:35   index.php  15: Init CSolutionINFO Class  
+0:40:35   index.php  130: Init BBDD MySQL Class  
+0:40:36   index.php  31: Init GetSchemaBB Functions  
+0:40:36   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:40:36   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:36   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:36   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:40:36   index.php  31: Init GetSchemaBB Functions  
+0:40:36   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:40:36   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:36   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:40:36   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:40:36   index.php  14: Init CReporters Class  
+0:40:36   index.php  130: Init BBDD MySQL Class  
+0:40:36   index.php  96: Init BBDD SQLite Class  
+0:40:36   index.php  27: Init Register Visit Functions  
+0:40:36   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:40:36   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:40:37   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:40:37   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:40:37   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:40:37   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:40:37   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:40:37   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:40:37   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:40:37   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:40:37   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:40:37   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:40:37   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:40:37   index.php  101: RESULTS QUERY =  Array  
+0:40:37   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:47:26   index.php  15: Init CSolutionINFO Class  
+0:47:26   index.php  130: Init BBDD MySQL Class  
+0:47:26   index.php  31: Init GetSchemaBB Functions  
+0:47:26   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:47:26   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:47:26   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:47:26   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:47:26   index.php  31: Init GetSchemaBB Functions  
+0:47:26   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:47:26   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:47:26   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:47:26   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:47:26   index.php  14: Init CReporters Class  
+0:47:26   index.php  130: Init BBDD MySQL Class  
+0:47:27   index.php  96: Init BBDD SQLite Class  
+0:47:27   index.php  27: Init Register Visit Functions  
+0:47:27   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:47:27   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:47:27   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:47:27   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:47:27   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:47:27   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:47:27   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:47:27   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:47:27   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:47:27   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:47:27   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:47:27   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:47:27   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:47:27   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:47:27   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:47:27   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:47:27   index.php  101: RESULTS QUERY =  Array  
+0:47:27   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:54:28   index.php  15: Init CSolutionINFO Class  
+0:54:28   index.php  130: Init BBDD MySQL Class  
+0:54:29   index.php  31: Init GetSchemaBB Functions  
+0:54:29   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:54:29   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:54:29   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:54:29   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:54:29   index.php  31: Init GetSchemaBB Functions  
+0:54:29   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:54:29   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:54:29   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:54:29   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:54:29   index.php  14: Init CReporters Class  
+0:54:29   index.php  130: Init BBDD MySQL Class  
+0:54:29   index.php  96: Init BBDD SQLite Class  
+0:54:29   index.php  27: Init Register Visit Functions  
+0:54:29   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:54:29   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:54:29   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:54:29   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:54:29   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:54:29   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:54:29   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:54:29   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:54:29   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:54:29   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:54:29   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:54:29   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:54:29   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:54:29   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:54:29   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:54:29   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:54:29   index.php  101: RESULTS QUERY =  Array  
+0:54:29   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:56:57   index.php  15: Init CSolutionINFO Class  
+0:56:57   index.php  130: Init BBDD MySQL Class  
+0:56:57   index.php  31: Init GetSchemaBB Functions  
+0:56:57   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:56:57   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:56:57   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:56:57   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:56:57   index.php  31: Init GetSchemaBB Functions  
+0:56:57   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:56:57   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:56:57   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:56:58   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:56:58   index.php  14: Init CReporters Class  
+0:56:58   index.php  130: Init BBDD MySQL Class  
+0:56:58   index.php  96: Init BBDD SQLite Class  
+0:56:58   index.php  27: Init Register Visit Functions  
+0:56:58   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:56:58   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:56:58   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:56:58   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:56:58   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:56:58   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:56:58   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:56:58   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:56:58   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:56:58   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:56:58   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:56:58   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:56:58   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:56:58   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:56:58   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:56:58   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:56:58   index.php  101: RESULTS QUERY =  Array  
+0:56:58   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:57:32   index.php  15: Init CSolutionINFO Class  
+0:57:32   index.php  130: Init BBDD MySQL Class  
+0:57:32   index.php  31: Init GetSchemaBB Functions  
+0:57:32   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:57:32   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:57:32   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:57:32   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:57:32   index.php  31: Init GetSchemaBB Functions  
+0:57:32   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:57:32   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:57:32   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:57:32   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:57:32   index.php  14: Init CReporters Class  
+0:57:32   index.php  130: Init BBDD MySQL Class  
+0:57:33   index.php  96: Init BBDD SQLite Class  
+0:57:33   index.php  27: Init Register Visit Functions  
+0:57:33   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:57:33   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:57:33   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:57:33   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:57:33   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:57:33   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:57:33   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:57:33   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:57:33   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:57:33   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:57:33   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:57:33   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:57:33   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:57:33   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:57:33   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:57:33   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:57:33   index.php  101: RESULTS QUERY =  Array  
+0:57:33   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:57:35   index.php  15: Init CSolutionINFO Class  
+0:57:35   index.php  130: Init BBDD MySQL Class  
+0:57:35   index.php  31: Init GetSchemaBB Functions  
+0:57:35   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:57:35   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:57:35   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:57:35   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:57:35   index.php  31: Init GetSchemaBB Functions  
+0:57:35   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:57:35   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:57:36   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:57:36   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:57:36   index.php  14: Init CReporters Class  
+0:57:36   index.php  130: Init BBDD MySQL Class  
+0:57:36   index.php  96: Init BBDD SQLite Class  
+0:57:36   index.php  27: Init Register Visit Functions  
+0:57:36   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:57:36   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:57:36   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:57:36   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:57:36   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:57:36   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:57:36   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:57:36   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:57:36   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:57:36   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:57:36   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:57:36   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:57:36   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:57:36   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:57:36   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:57:36   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:57:36   index.php  101: RESULTS QUERY =  Array  
+0:57:36   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:59:38   index.php  15: Init CSolutionINFO Class  
+0:59:38   index.php  130: Init BBDD MySQL Class  
+0:59:39   index.php  31: Init GetSchemaBB Functions  
+0:59:39   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:59:39   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:59:39   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:59:39   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:59:39   index.php  31: Init GetSchemaBB Functions  
+0:59:39   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:59:39   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:59:39   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:59:39   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:59:39   index.php  14: Init CReporters Class  
+0:59:39   index.php  130: Init BBDD MySQL Class  
+0:59:39   index.php  96: Init BBDD SQLite Class  
+0:59:39   index.php  27: Init Register Visit Functions  
+0:59:39   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:59:39   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:59:39   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:59:39   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:59:39   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:59:39   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:59:39   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:59:39   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:59:39   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:59:39   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:59:39   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:59:39   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:59:39   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:59:39   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:59:39   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:59:39   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:59:39   index.php  101: RESULTS QUERY =  Array  
+0:59:39   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+0:59:58   index.php  15: Init CSolutionINFO Class  
+0:59:58   index.php  130: Init BBDD MySQL Class  
+0:59:58   index.php  31: Init GetSchemaBB Functions  
+0:59:58   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:59:58   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:59:58   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:59:59   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:59:59   index.php  31: Init GetSchemaBB Functions  
+0:59:59   index.php  55 Query Key: GET_SchemaBD_QUERY  
+0:59:59   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:59:59   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+0:59:59   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+0:59:59   index.php  14: Init CReporters Class  
+0:59:59   index.php  130: Init BBDD MySQL Class  
+0:59:59   index.php  96: Init BBDD SQLite Class  
+0:59:59   index.php  27: Init Register Visit Functions  
+0:59:59   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+0:59:59   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:59:59   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+0:59:59   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+0:59:59   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:59:59   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+0:59:59   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:59:59   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:59:59   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:59:59   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+0:59:59   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:59:59   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+0:59:59   index.php  95: Init GET_PUBLIC_PARAMETERS_OPERATION  
+0:59:59   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+0:59:59   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:59:59   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+0:59:59   index.php  101: RESULTS QUERY =  Array  
+0:59:59   index.php  107: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:21:04   index.php  15: Init CSolutionINFO Class  
+1:21:04   index.php  130: Init BBDD MySQL Class  
+1:21:04   index.php  31: Init GetSchemaBB Functions  
+1:21:04   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:21:04   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:21:04   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:21:04   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:21:04   index.php  31: Init GetSchemaBB Functions  
+1:21:04   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:21:04   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:21:04   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:21:04   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:21:04   index.php  14: Init CReporters Class  
+1:21:04   index.php  130: Init BBDD MySQL Class  
+1:21:05   index.php  96: Init BBDD SQLite Class  
+1:21:05   index.php  27: Init Register Visit Functions  
+1:21:05   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:21:05   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:21:05   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:21:05   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:21:05   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:21:05   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:21:05   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:21:05   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:21:05   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:21:05   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:21:05   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:21:05   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:21:05   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:21:05   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:21:05   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:21:05   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:21:05   index.php  112: RESULTS QUERY =  Array  
+1:21:05   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:21:05   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:21:05   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:21:05   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:22:36   index.php  15: Init CSolutionINFO Class  
+1:22:36   index.php  130: Init BBDD MySQL Class  
+1:22:37   index.php  31: Init GetSchemaBB Functions  
+1:22:37   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:22:37   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:22:37   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:22:37   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:22:37   index.php  31: Init GetSchemaBB Functions  
+1:22:37   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:22:37   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:22:37   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:22:37   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:22:37   index.php  14: Init CReporters Class  
+1:22:37   index.php  130: Init BBDD MySQL Class  
+1:22:37   index.php  96: Init BBDD SQLite Class  
+1:22:37   index.php  27: Init Register Visit Functions  
+1:22:37   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:22:37   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:22:37   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:22:37   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:22:37   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:22:37   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:22:37   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:22:37   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:22:37   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:22:37   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:22:37   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:22:37   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:22:37   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:22:37   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:22:37   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:22:37   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:22:37   index.php  112: RESULTS QUERY =  Array  
+1:22:37   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:22:37   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:22:37   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:22:37   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:23:00   index.php  15: Init CSolutionINFO Class  
+1:23:00   index.php  130: Init BBDD MySQL Class  
+1:23:00   index.php  31: Init GetSchemaBB Functions  
+1:23:00   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:00   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:00   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:00   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:00   index.php  31: Init GetSchemaBB Functions  
+1:23:00   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:00   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:01   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:01   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:01   index.php  14: Init CReporters Class  
+1:23:01   index.php  130: Init BBDD MySQL Class  
+1:23:01   index.php  96: Init BBDD SQLite Class  
+1:23:01   index.php  27: Init Register Visit Functions  
+1:23:01   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:23:01   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:23:01   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:23:01   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:23:01   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:23:01   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:23:01   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:23:01   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:23:01   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:23:01   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:23:01   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:23:01   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:23:01   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:23:01   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:23:01   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:23:01   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:23:01   index.php  112: RESULTS QUERY =  Array  
+1:23:01   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:23:01   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:23:01   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:23:01   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:23:28   index.php  15: Init CSolutionINFO Class  
+1:23:28   index.php  130: Init BBDD MySQL Class  
+1:23:28   index.php  31: Init GetSchemaBB Functions  
+1:23:28   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:28   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:28   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:28   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:28   index.php  31: Init GetSchemaBB Functions  
+1:23:28   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:28   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:28   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:28   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:28   index.php  14: Init CReporters Class  
+1:23:28   index.php  130: Init BBDD MySQL Class  
+1:23:29   index.php  96: Init BBDD SQLite Class  
+1:23:29   index.php  27: Init Register Visit Functions  
+1:23:29   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:23:29   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:23:29   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:23:29   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:23:29   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:23:29   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:23:29   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:23:29   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:23:29   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:23:29   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:23:29   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:23:29   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:23:29   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:23:29   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:23:29   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:23:29   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:23:29   index.php  112: RESULTS QUERY =  Array  
+1:23:29   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:23:29   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:23:29   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:23:29   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:23:53   index.php  15: Init CSolutionINFO Class  
+1:23:53   index.php  130: Init BBDD MySQL Class  
+1:23:53   index.php  31: Init GetSchemaBB Functions  
+1:23:53   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:53   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:53   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:53   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:53   index.php  31: Init GetSchemaBB Functions  
+1:23:53   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:53   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:54   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:54   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:54   index.php  14: Init CReporters Class  
+1:23:54   index.php  130: Init BBDD MySQL Class  
+1:23:54   index.php  96: Init BBDD SQLite Class  
+1:23:54   index.php  55 Query Key: GET_USER_QUERY  
+1:23:54   index.php  56 Query Before treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+1:23:54   index.php  72 Query after treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+1:23:54   welcome.php  15: Init CSolutionINFO Class  
+1:23:54   welcome.php  130: Init BBDD MySQL Class  
+1:23:54   welcome.php  31: Init GetSchemaBB Functions  
+1:23:54   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:54   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:54   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:54   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:54   welcome.php  31: Init GetSchemaBB Functions  
+1:23:54   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:54   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:54   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:55   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:55   welcome.php  14: Init CReporters Class  
+1:23:55   welcome.php  130: Init BBDD MySQL Class  
+1:23:55   welcome.php  96: Init BBDD SQLite Class  
+1:23:55   welcome.php  27: Init Register Visit Functions  
+1:23:55   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:23:55   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:23:55   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:23:55   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:23:55   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:23:55   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:23:55   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+1:23:55   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:23:55   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:23:55   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+1:23:55   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+1:23:55   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+1:23:55   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+1:23:55   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+1:23:55   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+1:23:58   read_article.php  15: Init CSolutionINFO Class  
+1:23:58   read_article.php  130: Init BBDD MySQL Class  
+1:23:58   read_article.php  31: Init GetSchemaBB Functions  
+1:23:58   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:58   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:58   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:58   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:58   read_article.php  31: Init GetSchemaBB Functions  
+1:23:58   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+1:23:58   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:58   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:23:58   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:23:58   read_article.php  14: Init CReporters Class  
+1:23:58   read_article.php  130: Init BBDD MySQL Class  
+1:23:59   read_article.php  96: Init BBDD SQLite Class  
+1:23:59   read_article.php  27: Init Register Visit Functions  
+1:23:59   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:23:59   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:23:59   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:23:59   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+1:23:59   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+1:23:59   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+1:23:59   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+1:23:59   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:23:59   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:23:59   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+1:23:59   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+1:23:59   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+1:23:59   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+1:23:59   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+1:23:59   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+1:23:59   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+1:23:59   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+1:23:59   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+1:23:59   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+1:23:59   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+1:23:59   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+1:24:03   welcome.php  15: Init CSolutionINFO Class  
+1:24:03   welcome.php  130: Init BBDD MySQL Class  
+1:24:04   welcome.php  31: Init GetSchemaBB Functions  
+1:24:04   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:24:04   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:04   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:04   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:24:04   welcome.php  31: Init GetSchemaBB Functions  
+1:24:04   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:24:04   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:04   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:04   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:24:04   welcome.php  14: Init CReporters Class  
+1:24:04   welcome.php  130: Init BBDD MySQL Class  
+1:24:04   welcome.php  96: Init BBDD SQLite Class  
+1:24:04   welcome.php  27: Init Register Visit Functions  
+1:24:04   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:24:04   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:24:04   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:24:04   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:24:04   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:04   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:04   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+1:24:04   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:24:04   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:24:04   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+1:24:04   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+1:24:04   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+1:24:04   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+1:24:04   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+1:24:04   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+1:24:08   index.php  15: Init CSolutionINFO Class  
+1:24:08   index.php  130: Init BBDD MySQL Class  
+1:24:09   index.php  31: Init GetSchemaBB Functions  
+1:24:09   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:24:09   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:09   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:09   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:24:09   index.php  31: Init GetSchemaBB Functions  
+1:24:09   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:24:09   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:09   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:09   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:24:09   index.php  14: Init CReporters Class  
+1:24:09   index.php  130: Init BBDD MySQL Class  
+1:24:09   index.php  96: Init BBDD SQLite Class  
+1:24:09   index.php  27: Init Register Visit Functions  
+1:24:09   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:24:09   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:24:09   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:24:09   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:24:09   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:09   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:09   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:24:09   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:24:09   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:24:09   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:24:09   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:24:09   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:24:09   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:24:09   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:24:09   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:24:09   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:24:09   index.php  112: RESULTS QUERY =  Array  
+1:24:09   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:24:09   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:24:09   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:24:09   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:29:32   index.php  15: Init CSolutionINFO Class  
+1:29:32   index.php  130: Init BBDD MySQL Class  
+1:29:32   index.php  31: Init GetSchemaBB Functions  
+1:29:32   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:29:32   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:29:32   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:29:33   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:29:33   index.php  31: Init GetSchemaBB Functions  
+1:29:33   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:29:33   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:29:33   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:29:33   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:29:33   index.php  14: Init CReporters Class  
+1:29:33   index.php  130: Init BBDD MySQL Class  
+1:29:33   index.php  96: Init BBDD SQLite Class  
+1:29:33   index.php  27: Init Register Visit Functions  
+1:29:33   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:29:33   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:29:33   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:29:33   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:29:33   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:29:33   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:29:33   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:29:33   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:29:33   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:29:33   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:29:33   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:29:33   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:29:33   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:29:33   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:29:33   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:29:33   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:29:33   index.php  112: RESULTS QUERY =  Array  
+1:29:33   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:29:33   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:29:33   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:29:33   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:36:06   index.php  15: Init CSolutionINFO Class  
+1:36:06   index.php  130: Init BBDD MySQL Class  
+1:36:06   index.php  31: Init GetSchemaBB Functions  
+1:36:06   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:06   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:06   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:06   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:06   index.php  31: Init GetSchemaBB Functions  
+1:36:06   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:06   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:06   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:06   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:06   index.php  14: Init CReporters Class  
+1:36:06   index.php  130: Init BBDD MySQL Class  
+1:36:07   index.php  96: Init BBDD SQLite Class  
+1:36:07   index.php  27: Init Register Visit Functions  
+1:36:07   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:36:07   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:36:07   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:36:07   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:36:07   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:36:07   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:36:07   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:36:07   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:36:07   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:36:07   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:36:07   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:36:07   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:36:07   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:36:07   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:36:07   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:36:07   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:36:07   index.php  112: RESULTS QUERY =  Array  
+1:36:07   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:36:07   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:36:07   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:36:07   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:36:43   index.php  15: Init CSolutionINFO Class  
+1:36:43   index.php  130: Init BBDD MySQL Class  
+1:36:43   index.php  31: Init GetSchemaBB Functions  
+1:36:43   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:43   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:44   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:44   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:44   index.php  31: Init GetSchemaBB Functions  
+1:36:44   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:44   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:44   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:44   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:44   index.php  14: Init CReporters Class  
+1:36:44   index.php  130: Init BBDD MySQL Class  
+1:36:44   index.php  96: Init BBDD SQLite Class  
+1:36:44   index.php  27: Init Register Visit Functions  
+1:36:44   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:36:44   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:36:44   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:36:44   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:36:44   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:36:44   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:36:44   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:36:44   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:36:44   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:36:44   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:36:44   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:36:44   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:36:44   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:36:44   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:36:44   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:36:44   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:36:44   index.php  112: RESULTS QUERY =  Array  
+1:36:44   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:36:44   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:36:44   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:36:44   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:36:50   index.php  15: Init CSolutionINFO Class  
+1:36:50   index.php  130: Init BBDD MySQL Class  
+1:36:50   index.php  31: Init GetSchemaBB Functions  
+1:36:50   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:50   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:50   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:51   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:51   index.php  31: Init GetSchemaBB Functions  
+1:36:51   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:51   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:51   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:51   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:51   index.php  14: Init CReporters Class  
+1:36:51   index.php  130: Init BBDD MySQL Class  
+1:36:51   index.php  96: Init BBDD SQLite Class  
+1:36:51   index.php  55 Query Key: GET_USER_QUERY  
+1:36:51   index.php  56 Query Before treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+1:36:51   index.php  72 Query after treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+1:36:51   welcome.php  15: Init CSolutionINFO Class  
+1:36:51   welcome.php  130: Init BBDD MySQL Class  
+1:36:51   welcome.php  31: Init GetSchemaBB Functions  
+1:36:51   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:51   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:51   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:51   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:51   welcome.php  31: Init GetSchemaBB Functions  
+1:36:51   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:51   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:51   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:52   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:52   welcome.php  14: Init CReporters Class  
+1:36:52   welcome.php  130: Init BBDD MySQL Class  
+1:36:52   welcome.php  96: Init BBDD SQLite Class  
+1:36:52   welcome.php  27: Init Register Visit Functions  
+1:36:52   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:36:52   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:36:52   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:36:52   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:36:52   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:36:52   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:36:52   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+1:36:52   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:36:52   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:36:52   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+1:36:52   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+1:36:52   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+1:36:52   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+1:36:52   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+1:36:52   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+1:36:52   index.php  15: Init CSolutionINFO Class  
+1:36:52   index.php  130: Init BBDD MySQL Class  
+1:36:52   index.php  31: Init GetSchemaBB Functions  
+1:36:52   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:52   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:52   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:52   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:52   index.php  31: Init GetSchemaBB Functions  
+1:36:52   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:52   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:52   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:53   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:53   index.php  14: Init CReporters Class  
+1:36:53   index.php  130: Init BBDD MySQL Class  
+1:36:53   index.php  96: Init BBDD SQLite Class  
+1:36:53   index.php  55 Query Key: GET_USER_QUERY  
+1:36:53   index.php  56 Query Before treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+1:36:53   index.php  72 Query after treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+1:36:53   welcome.php  15: Init CSolutionINFO Class  
+1:36:53   welcome.php  130: Init BBDD MySQL Class  
+1:36:53   welcome.php  31: Init GetSchemaBB Functions  
+1:36:53   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:53   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:53   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:53   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:53   welcome.php  31: Init GetSchemaBB Functions  
+1:36:53   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:36:53   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:53   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:36:53   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:36:53   welcome.php  14: Init CReporters Class  
+1:36:53   welcome.php  130: Init BBDD MySQL Class  
+1:36:54   welcome.php  96: Init BBDD SQLite Class  
+1:36:54   welcome.php  27: Init Register Visit Functions  
+1:36:54   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:36:54   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:36:54   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:36:54   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:36:54   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:36:54   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:36:54   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+1:36:54   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:36:54   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:36:54   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+1:36:54   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+1:36:54   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+1:36:54   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+1:36:54   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+1:36:54   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+1:38:09   index.php  15: Init CSolutionINFO Class  
+1:38:09   index.php  130: Init BBDD MySQL Class  
+1:38:10   index.php  31: Init GetSchemaBB Functions  
+1:38:10   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:38:10   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:38:10   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:38:10   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:38:10   index.php  31: Init GetSchemaBB Functions  
+1:38:10   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:38:10   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:38:10   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:38:10   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:38:10   index.php  14: Init CReporters Class  
+1:38:10   index.php  130: Init BBDD MySQL Class  
+1:38:10   index.php  96: Init BBDD SQLite Class  
+1:38:10   index.php  27: Init Register Visit Functions  
+1:38:10   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:38:10   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:38:10   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:38:10   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:38:10   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:10   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:10   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:38:10   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:38:10   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:38:10   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:38:10   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:38:10   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:38:10   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:38:10   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:38:10   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:38:10   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:38:10   index.php  112: RESULTS QUERY =  Array  
+1:38:10   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:38:10   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:38:10   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:38:10   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:40:38   index.php  15: Init CSolutionINFO Class  
+1:40:38   index.php  130: Init BBDD MySQL Class  
+1:40:38   index.php  31: Init GetSchemaBB Functions  
+1:40:38   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:40:38   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:38   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:39   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:40:39   index.php  31: Init GetSchemaBB Functions  
+1:40:39   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:40:39   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:39   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:39   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:40:39   index.php  14: Init CReporters Class  
+1:40:39   index.php  130: Init BBDD MySQL Class  
+1:40:39   index.php  96: Init BBDD SQLite Class  
+1:40:39   index.php  27: Init Register Visit Functions  
+1:40:39   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:40:39   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:40:39   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:40:39   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:40:39   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:40:39   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:40:39   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:40:39   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:40:39   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:40:39   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+1:40:39   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:40:39   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:40:39   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:40:39   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:40:39   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:40:39   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:40:39   index.php  112: RESULTS QUERY =  Array  
+1:40:39   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:40:39   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:40:39   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:40:39   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:40:50   index.php  15: Init CSolutionINFO Class  
+1:40:50   index.php  130: Init BBDD MySQL Class  
+1:40:50   index.php  31: Init GetSchemaBB Functions  
+1:40:50   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:40:50   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:50   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:50   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:40:50   index.php  31: Init GetSchemaBB Functions  
+1:40:50   index.php  55 Query Key: GET_SchemaBD_QUERY  
+1:40:50   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:50   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:50   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:40:50   index.php  14: Init CReporters Class  
+1:40:50   index.php  130: Init BBDD MySQL Class  
+1:40:51   index.php  96: Init BBDD SQLite Class  
+1:40:51   index.php  55 Query Key: GET_USER_QUERY  
+1:40:51   index.php  56 Query Before treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+1:40:51   index.php  72 Query after treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+1:40:51   welcome.php  15: Init CSolutionINFO Class  
+1:40:51   welcome.php  130: Init BBDD MySQL Class  
+1:40:51   welcome.php  31: Init GetSchemaBB Functions  
+1:40:51   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:40:51   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:51   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:51   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:40:51   welcome.php  31: Init GetSchemaBB Functions  
+1:40:51   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+1:40:51   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:51   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:51   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:40:51   welcome.php  14: Init CReporters Class  
+1:40:51   welcome.php  130: Init BBDD MySQL Class  
+1:40:51   welcome.php  96: Init BBDD SQLite Class  
+1:40:51   welcome.php  27: Init Register Visit Functions  
+1:40:51   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:40:51   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:40:52   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:40:52   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+1:40:52   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:40:52   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:40:52   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+1:40:52   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:40:52   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:40:52   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+1:40:52   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+1:40:52   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+1:40:52   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+1:40:52   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+1:40:52   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+1:40:54   read_article.php  15: Init CSolutionINFO Class  
+1:40:54   read_article.php  130: Init BBDD MySQL Class  
+1:40:54   read_article.php  31: Init GetSchemaBB Functions  
+1:40:54   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+1:40:54   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:54   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:54   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:40:54   read_article.php  31: Init GetSchemaBB Functions  
+1:40:54   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+1:40:54   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:54   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:40:54   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+1:40:54   read_article.php  14: Init CReporters Class  
+1:40:54   read_article.php  130: Init BBDD MySQL Class  
+1:40:54   read_article.php  96: Init BBDD SQLite Class  
+1:40:54   read_article.php  27: Init Register Visit Functions  
+1:40:54   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+1:40:54   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:40:55   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:40:55   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+1:40:55   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+1:40:55   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+1:40:55   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+1:40:55   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:40:55   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+1:40:55   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+1:40:55   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+1:40:55   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+1:40:55   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+1:40:55   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+1:40:55   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+1:40:55   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+1:40:55   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+1:40:55   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+1:40:55   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+1:40:55   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+1:40:55   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+9:16:33   read_article.php  15: Init CSolutionINFO Class  
+9:16:33   read_article.php  130: Init BBDD MySQL Class  
+9:16:35   read_article.php  31: Init GetSchemaBB Functions  
+9:16:35   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+9:16:35   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:16:36   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:16:36   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+9:16:36   read_article.php  31: Init GetSchemaBB Functions  
+9:16:36   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+9:16:36   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:16:36   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:16:36   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+9:16:36   read_article.php  14: Init CReporters Class  
+9:16:36   read_article.php  130: Init BBDD MySQL Class  
+9:16:36   read_article.php  96: Init BBDD SQLite Class  
+9:16:37   read_article.php  27: Init Register Visit Functions  
+9:16:37   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+9:16:37   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+9:16:37   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+9:16:37   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+9:16:37   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+9:16:37   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+9:16:37   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+9:16:37   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+9:16:37   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+9:16:37   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+9:16:37   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+9:16:37   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+9:16:37   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+9:16:37   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+9:16:37   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+9:16:37   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+9:16:37   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+9:16:37   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+9:16:37   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+9:16:37   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+9:16:37   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+9:25:15   index.php  15: Init CSolutionINFO Class  
+9:25:15   index.php  130: Init BBDD MySQL Class  
+9:25:15   index.php  31: Init GetSchemaBB Functions  
+9:25:15   index.php  55 Query Key: GET_SchemaBD_QUERY  
+9:25:15   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:25:16   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:25:16   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+9:25:16   index.php  31: Init GetSchemaBB Functions  
+9:25:16   index.php  55 Query Key: GET_SchemaBD_QUERY  
+9:25:16   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:25:16   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:25:16   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+9:25:16   index.php  14: Init CReporters Class  
+9:25:16   index.php  130: Init BBDD MySQL Class  
+9:25:16   index.php  96: Init BBDD SQLite Class  
+9:25:16   index.php  27: Init Register Visit Functions  
+9:25:16   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+9:25:16   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+9:25:16   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+9:25:16   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+9:25:16   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+9:25:16   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+9:25:16   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+9:25:16   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+9:25:16   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+9:25:16   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+9:25:16   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+9:25:16   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+9:25:16   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+9:25:16   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+9:25:16   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+9:25:16   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+9:25:16   index.php  112: RESULTS QUERY =  Array  
+9:25:16   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+9:25:16   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+9:25:16   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+9:25:16   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+9:26:31   index.php  15: Init CSolutionINFO Class  
+9:26:31   index.php  130: Init BBDD MySQL Class  
+9:26:31   index.php  31: Init GetSchemaBB Functions  
+9:26:31   index.php  55 Query Key: GET_SchemaBD_QUERY  
+9:26:31   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:26:31   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:26:31   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+9:26:31   index.php  31: Init GetSchemaBB Functions  
+9:26:31   index.php  55 Query Key: GET_SchemaBD_QUERY  
+9:26:31   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:26:32   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+9:26:32   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+9:26:32   index.php  14: Init CReporters Class  
+9:26:32   index.php  130: Init BBDD MySQL Class  
+9:26:32   index.php  96: Init BBDD SQLite Class  
+9:26:32   index.php  27: Init Register Visit Functions  
+9:26:32   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+9:26:32   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+9:26:32   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+9:26:32   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+9:26:32   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+9:26:32   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+9:26:32   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+9:26:32   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+9:26:32   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+9:26:32   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+9:26:32   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+9:26:32   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+9:26:32   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+9:26:32   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+9:26:32   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+9:26:32   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+9:26:32   index.php  112: RESULTS QUERY =  Array  
+9:26:32   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+9:26:32   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+9:26:32   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+9:26:32   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+10:00:56   index.php  15: Init CSolutionINFO Class  
+10:00:56   index.php  130: Init BBDD MySQL Class  
+10:01:07   index.php  31: Init GetSchemaBB Functions  
+10:01:07   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:01:07   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:01:07   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:01:07   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:01:07   index.php  31: Init GetSchemaBB Functions  
+10:01:07   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:01:07   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:01:07   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:01:07   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:01:07   index.php  14: Init CReporters Class  
+10:01:07   index.php  130: Init BBDD MySQL Class  
+10:01:18   index.php  96: Init BBDD SQLite Class  
+10:01:18   index.php  27: Init Register Visit Functions  
+10:01:18   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+10:01:18   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:01:18   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:01:18   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+10:01:18   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:01:18   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:01:18   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+10:01:18   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:01:18   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:01:18   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+10:01:18   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:01:18   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:01:18   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+10:01:18   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+10:01:18   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+10:01:18   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+10:01:18   index.php  112: RESULTS QUERY =  Array  
+10:01:18   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+10:01:18   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+10:01:18   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+10:01:18   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+10:02:35   index.php  15: Init CSolutionINFO Class  
+10:02:35   index.php  130: Init BBDD MySQL Class  
+10:02:35   index.php  31: Init GetSchemaBB Functions  
+10:02:35   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:02:35   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:35   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:35   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:02:35   index.php  31: Init GetSchemaBB Functions  
+10:02:35   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:02:35   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:35   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:35   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:02:35   index.php  14: Init CReporters Class  
+10:02:35   index.php  130: Init BBDD MySQL Class  
+10:02:36   index.php  96: Init BBDD SQLite Class  
+10:02:36   index.php  55 Query Key: GET_USER_QUERY  
+10:02:36   index.php  56 Query Before treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+10:02:36   index.php  72 Query after treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+10:02:36   welcome.php  15: Init CSolutionINFO Class  
+10:02:36   welcome.php  130: Init BBDD MySQL Class  
+10:02:36   welcome.php  31: Init GetSchemaBB Functions  
+10:02:36   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+10:02:36   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:36   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:36   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:02:36   welcome.php  31: Init GetSchemaBB Functions  
+10:02:36   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+10:02:36   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:36   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:36   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:02:36   welcome.php  14: Init CReporters Class  
+10:02:36   welcome.php  130: Init BBDD MySQL Class  
+10:02:37   welcome.php  96: Init BBDD SQLite Class  
+10:02:37   welcome.php  27: Init Register Visit Functions  
+10:02:37   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+10:02:37   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:02:37   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:02:37   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+10:02:37   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:02:37   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:02:37   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+10:02:37   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+10:02:37   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+10:02:37   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+10:02:37   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+10:02:37   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+10:02:37   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+10:02:37   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+10:02:37   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+10:02:42   read_article.php  15: Init CSolutionINFO Class  
+10:02:42   read_article.php  130: Init BBDD MySQL Class  
+10:02:42   read_article.php  31: Init GetSchemaBB Functions  
+10:02:42   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+10:02:42   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:42   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:42   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:02:42   read_article.php  31: Init GetSchemaBB Functions  
+10:02:42   read_article.php  55 Query Key: GET_SchemaBD_QUERY  
+10:02:42   read_article.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:42   read_article.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:42   read_article.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:02:42   read_article.php  14: Init CReporters Class  
+10:02:42   read_article.php  130: Init BBDD MySQL Class  
+10:02:43   read_article.php  96: Init BBDD SQLite Class  
+10:02:43   read_article.php  27: Init Register Visit Functions  
+10:02:43   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+10:02:43   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:02:43   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:02:43   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+10:02:43   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+10:02:43   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+10:02:43   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+10:02:43   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+10:02:43   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+10:02:43   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+10:02:43   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+10:02:43   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+10:02:43   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+10:02:43   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+10:02:43   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+10:02:43   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+10:02:43   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+10:02:43   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+10:02:43   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+10:02:43   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+10:02:43   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+10:02:56   welcome.php  15: Init CSolutionINFO Class  
+10:02:56   welcome.php  130: Init BBDD MySQL Class  
+10:02:56   welcome.php  31: Init GetSchemaBB Functions  
+10:02:56   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+10:02:56   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:56   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:56   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:02:56   welcome.php  31: Init GetSchemaBB Functions  
+10:02:56   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+10:02:56   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:57   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:02:57   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:02:57   welcome.php  14: Init CReporters Class  
+10:02:57   welcome.php  130: Init BBDD MySQL Class  
+10:02:57   welcome.php  96: Init BBDD SQLite Class  
+10:02:57   welcome.php  27: Init Register Visit Functions  
+10:02:57   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+10:02:57   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:02:57   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:02:57   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+10:02:57   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:02:57   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:02:57   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+10:02:57   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+10:02:57   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+10:02:57   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+10:02:57   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+10:02:57   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+10:02:57   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+10:02:57   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+10:02:57   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+10:03:18   index.php  15: Init CSolutionINFO Class  
+10:03:18   index.php  130: Init BBDD MySQL Class  
+10:03:18   index.php  31: Init GetSchemaBB Functions  
+10:03:18   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:03:18   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:19   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:19   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:03:19   index.php  31: Init GetSchemaBB Functions  
+10:03:19   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:03:19   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:19   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:19   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:03:19   index.php  14: Init CReporters Class  
+10:03:19   index.php  130: Init BBDD MySQL Class  
+10:03:19   index.php  96: Init BBDD SQLite Class  
+10:03:19   index.php  27: Init Register Visit Functions  
+10:03:19   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+10:03:19   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:03:19   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:03:19   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+10:03:19   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:03:19   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:03:19   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+10:03:19   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:19   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:19   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+10:03:19   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:19   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:19   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+10:03:19   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+10:03:19   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+10:03:19   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+10:03:19   index.php  112: RESULTS QUERY =  Array  
+10:03:19   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+10:03:19   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+10:03:19   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+10:03:19   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+10:03:22   index.php  15: Init CSolutionINFO Class  
+10:03:22   index.php  130: Init BBDD MySQL Class  
+10:03:22   index.php  31: Init GetSchemaBB Functions  
+10:03:22   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:03:22   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:22   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:22   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:03:22   index.php  31: Init GetSchemaBB Functions  
+10:03:22   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:03:22   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:22   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:22   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:03:22   index.php  14: Init CReporters Class  
+10:03:22   index.php  130: Init BBDD MySQL Class  
+10:03:23   index.php  96: Init BBDD SQLite Class  
+10:03:23   index.php  27: Init Register Visit Functions  
+10:03:23   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+10:03:23   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:03:23   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:03:23   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+10:03:23   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:03:23   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:03:23   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+10:03:23   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:23   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:23   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+10:03:23   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:23   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:23   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+10:03:23   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+10:03:23   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+10:03:23   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+10:03:23   index.php  112: RESULTS QUERY =  Array  
+10:03:23   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+10:03:23   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+10:03:23   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+10:03:23   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+10:03:25   index.php  15: Init CSolutionINFO Class  
+10:03:25   index.php  130: Init BBDD MySQL Class  
+10:03:26   index.php  31: Init GetSchemaBB Functions  
+10:03:26   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:03:26   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:26   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:26   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:03:26   index.php  31: Init GetSchemaBB Functions  
+10:03:26   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:03:26   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:26   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:26   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:03:26   index.php  14: Init CReporters Class  
+10:03:26   index.php  130: Init BBDD MySQL Class  
+10:03:26   index.php  96: Init BBDD SQLite Class  
+10:03:26   index.php  27: Init Register Visit Functions  
+10:03:26   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+10:03:26   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:03:26   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:03:27   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+10:03:27   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:03:27   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:03:27   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+10:03:27   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:27   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:27   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+10:03:27   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:27   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+10:03:27   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+10:03:27   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+10:03:27   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+10:03:27   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+10:03:27   index.php  112: RESULTS QUERY =  Array  
+10:03:27   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+10:03:27   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+10:03:27   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+10:03:27   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+10:03:35   index.php  15: Init CSolutionINFO Class  
+10:03:35   index.php  130: Init BBDD MySQL Class  
+10:03:35   index.php  31: Init GetSchemaBB Functions  
+10:03:35   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:03:35   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:35   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:35   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:03:35   index.php  31: Init GetSchemaBB Functions  
+10:03:35   index.php  55 Query Key: GET_SchemaBD_QUERY  
+10:03:35   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:36   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:36   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:03:36   index.php  14: Init CReporters Class  
+10:03:36   index.php  130: Init BBDD MySQL Class  
+10:03:36   index.php  96: Init BBDD SQLite Class  
+10:03:36   index.php  55 Query Key: GET_USER_QUERY  
+10:03:36   index.php  56 Query Before treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+10:03:36   index.php  72 Query after treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+10:03:36   welcome.php  15: Init CSolutionINFO Class  
+10:03:36   welcome.php  130: Init BBDD MySQL Class  
+10:03:36   welcome.php  31: Init GetSchemaBB Functions  
+10:03:36   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+10:03:36   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:36   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:37   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:03:37   welcome.php  31: Init GetSchemaBB Functions  
+10:03:37   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+10:03:37   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:37   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+10:03:37   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+10:03:37   welcome.php  14: Init CReporters Class  
+10:03:37   welcome.php  130: Init BBDD MySQL Class  
+10:03:37   welcome.php  96: Init BBDD SQLite Class  
+10:03:37   welcome.php  27: Init Register Visit Functions  
+10:03:37   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+10:03:37   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:03:37   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+10:03:37   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+10:03:37   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:03:37   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+10:03:37   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+10:03:37   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+10:03:37   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+10:03:37   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+10:03:37   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+10:03:37   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+10:03:37   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+10:03:37   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+10:03:37   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+22:47:54   index.php  15: Init CSolutionINFO Class  
+22:47:54   index.php  130: Init BBDD MySQL Class  
+22:48:05   index.php  31: Init GetSchemaBB Functions  
+22:48:05   index.php  55 Query Key: GET_SchemaBD_QUERY  
+22:48:05   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+22:48:05   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+22:48:05   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+22:48:05   index.php  31: Init GetSchemaBB Functions  
+22:48:05   index.php  55 Query Key: GET_SchemaBD_QUERY  
+22:48:05   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+22:48:05   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+22:48:06   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+22:48:06   index.php  14: Init CReporters Class  
+22:48:06   index.php  130: Init BBDD MySQL Class  
+22:48:07   index.php  96: Init BBDD SQLite Class  
+22:48:07   index.php  27: Init Register Visit Functions  
+22:48:07   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+22:48:07   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+22:48:07   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+22:48:07   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+22:48:07   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+22:48:07   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+22:48:07   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+22:48:07   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+22:48:07   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+22:48:07   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+22:48:07   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+22:48:07   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+22:48:07   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+22:48:07   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+22:48:07   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+22:48:07   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+22:48:07   index.php  112: RESULTS QUERY =  Array  
+22:48:07   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+22:48:07   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+22:48:07   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+22:48:07   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+23:10:11   index.php  15: Init CSolutionINFO Class  
+23:10:11   index.php  130: Init BBDD MySQL Class  
+23:10:11   index.php  31: Init GetSchemaBB Functions  
+23:10:11   index.php  55 Query Key: GET_SchemaBD_QUERY  
+23:10:11   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:10:12   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:10:12   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:10:12   index.php  31: Init GetSchemaBB Functions  
+23:10:12   index.php  55 Query Key: GET_SchemaBD_QUERY  
+23:10:12   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:10:12   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:10:12   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:10:12   index.php  14: Init CReporters Class  
+23:10:12   index.php  130: Init BBDD MySQL Class  
+23:10:12   index.php  96: Init BBDD SQLite Class  
+23:10:12   index.php  27: Init Register Visit Functions  
+23:10:12   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+23:10:12   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:10:12   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:10:12   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+23:10:12   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:10:12   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:10:12   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+23:10:12   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:10:12   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:10:12   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+23:10:12   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:10:12   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:10:12   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+23:10:12   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+23:10:12   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+23:10:12   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+23:10:12   index.php  112: RESULTS QUERY =  Array  
+23:10:12   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+23:10:12   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+23:10:12   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+23:10:12   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+23:16:09   index.php  15: Init CSolutionINFO Class  
+23:16:09   index.php  130: Init BBDD MySQL Class  
+23:16:09   index.php  31: Init GetSchemaBB Functions  
+23:16:09   index.php  55 Query Key: GET_SchemaBD_QUERY  
+23:16:09   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:16:09   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:16:09   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:16:09   index.php  31: Init GetSchemaBB Functions  
+23:16:09   index.php  55 Query Key: GET_SchemaBD_QUERY  
+23:16:09   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:16:10   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:16:10   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:16:10   index.php  14: Init CReporters Class  
+23:16:10   index.php  130: Init BBDD MySQL Class  
+23:16:10   index.php  96: Init BBDD SQLite Class  
+23:16:10   index.php  27: Init Register Visit Functions  
+23:16:10   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+23:16:10   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:16:10   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:16:10   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+23:16:10   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:16:10   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:16:10   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+23:16:10   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:16:10   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:16:10   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+23:16:10   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:16:10   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:16:10   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+23:16:10   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+23:16:10   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+23:16:10   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+23:16:10   index.php  112: RESULTS QUERY =  Array  
+23:16:10   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+23:16:10   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+23:16:10   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+23:16:10   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+23:48:13   index.php  15: Init CSolutionINFO Class  
+23:48:13   index.php  130: Init BBDD MySQL Class  
+23:48:24   index.php  31: Init GetSchemaBB Functions  
+23:48:24   index.php  55 Query Key: GET_SchemaBD_QUERY  
+23:48:24   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:48:24   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:48:25   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:48:25   index.php  31: Init GetSchemaBB Functions  
+23:48:25   index.php  55 Query Key: GET_SchemaBD_QUERY  
+23:48:25   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:48:25   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:48:25   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:48:25   index.php  14: Init CReporters Class  
+23:48:25   index.php  130: Init BBDD MySQL Class  
+23:48:30   index.php  96: Init BBDD SQLite Class  
+23:48:30   index.php  27: Init Register Visit Functions  
+23:48:30   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+23:48:30   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:48:30   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:48:30   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+23:48:30   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:48:30   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:48:30   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+23:48:30   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:48:30   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:48:30   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+23:48:30   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:48:30   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:48:30   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+23:48:30   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+23:48:30   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+23:48:30   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+23:48:30   index.php  112: RESULTS QUERY =  Array  
+23:48:30   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+23:48:30   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+23:48:30   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+23:48:30   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+23:50:21   index.php  15: Init CSolutionINFO Class  
+23:50:21   index.php  130: Init BBDD MySQL Class  
+23:50:22   index.php  31: Init GetSchemaBB Functions  
+23:50:22   index.php  55 Query Key: GET_SchemaBD_QUERY  
+23:50:22   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:50:22   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:50:22   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:50:22   index.php  31: Init GetSchemaBB Functions  
+23:50:22   index.php  55 Query Key: GET_SchemaBD_QUERY  
+23:50:22   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:50:22   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:50:22   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:50:22   index.php  14: Init CReporters Class  
+23:50:22   index.php  130: Init BBDD MySQL Class  
+23:50:23   index.php  96: Init BBDD SQLite Class  
+23:50:23   index.php  55 Query Key: GET_USER_QUERY  
+23:50:23   index.php  56 Query Before treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+23:50:23   index.php  72 Query after treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+23:50:23   welcome.php  15: Init CSolutionINFO Class  
+23:50:23   welcome.php  130: Init BBDD MySQL Class  
+23:50:23   welcome.php  31: Init GetSchemaBB Functions  
+23:50:23   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+23:50:23   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:50:23   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:50:23   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:50:23   welcome.php  31: Init GetSchemaBB Functions  
+23:50:23   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+23:50:23   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:50:24   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:50:24   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:50:24   welcome.php  14: Init CReporters Class  
+23:50:24   welcome.php  130: Init BBDD MySQL Class  
+23:50:24   welcome.php  96: Init BBDD SQLite Class  
+23:50:24   welcome.php  27: Init Register Visit Functions  
+23:50:24   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+23:50:24   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:50:24   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:50:24   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+23:50:24   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:50:24   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:50:24   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+23:50:24   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+23:50:24   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+23:50:24   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+23:50:24   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+23:50:24   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+23:50:24   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+23:50:24   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+23:50:24   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+23:51:00   welcome.php  15: Init CSolutionINFO Class  
+23:51:00   welcome.php  130: Init BBDD MySQL Class  
+23:51:00   welcome.php  31: Init GetSchemaBB Functions  
+23:51:00   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+23:51:00   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:51:00   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:51:00   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:51:00   welcome.php  31: Init GetSchemaBB Functions  
+23:51:00   welcome.php  55 Query Key: GET_SchemaBD_QUERY  
+23:51:00   welcome.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:51:00   welcome.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:51:00   welcome.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:51:00   welcome.php  14: Init CReporters Class  
+23:51:00   welcome.php  130: Init BBDD MySQL Class  
+23:51:01   welcome.php  96: Init BBDD SQLite Class  
+23:51:01   welcome.php  27: Init Register Visit Functions  
+23:51:01   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+23:51:01   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:51:01   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:51:01   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+23:51:01   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:51:01   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:51:01   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+23:51:01   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+23:51:01   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+23:51:01   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+23:51:01   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+23:51:01   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+23:51:01   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+23:51:01   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+23:51:01   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+23:51:07   index.php  15: Init CSolutionINFO Class  
+23:51:07   index.php  130: Init BBDD MySQL Class  
+23:51:08   index.php  31: Init GetSchemaBB Functions  
+23:51:08   index.php  55 Query Key: GET_SchemaBD_QUERY  
+23:51:08   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:51:08   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:51:08   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:51:08   index.php  31: Init GetSchemaBB Functions  
+23:51:08   index.php  55 Query Key: GET_SchemaBD_QUERY  
+23:51:08   index.php  56 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:51:08   index.php  72 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:51:08   index.php  35: SchemaBD_Name Getted = PaulCVV.db  
+23:51:08   index.php  14: Init CReporters Class  
+23:51:08   index.php  130: Init BBDD MySQL Class  
+23:51:08   index.php  96: Init BBDD SQLite Class  
+23:51:08   index.php  27: Init Register Visit Functions  
+23:51:08   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+23:51:08   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:51:08   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:51:09   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
+23:51:09   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:51:09   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:51:09   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+23:51:09   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:51:09   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:51:09   index.php  55 Query Key: GET_A_PARAMETER_QUERY  
+23:51:09   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:51:09   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:51:09   index.php  106: Init GET_PUBLIC_PARAMETERS_OPERATION  
+23:51:09   index.php  55 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+23:51:09   index.php  56 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+23:51:09   index.php  72 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+23:51:09   index.php  112: RESULTS QUERY =  Array  
+23:51:09   index.php  118: End GET_PUBLIC_PARAMETERS_OPERATION  
+23:51:09   index.php  55 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+23:51:09   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+23:51:09   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  

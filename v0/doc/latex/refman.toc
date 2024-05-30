@@ -1,0 +1,167 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}% 
+\contentsline {chapter}{\numberline {2}Data Structure Index}{3}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Data Structures}{3}{section.2.1}% 
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}% 
+\contentsline {chapter}{\numberline {4}Data Structure Documentation}{7}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}CADUANAS\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}COMMANDS\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}RECEIVER Class Reference}{7}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{7}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Member Function Documentation}{7}{subsection.4.1.2}% 
+\contentsline {subsubsection}{\numberline {4.1.2.1}\_\_CADUANAS\_COMMANDS\_RECEIVER()}{7}{subsubsection.4.1.2.1}% 
+\contentsline {subsubsection}{\numberline {4.1.2.2}SetCommand()}{7}{subsubsection.4.1.2.2}% 
+\contentsline {subsubsection}{\numberline {4.1.2.3}SetData()}{8}{subsubsection.4.1.2.3}% 
+\contentsline {subsubsection}{\numberline {4.1.2.4}Validator()}{8}{subsubsection.4.1.2.4}% 
+\contentsline {section}{\numberline {4.2}CBBDD\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}My\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}SQL Class Reference}{8}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{8}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Constructor \& Destructor Documentation}{8}{subsection.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2.1}\_\_construct()}{9}{subsubsection.4.2.2.1}% 
+\contentsline {section}{\numberline {4.3}CBBDD\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}SQLite Class Reference}{9}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{9}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}Constructor \& Destructor Documentation}{9}{subsection.4.3.2}% 
+\contentsline {subsubsection}{\numberline {4.3.2.1}\_\_construct()}{9}{subsubsection.4.3.2.1}% 
+\contentsline {section}{\numberline {4.4}CBIBLIOTECA\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}BBDD Class Reference}{10}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{10}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}Constructor \& Destructor Documentation}{10}{subsection.4.4.2}% 
+\contentsline {subsubsection}{\numberline {4.4.2.1}\_\_construct()}{10}{subsubsection.4.4.2.1}% 
+\contentsline {subsection}{\numberline {4.4.3}Member Function Documentation}{10}{subsection.4.4.3}% 
+\contentsline {subsubsection}{\numberline {4.4.3.1}AddQuery()}{10}{subsubsection.4.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.4.3.2}ExecuteQuery()}{11}{subsubsection.4.4.3.2}% 
+\contentsline {subsubsection}{\numberline {4.4.3.3}SetPath()}{11}{subsubsection.4.4.3.3}% 
+\contentsline {subsubsection}{\numberline {4.4.3.4}SetQueriesArray()}{11}{subsubsection.4.4.3.4}% 
+\contentsline {subsection}{\numberline {4.4.4}Field Documentation}{11}{subsection.4.4.4}% 
+\contentsline {subsubsection}{\numberline {4.4.4.1}\$path\_}{11}{subsubsection.4.4.4.1}% 
+\contentsline {subsubsection}{\numberline {4.4.4.2}\$PDO\_BBDD\_Connection\_}{11}{subsubsection.4.4.4.2}% 
+\contentsline {subsubsection}{\numberline {4.4.4.3}\$queries\_array\_}{12}{subsubsection.4.4.4.3}% 
+\contentsline {section}{\numberline {4.5}CFile\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager Class Reference}{12}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{12}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.2}Constructor \& Destructor Documentation}{12}{subsection.4.5.2}% 
+\contentsline {subsubsection}{\numberline {4.5.2.1}\_\_construct()}{12}{subsubsection.4.5.2.1}% 
+\contentsline {subsection}{\numberline {4.5.3}Member Function Documentation}{12}{subsection.4.5.3}% 
+\contentsline {subsubsection}{\numberline {4.5.3.1}CheckFile()}{12}{subsubsection.4.5.3.1}% 
+\contentsline {subsubsection}{\numberline {4.5.3.2}DeleteFile()}{13}{subsubsection.4.5.3.2}% 
+\contentsline {subsubsection}{\numberline {4.5.3.3}ReadFile()}{13}{subsubsection.4.5.3.3}% 
+\contentsline {subsubsection}{\numberline {4.5.3.4}WriteFile()}{13}{subsubsection.4.5.3.4}% 
+\contentsline {section}{\numberline {4.6}CFiles\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Uploads Class Reference}{13}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{13}{subsection.4.6.1}% 
+\contentsline {subsection}{\numberline {4.6.2}Constructor \& Destructor Documentation}{13}{subsection.4.6.2}% 
+\contentsline {subsubsection}{\numberline {4.6.2.1}\_\_construct()}{14}{subsubsection.4.6.2.1}% 
+\contentsline {subsection}{\numberline {4.6.3}Member Function Documentation}{14}{subsection.4.6.3}% 
+\contentsline {subsubsection}{\numberline {4.6.3.1}Set\_path()}{14}{subsubsection.4.6.3.1}% 
+\contentsline {subsubsection}{\numberline {4.6.3.2}Upload\_pdf()}{14}{subsubsection.4.6.3.2}% 
+\contentsline {section}{\numberline {4.7}CID\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}UNIQUE\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager Class Reference}{14}{section.4.7}% 
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{14}{subsection.4.7.1}% 
+\contentsline {subsection}{\numberline {4.7.2}Constructor \& Destructor Documentation}{15}{subsection.4.7.2}% 
+\contentsline {subsubsection}{\numberline {4.7.2.1}\_\_construct()}{15}{subsubsection.4.7.2.1}% 
+\contentsline {subsection}{\numberline {4.7.3}Member Function Documentation}{15}{subsection.4.7.3}% 
+\contentsline {subsubsection}{\numberline {4.7.3.1}FreeTOKEN()}{15}{subsubsection.4.7.3.1}% 
+\contentsline {subsubsection}{\numberline {4.7.3.2}GetFreeTOKEN()}{15}{subsubsection.4.7.3.2}% 
+\contentsline {subsection}{\numberline {4.7.4}Field Documentation}{15}{subsection.4.7.4}% 
+\contentsline {subsubsection}{\numberline {4.7.4.1}\$o\_Biblioteca}{15}{subsubsection.4.7.4.1}% 
+\contentsline {section}{\numberline {4.8}CImage\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager Class Reference}{16}{section.4.8}% 
+\contentsline {subsection}{\numberline {4.8.1}Detailed Description}{16}{subsection.4.8.1}% 
+\contentsline {subsection}{\numberline {4.8.2}Constructor \& Destructor Documentation}{16}{subsection.4.8.2}% 
+\contentsline {subsubsection}{\numberline {4.8.2.1}\_\_construct()}{16}{subsubsection.4.8.2.1}% 
+\contentsline {subsection}{\numberline {4.8.3}Member Function Documentation}{16}{subsection.4.8.3}% 
+\contentsline {subsubsection}{\numberline {4.8.3.1}compress()}{16}{subsubsection.4.8.3.1}% 
+\contentsline {subsubsection}{\numberline {4.8.3.2}DeleteImage()}{17}{subsubsection.4.8.3.2}% 
+\contentsline {subsubsection}{\numberline {4.8.3.3}image\_fix\_orientation()}{17}{subsubsection.4.8.3.3}% 
+\contentsline {subsubsection}{\numberline {4.8.3.4}redimensionar()}{17}{subsubsection.4.8.3.4}% 
+\contentsline {subsubsection}{\numberline {4.8.3.5}Set\_path()}{17}{subsubsection.4.8.3.5}% 
+\contentsline {subsubsection}{\numberline {4.8.3.6}Upload\_image()}{17}{subsubsection.4.8.3.6}% 
+\contentsline {subsubsection}{\numberline {4.8.3.7}Upload\_image1()}{18}{subsubsection.4.8.3.7}% 
+\contentsline {subsubsection}{\numberline {4.8.3.8}Upload\_pdf()}{18}{subsubsection.4.8.3.8}% 
+\contentsline {section}{\numberline {4.9}CMail\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager Class Reference}{18}{section.4.9}% 
+\contentsline {subsection}{\numberline {4.9.1}Detailed Description}{18}{subsection.4.9.1}% 
+\contentsline {subsection}{\numberline {4.9.2}Constructor \& Destructor Documentation}{18}{subsection.4.9.2}% 
+\contentsline {subsubsection}{\numberline {4.9.2.1}\_\_construct()}{19}{subsubsection.4.9.2.1}% 
+\contentsline {subsection}{\numberline {4.9.3}Member Function Documentation}{19}{subsection.4.9.3}% 
+\contentsline {subsubsection}{\numberline {4.9.3.1}Get\_Email\_From()}{19}{subsubsection.4.9.3.1}% 
+\contentsline {subsubsection}{\numberline {4.9.3.2}Get\_Email\_Message()}{19}{subsubsection.4.9.3.2}% 
+\contentsline {subsubsection}{\numberline {4.9.3.3}Get\_Email\_Subject()}{19}{subsubsection.4.9.3.3}% 
+\contentsline {subsubsection}{\numberline {4.9.3.4}Get\_Email\_To()}{19}{subsubsection.4.9.3.4}% 
+\contentsline {subsubsection}{\numberline {4.9.3.5}SendMail()}{20}{subsubsection.4.9.3.5}% 
+\contentsline {subsubsection}{\numberline {4.9.3.6}Set\_Email\_From()}{20}{subsubsection.4.9.3.6}% 
+\contentsline {subsubsection}{\numberline {4.9.3.7}Set\_Email\_Message()}{20}{subsubsection.4.9.3.7}% 
+\contentsline {subsubsection}{\numberline {4.9.3.8}Set\_Email\_Subject()}{20}{subsubsection.4.9.3.8}% 
+\contentsline {subsubsection}{\numberline {4.9.3.9}Set\_Email\_To()}{20}{subsubsection.4.9.3.9}% 
+\contentsline {section}{\numberline {4.10}CONSTANTS Class Reference}{21}{section.4.10}% 
+\contentsline {subsection}{\numberline {4.10.1}Detailed Description}{21}{subsection.4.10.1}% 
+\contentsline {subsection}{\numberline {4.10.2}Field Documentation}{21}{subsection.4.10.2}% 
+\contentsline {subsubsection}{\numberline {4.10.2.1}\$MySQL\_door}{21}{subsubsection.4.10.2.1}% 
+\contentsline {subsubsection}{\numberline {4.10.2.2}\$MySQL\_HEGALPA\_DB\_NAME}{21}{subsubsection.4.10.2.2}% 
+\contentsline {subsubsection}{\numberline {4.10.2.3}\$MySQL\_SERVER\_DIR}{21}{subsubsection.4.10.2.3}% 
+\contentsline {subsubsection}{\numberline {4.10.2.4}\$MySQL\_USER}{21}{subsubsection.4.10.2.4}% 
+\contentsline {subsubsection}{\numberline {4.10.2.5}\$USER\_ROL}{22}{subsubsection.4.10.2.5}% 
+\contentsline {section}{\numberline {4.11}CRest\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}API Class Reference}{22}{section.4.11}% 
+\contentsline {subsection}{\numberline {4.11.1}Detailed Description}{22}{subsection.4.11.1}% 
+\contentsline {subsection}{\numberline {4.11.2}Member Function Documentation}{22}{subsection.4.11.2}% 
+\contentsline {subsubsection}{\numberline {4.11.2.1}\_\_constructor()}{23}{subsubsection.4.11.2.1}% 
+\contentsline {subsubsection}{\numberline {4.11.2.2}CommandListener()}{23}{subsubsection.4.11.2.2}% 
+\contentsline {subsubsection}{\numberline {4.11.2.3}CommandProcessor()}{23}{subsubsection.4.11.2.3}% 
+\contentsline {subsubsection}{\numberline {4.11.2.4}Create\_Image\_Server()}{23}{subsubsection.4.11.2.4}% 
+\contentsline {subsubsection}{\numberline {4.11.2.5}Create\_LogTraces\_Server()}{23}{subsubsection.4.11.2.5}% 
+\contentsline {subsubsection}{\numberline {4.11.2.6}Create\_Mail\_Server()}{24}{subsubsection.4.11.2.6}% 
+\contentsline {subsubsection}{\numberline {4.11.2.7}Create\_MySQL\_CONECTION()}{24}{subsubsection.4.11.2.7}% 
+\contentsline {subsubsection}{\numberline {4.11.2.8}Create\_Seguridad\_Server()}{24}{subsubsection.4.11.2.8}% 
+\contentsline {subsubsection}{\numberline {4.11.2.9}Create\_SQLiteBD\_CONECTION()}{24}{subsubsection.4.11.2.9}% 
+\contentsline {subsubsection}{\numberline {4.11.2.10}Get\_BBDD\_CONECTION()}{24}{subsubsection.4.11.2.10}% 
+\contentsline {subsubsection}{\numberline {4.11.2.11}Get\_Image\_Server()}{25}{subsubsection.4.11.2.11}% 
+\contentsline {subsubsection}{\numberline {4.11.2.12}Get\_LogTraces\_Server()}{25}{subsubsection.4.11.2.12}% 
+\contentsline {subsubsection}{\numberline {4.11.2.13}Get\_Mail\_Server()}{25}{subsubsection.4.11.2.13}% 
+\contentsline {subsubsection}{\numberline {4.11.2.14}Get\_OPERATIONS\_Functions()}{25}{subsubsection.4.11.2.14}% 
+\contentsline {subsubsection}{\numberline {4.11.2.15}Get\_Request\_Method()}{25}{subsubsection.4.11.2.15}% 
+\contentsline {subsubsection}{\numberline {4.11.2.16}Get\_Seguridad\_Server()}{25}{subsubsection.4.11.2.16}% 
+\contentsline {subsubsection}{\numberline {4.11.2.17}Set\_BBDD\_CONECTION()}{26}{subsubsection.4.11.2.17}% 
+\contentsline {subsubsection}{\numberline {4.11.2.18}Set\_OPERATIONS\_Functions()}{26}{subsubsection.4.11.2.18}% 
+\contentsline {subsubsection}{\numberline {4.11.2.19}Set\_Resquest\_Method()}{26}{subsubsection.4.11.2.19}% 
+\contentsline {subsection}{\numberline {4.11.3}Field Documentation}{26}{subsection.4.11.3}% 
+\contentsline {subsubsection}{\numberline {4.11.3.1}\$a\_OPERATIONS\_Functions\_}{26}{subsubsection.4.11.3.1}% 
+\contentsline {section}{\numberline {4.12}CSeguridad Class Reference}{26}{section.4.12}% 
+\contentsline {subsection}{\numberline {4.12.1}Detailed Description}{27}{subsection.4.12.1}% 
+\contentsline {subsection}{\numberline {4.12.2}Constructor \& Destructor Documentation}{27}{subsection.4.12.2}% 
+\contentsline {subsubsection}{\numberline {4.12.2.1}\_\_construct()}{27}{subsubsection.4.12.2.1}% 
+\contentsline {subsection}{\numberline {4.12.3}Member Function Documentation}{27}{subsection.4.12.3}% 
+\contentsline {subsubsection}{\numberline {4.12.3.1}hash\_message()}{27}{subsubsection.4.12.3.1}% 
+\contentsline {subsubsection}{\numberline {4.12.3.2}If\_Pass\_Need\_Rehash()}{27}{subsubsection.4.12.3.2}% 
+\contentsline {subsubsection}{\numberline {4.12.3.3}verification()}{27}{subsubsection.4.12.3.3}% 
+\contentsline {subsubsection}{\numberline {4.12.3.4}verify\_pass()}{28}{subsubsection.4.12.3.4}% 
+\contentsline {section}{\numberline {4.13}CTraces Class Reference}{28}{section.4.13}% 
+\contentsline {subsection}{\numberline {4.13.1}Detailed Description}{28}{subsection.4.13.1}% 
+\contentsline {subsection}{\numberline {4.13.2}Constructor \& Destructor Documentation}{28}{subsection.4.13.2}% 
+\contentsline {subsubsection}{\numberline {4.13.2.1}\_\_construct()}{28}{subsubsection.4.13.2.1}% 
+\contentsline {subsection}{\numberline {4.13.3}Member Function Documentation}{28}{subsection.4.13.3}% 
+\contentsline {subsubsection}{\numberline {4.13.3.1}Get\_path()}{29}{subsubsection.4.13.3.1}% 
+\contentsline {subsubsection}{\numberline {4.13.3.2}Get\_Script\_File\_Name()}{29}{subsubsection.4.13.3.2}% 
+\contentsline {subsubsection}{\numberline {4.13.3.3}getInstance()}{29}{subsubsection.4.13.3.3}% 
+\contentsline {subsubsection}{\numberline {4.13.3.4}LogTrace()}{29}{subsubsection.4.13.3.4}% 
+\contentsline {subsubsection}{\numberline {4.13.3.5}Set\_path()}{29}{subsubsection.4.13.3.5}% 
+\contentsline {chapter}{\numberline {5}File Documentation}{31}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CBBDD.php File Reference}{31}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}CBBDD.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{31}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CCommand\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Reciever.php File Reference}{33}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}CCommand\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Reciever.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{33}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CFile\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager.php File Reference}{34}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}CFile\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{34}{section.5.6}% 
+\contentsline {section}{\numberline {5.7}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CFiles\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Uploads.php File Reference}{35}{section.5.7}% 
+\contentsline {section}{\numberline {5.8}CFiles\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Uploads.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{35}{section.5.8}% 
+\contentsline {section}{\numberline {5.9}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CID\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}UNIQUE\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager.php File Reference}{36}{section.5.9}% 
+\contentsline {section}{\numberline {5.10}CID\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}UNIQUE\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{36}{section.5.10}% 
+\contentsline {section}{\numberline {5.11}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CImage\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager.php File Reference}{37}{section.5.11}% 
+\contentsline {section}{\numberline {5.12}CImage\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{37}{section.5.12}% 
+\contentsline {section}{\numberline {5.13}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CMail\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager.php File Reference}{41}{section.5.13}% 
+\contentsline {section}{\numberline {5.14}CMail\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{41}{section.5.14}% 
+\contentsline {section}{\numberline {5.15}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CONSTANTS.php File Reference}{42}{section.5.15}% 
+\contentsline {section}{\numberline {5.16}CONSTANTS.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{42}{section.5.16}% 
+\contentsline {section}{\numberline {5.17}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CRest\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}API.php File Reference}{43}{section.5.17}% 
+\contentsline {section}{\numberline {5.18}CRest\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}API.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{43}{section.5.18}% 
+\contentsline {section}{\numberline {5.19}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CSeguridad.php File Reference}{45}{section.5.19}% 
+\contentsline {section}{\numberline {5.20}CSeguridad.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{46}{section.5.20}% 
+\contentsline {section}{\numberline {5.21}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CSession.php File Reference}{46}{section.5.21}% 
+\contentsline {section}{\numberline {5.22}CSession.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{46}{section.5.22}% 
+\contentsline {section}{\numberline {5.23}resources/inc/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}CTraces.php File Reference}{47}{section.5.23}% 
+\contentsline {section}{\numberline {5.24}CTraces.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{47}{section.5.24}% 
+\contentsline {section}{\numberline {5.25}resources/inc/index.php File Reference}{48}{section.5.25}% 
+\contentsline {section}{\numberline {5.26}index.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}php}{48}{section.5.26}% 
+\contentsline {chapter}{Index}{49}{section*.35}% 

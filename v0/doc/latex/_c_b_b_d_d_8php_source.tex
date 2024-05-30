@@ -1,0 +1,140 @@
+\hypertarget{_c_b_b_d_d_8php_source}{}\doxysection{CBBDD.\+php}
+\label{_c_b_b_d_d_8php_source}\index{resources/inc/CBBDD.php@{resources/inc/CBBDD.php}}
+\mbox{\hyperlink{_c_b_b_d_d_8php}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00001}00001 <?php}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00002}00002 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00003}00003 include\_once \textcolor{stringliteral}{'CONSTANTS.php'};}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00004}00004 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00005}00005 \textcolor{comment}{//Requires habilite PDO extension on PHP.ini for mysqlite and mysql etc..}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00006}00006 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00010}00010 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00011}\mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d}{00011}} \textcolor{keyword}{class }\mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d}{CBIBLIOTECA\_BBDD}}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00012}00012 \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00013}00013 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00015}00015     \textcolor{comment}{//VARIABLES DE CLASE///}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00017}00017 \textcolor{comment}{}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00018}\mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_abebb004b09695b6791b46f2ec58b3eb7}{00018}}     \textcolor{keyword}{protected} \mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_abebb004b09695b6791b46f2ec58b3eb7}{\$queries\_array\_}} = \textcolor{keyword}{false}; \textcolor{comment}{//ADD Queries here to save it}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00019}\mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a6dc9abd64f95b326f70bba491a2fc209}{00019}}     \textcolor{keyword}{protected} \mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a6dc9abd64f95b326f70bba491a2fc209}{\$path\_}} = \textcolor{keyword}{false}; \textcolor{comment}{//Path Where BBDD is stored}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00020}\mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a1256eabac8ab0a18cc6c6e90cb2ae7da}{00020}}     \textcolor{keyword}{protected} \mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a1256eabac8ab0a18cc6c6e90cb2ae7da}{\$PDO\_BBDD\_Connection\_}}; \textcolor{comment}{//BD object: Connecction object}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00021}00021 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00025}00025 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00026}00026     \textcolor{comment}{//Constructor }}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00027}\mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a095c5d389db211932136b53f25f39685}{00027}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a095c5d389db211932136b53f25f39685}{\_\_construct}}()}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00028}00028     \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00029}00029         \mbox{\hyperlink{class_c_traces_ac93fbec81f07e5d15f80db907e63dc10}{CTraces::getInstance}}()-\/>LogTrace(\_\_LINE\_\_ . \textcolor{stringliteral}{"{}: Init BBDD Father Class"{}});}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00030}00030 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00031}00031     \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00032}00032 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00033}00033     \textcolor{comment}{//Getters and Setters}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00034}\mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a66e11471daabd4d0fb096b4b0594315f}{00034}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a66e11471daabd4d0fb096b4b0594315f}{SetPath}}(\$path)}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00035}00035     \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00036}00036         \$this-\/>path\_ = \$path;}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00037}00037     \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00038}00038 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00039}\mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_aa22aaf363962097ca17e203624f5d1cc}{00039}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_aa22aaf363962097ca17e203624f5d1cc}{SetQueriesArray}}(\$queries\_array)}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00040}00040     \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00041}00041 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00042}00042         \$this-\/>queries\_array\_ =  \$queries\_array;}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00043}00043     \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00044}00044 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00045}\mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a261f3b87e924bda5179c9d29a6a41d6e}{00045}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a261f3b87e924bda5179c9d29a6a41d6e}{AddQuery}}(\$key, \$query)}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00046}00046     \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00047}00047 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00048}00048         \$this-\/>queries\_array\_[\$key] = \$query;}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00049}00049     \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00050}00050 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00051}\mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a08cfb2a6183b5e5883174fcd850af95b}{00051}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d_a08cfb2a6183b5e5883174fcd850af95b}{ExecuteQuery}}(\$Query\_Key, \$ParamsVector = array())}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00052}00052     \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00053}00053 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00054}00054         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00055}00055             \mbox{\hyperlink{class_c_traces_ac93fbec81f07e5d15f80db907e63dc10}{CTraces::getInstance}}()-\/>LogTrace(\_\_LINE\_\_ . \textcolor{stringliteral}{"{} "{}} .\textcolor{stringliteral}{"{}Query Key: "{}}. \$Query\_Key);}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00056}00056             \mbox{\hyperlink{class_c_traces_ac93fbec81f07e5d15f80db907e63dc10}{CTraces::getInstance}}()-\/>LogTrace(\_\_LINE\_\_ . \textcolor{stringliteral}{"{} "{}} .\textcolor{stringliteral}{"{}Query Before treatment: "{}}. \$this-\/>queries\_array\_[\$Query\_Key]);}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00057}00057             \textcolor{comment}{/*              }}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00058}00058 \textcolor{comment}{            echo "{}Key Query \$Query\_Key \(\backslash\)n"{};}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00059}00059 \textcolor{comment}{            echo "{}Query:  "{}.\$this-\/>queries\_array\_[\$Query\_Key]."{}\(\backslash\)n"{};}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00060}00060 \textcolor{comment}{             */}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00061}00061 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00062}00062             \textcolor{comment}{//TODO:: CHECK IF QUERY EXIST in ARRAY}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00063}00063             \textcolor{comment}{//Prepare Stament}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00064}00064             \$stm = \$this-\/>PDO\_BBDD\_Connection\_-\/>prepare(\$this-\/>queries\_array\_[\$Query\_Key]);}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00065}00065 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00066}00066 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00067}00067             \textcolor{comment}{//Sustitute params on statement}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00068}00068             \textcolor{keywordflow}{foreach} (\$ParamsVector as \$key => \$value) \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00069}00069                 \$stm-\/>bindValue(\textcolor{charliteral}{':'} . \$key, trim(\$value));}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00070}00070             \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00071}00071 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00072}00072             \mbox{\hyperlink{class_c_traces_ac93fbec81f07e5d15f80db907e63dc10}{CTraces::getInstance}}()-\/>LogTrace(\_\_LINE\_\_ . \textcolor{stringliteral}{"{} "{}} .\textcolor{stringliteral}{"{}Query after treatment: "{}}. \$stm-\/>queryString);}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00073}00073 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00074}00074             \textcolor{comment}{//Execute query}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00075}00075             \$stm-\/>execute();}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00076}00076 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00077}00077             \textcolor{comment}{//Return result if would be}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00078}00078             \textcolor{keywordflow}{return} \$stm-\/>fetchAll();}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00079}00079         \} \textcolor{keywordflow}{catch} (Exception \$e) \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00081}00081             echo \textcolor{stringliteral}{'Error: '};}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00082}00082             echo \$e-\/>getMessage();}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00083}00083             die();}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00084}00084         \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00085}00085     \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00086}00086 \};}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00087}00087 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00088}00088 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00089}\mbox{\hyperlink{class_c_b_b_d_d___s_q_lite}{00089}} \textcolor{keyword}{class }\mbox{\hyperlink{class_c_b_b_d_d___s_q_lite}{CBBDD\_SQLite}} \textcolor{keyword}{extends} \mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d}{CBIBLIOTECA\_BBDD}}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00090}00090 \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00091}00091 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00092}00092 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00093}\mbox{\hyperlink{class_c_b_b_d_d___s_q_lite_a03853ceaa393e487835b287de58aba5a}{00093}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_b_b_d_d___s_q_lite_a03853ceaa393e487835b287de58aba5a}{\_\_construct}}(\$path)}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00094}00094     \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00095}00095 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00096}00096         \mbox{\hyperlink{class_c_traces_ac93fbec81f07e5d15f80db907e63dc10}{CTraces::getInstance}}()-\/>LogTrace(\_\_LINE\_\_ . \textcolor{stringliteral}{"{}: Init BBDD SQLite Class"{}});}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00097}00097 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00098}00098         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00099}00099             \textcolor{comment}{/* echo "{}BD path \$path\(\backslash\)n"{}; */}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00100}00100             \$this-\/>path\_ = \$path;}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00101}00101 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00102}00102             \textcolor{comment}{//Nos conectamos a nuestra base de datos a través de una conexion PDO }}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00103}00103             \$this-\/>PDO\_BBDD\_Connection\_ = \textcolor{keyword}{new} PDO(\textcolor{stringliteral}{"{}sqlite:\$path"{}});}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00104}00104             \textcolor{comment}{//echo \$this-\/>PDO\_BBDD\_Connection\_;}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00105}00105             \$this-\/>PDO\_BBDD\_Connection\_-\/>setAttribute(PDO::ATTR\_ERRMODE, PDO::ERRMODE\_EXCEPTION);}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00106}00106         \} \textcolor{keywordflow}{catch} (Exception \$e) \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00107}00107             echo \textcolor{stringliteral}{'Error: '};}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00108}00108             echo \$e-\/>getMessage();}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00109}00109             die();}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00110}00110         \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00111}00111     \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00112}00112 \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00113}00113 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00114}00114 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00115}\mbox{\hyperlink{class_c_b_b_d_d___my_s_q_l}{00115}} \textcolor{keyword}{class }\mbox{\hyperlink{class_c_b_b_d_d___my_s_q_l}{CBBDD\_MySQL}} \textcolor{keyword}{extends} \mbox{\hyperlink{class_c_b_i_b_l_i_o_t_e_c_a___b_b_d_d}{CBIBLIOTECA\_BBDD}}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00116}00116 \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00117}00117 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00119}00119     \textcolor{comment}{//VARIABLES DE CLASE///}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00121}00121 \textcolor{comment}{}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00122}00122     \textcolor{keyword}{private} \$host\_; \textcolor{comment}{//Direccion del servidor MySQL}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00123}00123     \textcolor{keyword}{private} \$db\_;  \textcolor{comment}{//Nombre de la base de datos dentro del servidor MySQL}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00124}00124     \textcolor{keyword}{private} \$user\_; \textcolor{comment}{// User to access to MySQL data base SERVER}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00125}00125     \textcolor{keyword}{private} \$password\_; \textcolor{comment}{//User password}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00126}00126 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00127}\mbox{\hyperlink{class_c_b_b_d_d___my_s_q_l_a843b0e9c180345dcbb78ed7c38b47a8a}{00127}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_b_b_d_d___my_s_q_l_a843b0e9c180345dcbb78ed7c38b47a8a}{\_\_construct}}(\$host, \$db, \$user, \$password)}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00128}00128     \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00129}00129 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00130}00130         \mbox{\hyperlink{class_c_traces_ac93fbec81f07e5d15f80db907e63dc10}{CTraces::getInstance}}()-\/>LogTrace(\_\_LINE\_\_ . \textcolor{stringliteral}{"{}: Init BBDD MySQL Class"{}});}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00131}00131 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00132}00132         \$dsn = \textcolor{stringliteral}{"{}mysql:host=\$host;dbname=\$db;charset=UTF8"{}};}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00133}00133 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00134}00134         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00135}00135             \$this-\/>PDO\_BBDD\_Connection\_ = \textcolor{keyword}{new} PDO(\$dsn, \$user, \$password);}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00136}00136             \$this-\/>PDO\_BBDD\_Connection\_-\/>setAttribute(PDO::ATTR\_EMULATE\_PREPARES, \textcolor{keyword}{false});}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00137}00137 }
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00138}00138             \textcolor{keywordflow}{if} (!\$this-\/>PDO\_BBDD\_Connection\_) \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00139}00139                 echo \textcolor{stringliteral}{"{}ERROR: Connected to the \$db database unsuccessfully!"{}};}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00140}00140             \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00141}00141         \} \textcolor{keywordflow}{catch} (PDOException \$e) \{}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00142}00142             echo \$e-\/>getMessage();}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00143}00143         \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00144}00144     \}}
+\DoxyCodeLine{\Hypertarget{_c_b_b_d_d_8php_source_l00145}00145 \}}
+
+\end{DoxyCode}

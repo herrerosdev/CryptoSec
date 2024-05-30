@@ -1,0 +1,303 @@
+\begin{theindex}
+
+  \item {\$MySQL\_HEGALPA\_DB\_NAME}
+    \subitem {CONSTANTS}, \hyperpage{21}
+  \item {\$MySQL\_SERVER\_DIR}
+    \subitem {CONSTANTS}, \hyperpage{21}
+  \item {\$MySQL\_USER}
+    \subitem {CONSTANTS}, \hyperpage{21}
+  \item {\$MySQL\_door}
+    \subitem {CONSTANTS}, \hyperpage{21}
+  \item {\$PDO\_BBDD\_Connection\_}
+    \subitem {CBIBLIOTECA\_BBDD}, \hyperpage{11}
+  \item {\$USER\_ROL}
+    \subitem {CONSTANTS}, \hyperpage{21}
+  \item {\$a\_OPERATIONS\_Functions\_}
+    \subitem {CRestAPI}, \hyperpage{26}
+  \item {\$o\_Biblioteca}
+    \subitem {CID\_UNIQUE\_Manager}, \hyperpage{15}
+  \item {\$path\_}
+    \subitem {CBIBLIOTECA\_BBDD}, \hyperpage{11}
+  \item {\$queries\_array\_}
+    \subitem {CBIBLIOTECA\_BBDD}, \hyperpage{11}
+  \item {\_\_CADUANAS\_COMMANDS\_RECEIVER}
+    \subitem {CADUANAS\_COMMANDS\_RECEIVER}, \hyperpage{7}
+  \item {\_\_construct}
+    \subitem {CBBDD\_MySQL}, \hyperpage{8}
+    \subitem {CBBDD\_SQLite}, \hyperpage{9}
+    \subitem {CBIBLIOTECA\_BBDD}, \hyperpage{10}
+    \subitem {CFileManager}, \hyperpage{12}
+    \subitem {CFiles\_Uploads}, \hyperpage{13}
+    \subitem {CID\_UNIQUE\_Manager}, \hyperpage{15}
+    \subitem {CImage\_Manager}, \hyperpage{16}
+    \subitem {CMailManager}, \hyperpage{18}
+    \subitem {CSeguridad}, \hyperpage{27}
+    \subitem {CTraces}, \hyperpage{28}
+  \item {\_\_constructor}
+    \subitem {CRestAPI}, \hyperpage{22}
+
+  \indexspace
+
+  \item {AddQuery}
+    \subitem {CBIBLIOTECA\_BBDD}, \hyperpage{10}
+
+  \indexspace
+
+  \item {CADUANAS\_COMMANDS\_RECEIVER}, \hyperpage{7}
+    \subitem {\_\_CADUANAS\_COMMANDS\_RECEIVER}, \hyperpage{7}
+    \subitem {SetCommand}, \hyperpage{7}
+    \subitem {SetData}, \hyperpage{7}
+    \subitem {Validator}, \hyperpage{8}
+  \item {CBBDD\_MySQL}, \hyperpage{8}
+    \subitem {\_\_construct}, \hyperpage{8}
+  \item {CBBDD\_SQLite}, \hyperpage{9}
+    \subitem {\_\_construct}, \hyperpage{9}
+  \item {CBIBLIOTECA\_BBDD}, \hyperpage{10}
+    \subitem {\$PDO\_BBDD\_Connection\_}, \hyperpage{11}
+    \subitem {\$path\_}, \hyperpage{11}
+    \subitem {\$queries\_array\_}, \hyperpage{11}
+    \subitem {\_\_construct}, \hyperpage{10}
+    \subitem {AddQuery}, \hyperpage{10}
+    \subitem {ExecuteQuery}, \hyperpage{10}
+    \subitem {SetPath}, \hyperpage{11}
+    \subitem {SetQueriesArray}, \hyperpage{11}
+  \item {CFileManager}, \hyperpage{12}
+    \subitem {\_\_construct}, \hyperpage{12}
+    \subitem {CheckFile}, \hyperpage{12}
+    \subitem {DeleteFile}, \hyperpage{12}
+    \subitem {ReadFile}, \hyperpage{13}
+    \subitem {WriteFile}, \hyperpage{13}
+  \item {CFiles\_Uploads}, \hyperpage{13}
+    \subitem {\_\_construct}, \hyperpage{13}
+    \subitem {Set\_path}, \hyperpage{14}
+    \subitem {Upload\_pdf}, \hyperpage{14}
+  \item {CheckFile}
+    \subitem {CFileManager}, \hyperpage{12}
+  \item {CID\_UNIQUE\_Manager}, \hyperpage{14}
+    \subitem {\$o\_Biblioteca}, \hyperpage{15}
+    \subitem {\_\_construct}, \hyperpage{15}
+    \subitem {FreeTOKEN}, \hyperpage{15}
+    \subitem {GetFreeTOKEN}, \hyperpage{15}
+  \item {CImage\_Manager}, \hyperpage{16}
+    \subitem {\_\_construct}, \hyperpage{16}
+    \subitem {compress}, \hyperpage{16}
+    \subitem {DeleteImage}, \hyperpage{16}
+    \subitem {image\_fix\_orientation}, \hyperpage{17}
+    \subitem {redimensionar}, \hyperpage{17}
+    \subitem {Set\_path}, \hyperpage{17}
+    \subitem {Upload\_image}, \hyperpage{17}
+    \subitem {Upload\_image1}, \hyperpage{17}
+    \subitem {Upload\_pdf}, \hyperpage{18}
+  \item {CMailManager}, \hyperpage{18}
+    \subitem {\_\_construct}, \hyperpage{18}
+    \subitem {Get\_Email\_From}, \hyperpage{19}
+    \subitem {Get\_Email\_Message}, \hyperpage{19}
+    \subitem {Get\_Email\_Subject}, \hyperpage{19}
+    \subitem {Get\_Email\_To}, \hyperpage{19}
+    \subitem {SendMail}, \hyperpage{19}
+    \subitem {Set\_Email\_From}, \hyperpage{20}
+    \subitem {Set\_Email\_Message}, \hyperpage{20}
+    \subitem {Set\_Email\_Subject}, \hyperpage{20}
+    \subitem {Set\_Email\_To}, \hyperpage{20}
+  \item {CommandListener}
+    \subitem {CRestAPI}, \hyperpage{23}
+  \item {CommandProcessor}
+    \subitem {CRestAPI}, \hyperpage{23}
+  \item {compress}
+    \subitem {CImage\_Manager}, \hyperpage{16}
+  \item {CONSTANTS}, \hyperpage{21}
+    \subitem {\$MySQL\_HEGALPA\_DB\_NAME}, \hyperpage{21}
+    \subitem {\$MySQL\_SERVER\_DIR}, \hyperpage{21}
+    \subitem {\$MySQL\_USER}, \hyperpage{21}
+    \subitem {\$MySQL\_door}, \hyperpage{21}
+    \subitem {\$USER\_ROL}, \hyperpage{21}
+  \item {Create\_Image\_Server}
+    \subitem {CRestAPI}, \hyperpage{23}
+  \item {Create\_LogTraces\_Server}
+    \subitem {CRestAPI}, \hyperpage{23}
+  \item {Create\_Mail\_Server}
+    \subitem {CRestAPI}, \hyperpage{23}
+  \item {Create\_MySQL\_CONECTION}
+    \subitem {CRestAPI}, \hyperpage{24}
+  \item {Create\_Seguridad\_Server}
+    \subitem {CRestAPI}, \hyperpage{24}
+  \item {Create\_SQLiteBD\_CONECTION}
+    \subitem {CRestAPI}, \hyperpage{24}
+  \item {CRestAPI}, \hyperpage{22}
+    \subitem {\$a\_OPERATIONS\_Functions\_}, \hyperpage{26}
+    \subitem {\_\_constructor}, \hyperpage{22}
+    \subitem {CommandListener}, \hyperpage{23}
+    \subitem {CommandProcessor}, \hyperpage{23}
+    \subitem {Create\_Image\_Server}, \hyperpage{23}
+    \subitem {Create\_LogTraces\_Server}, \hyperpage{23}
+    \subitem {Create\_Mail\_Server}, \hyperpage{23}
+    \subitem {Create\_MySQL\_CONECTION}, \hyperpage{24}
+    \subitem {Create\_Seguridad\_Server}, \hyperpage{24}
+    \subitem {Create\_SQLiteBD\_CONECTION}, \hyperpage{24}
+    \subitem {Get\_BBDD\_CONECTION}, \hyperpage{24}
+    \subitem {Get\_Image\_Server}, \hyperpage{24}
+    \subitem {Get\_LogTraces\_Server}, \hyperpage{25}
+    \subitem {Get\_Mail\_Server}, \hyperpage{25}
+    \subitem {Get\_OPERATIONS\_Functions}, \hyperpage{25}
+    \subitem {Get\_Request\_Method}, \hyperpage{25}
+    \subitem {Get\_Seguridad\_Server}, \hyperpage{25}
+    \subitem {Set\_BBDD\_CONECTION}, \hyperpage{25}
+    \subitem {Set\_OPERATIONS\_Functions}, \hyperpage{26}
+    \subitem {Set\_Resquest\_Method}, \hyperpage{26}
+  \item {CSeguridad}, \hyperpage{26}
+    \subitem {\_\_construct}, \hyperpage{27}
+    \subitem {hash\_message}, \hyperpage{27}
+    \subitem {If\_Pass\_Need\_Rehash}, \hyperpage{27}
+    \subitem {verification}, \hyperpage{27}
+    \subitem {verify\_pass}, \hyperpage{27}
+  \item {CTraces}, \hyperpage{28}
+    \subitem {\_\_construct}, \hyperpage{28}
+    \subitem {Get\_path}, \hyperpage{28}
+    \subitem {Get\_Script\_File\_Name}, \hyperpage{29}
+    \subitem {getInstance}, \hyperpage{29}
+    \subitem {LogTrace}, \hyperpage{29}
+    \subitem {Set\_path}, \hyperpage{29}
+
+  \indexspace
+
+  \item {DeleteFile}
+    \subitem {CFileManager}, \hyperpage{12}
+  \item {DeleteImage}
+    \subitem {CImage\_Manager}, \hyperpage{16}
+
+  \indexspace
+
+  \item {ExecuteQuery}
+    \subitem {CBIBLIOTECA\_BBDD}, \hyperpage{10}
+
+  \indexspace
+
+  \item {FreeTOKEN}
+    \subitem {CID\_UNIQUE\_Manager}, \hyperpage{15}
+
+  \indexspace
+
+  \item {Get\_BBDD\_CONECTION}
+    \subitem {CRestAPI}, \hyperpage{24}
+  \item {Get\_Email\_From}
+    \subitem {CMailManager}, \hyperpage{19}
+  \item {Get\_Email\_Message}
+    \subitem {CMailManager}, \hyperpage{19}
+  \item {Get\_Email\_Subject}
+    \subitem {CMailManager}, \hyperpage{19}
+  \item {Get\_Email\_To}
+    \subitem {CMailManager}, \hyperpage{19}
+  \item {Get\_Image\_Server}
+    \subitem {CRestAPI}, \hyperpage{24}
+  \item {Get\_LogTraces\_Server}
+    \subitem {CRestAPI}, \hyperpage{25}
+  \item {Get\_Mail\_Server}
+    \subitem {CRestAPI}, \hyperpage{25}
+  \item {Get\_OPERATIONS\_Functions}
+    \subitem {CRestAPI}, \hyperpage{25}
+  \item {Get\_path}
+    \subitem {CTraces}, \hyperpage{28}
+  \item {Get\_Request\_Method}
+    \subitem {CRestAPI}, \hyperpage{25}
+  \item {Get\_Script\_File\_Name}
+    \subitem {CTraces}, \hyperpage{29}
+  \item {Get\_Seguridad\_Server}
+    \subitem {CRestAPI}, \hyperpage{25}
+  \item {GetFreeTOKEN}
+    \subitem {CID\_UNIQUE\_Manager}, \hyperpage{15}
+  \item {getInstance}
+    \subitem {CTraces}, \hyperpage{29}
+
+  \indexspace
+
+  \item {hash\_message}
+    \subitem {CSeguridad}, \hyperpage{27}
+
+  \indexspace
+
+  \item {If\_Pass\_Need\_Rehash}
+    \subitem {CSeguridad}, \hyperpage{27}
+  \item {image\_fix\_orientation}
+    \subitem {CImage\_Manager}, \hyperpage{17}
+
+  \indexspace
+
+  \item {LogTrace}
+    \subitem {CTraces}, \hyperpage{29}
+
+  \indexspace
+
+  \item {ReadFile}
+    \subitem {CFileManager}, \hyperpage{13}
+  \item {redimensionar}
+    \subitem {CImage\_Manager}, \hyperpage{17}
+  \item {resources/inc/CBBDD.php}, \hyperpage{31}
+  \item {resources/inc/CCommandReciever.php}, \hyperpage{33}
+  \item {resources/inc/CFileManager.php}, \hyperpage{34}
+  \item {resources/inc/CFiles\_Uploads.php}, \hyperpage{35}
+  \item {resources/inc/CID\_UNIQUE\_Manager.php}, \hyperpage{36}
+  \item {resources/inc/CImage\_Manager.php}, \hyperpage{37}
+  \item {resources/inc/CMailManager.php}, \hyperpage{41}
+  \item {resources/inc/CONSTANTS.php}, \hyperpage{42}
+  \item {resources/inc/CRestAPI.php}, \hyperpage{43}
+  \item {resources/inc/CSeguridad.php}, \hyperpage{45, 46}
+  \item {resources/inc/CSession.php}, \hyperpage{46}
+  \item {resources/inc/CTraces.php}, \hyperpage{47}
+  \item {resources/inc/index.php}, \hyperpage{48}
+
+  \indexspace
+
+  \item {SendMail}
+    \subitem {CMailManager}, \hyperpage{19}
+  \item {Set\_BBDD\_CONECTION}
+    \subitem {CRestAPI}, \hyperpage{25}
+  \item {Set\_Email\_From}
+    \subitem {CMailManager}, \hyperpage{20}
+  \item {Set\_Email\_Message}
+    \subitem {CMailManager}, \hyperpage{20}
+  \item {Set\_Email\_Subject}
+    \subitem {CMailManager}, \hyperpage{20}
+  \item {Set\_Email\_To}
+    \subitem {CMailManager}, \hyperpage{20}
+  \item {Set\_OPERATIONS\_Functions}
+    \subitem {CRestAPI}, \hyperpage{26}
+  \item {Set\_path}
+    \subitem {CFiles\_Uploads}, \hyperpage{14}
+    \subitem {CImage\_Manager}, \hyperpage{17}
+    \subitem {CTraces}, \hyperpage{29}
+  \item {Set\_Resquest\_Method}
+    \subitem {CRestAPI}, \hyperpage{26}
+  \item {SetCommand}
+    \subitem {CADUANAS\_COMMANDS\_RECEIVER}, \hyperpage{7}
+  \item {SetData}
+    \subitem {CADUANAS\_COMMANDS\_RECEIVER}, \hyperpage{7}
+  \item {SetPath}
+    \subitem {CBIBLIOTECA\_BBDD}, \hyperpage{11}
+  \item {SetQueriesArray}
+    \subitem {CBIBLIOTECA\_BBDD}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Upload\_image}
+    \subitem {CImage\_Manager}, \hyperpage{17}
+  \item {Upload\_image1}
+    \subitem {CImage\_Manager}, \hyperpage{17}
+  \item {Upload\_pdf}
+    \subitem {CFiles\_Uploads}, \hyperpage{14}
+    \subitem {CImage\_Manager}, \hyperpage{18}
+
+  \indexspace
+
+  \item {Validator}
+    \subitem {CADUANAS\_COMMANDS\_RECEIVER}, \hyperpage{8}
+  \item {verification}
+    \subitem {CSeguridad}, \hyperpage{27}
+  \item {verify\_pass}
+    \subitem {CSeguridad}, \hyperpage{27}
+
+  \indexspace
+
+  \item {WriteFile}
+    \subitem {CFileManager}, \hyperpage{13}
+
+\end{theindex}

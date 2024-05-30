@@ -1,0 +1,86 @@
+\hypertarget{_c_mail_manager_8php_source}{}\doxysection{CMail\+Manager.\+php}
+\label{_c_mail_manager_8php_source}\index{resources/inc/CMailManager.php@{resources/inc/CMailManager.php}}
+\mbox{\hyperlink{_c_mail_manager_8php}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00001}00001 <?php}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00002}00002 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00006}00006 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00007}00007 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00008}\mbox{\hyperlink{class_c_mail_manager}{00008}} \textcolor{keyword}{class }\mbox{\hyperlink{class_c_mail_manager}{CMailManager}}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00009}00009 \{}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00010}00010 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00014}00014     \textcolor{keyword}{private} \$To\_; \textcolor{comment}{//Send Mail To...}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00015}00015     \textcolor{keyword}{private} \$From\_;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00016}00016     \textcolor{keyword}{private} \$Subject\_;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00017}00017     \textcolor{keyword}{private} \$Message\_;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00018}00018 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00022}\mbox{\hyperlink{class_c_mail_manager_a76829897fa1b23f98eade5bffefda155}{00022}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_mail_manager_a76829897fa1b23f98eade5bffefda155}{\_\_construct}}(\$From = \textcolor{stringliteral}{"{}"{}}, \$To = \textcolor{stringliteral}{"{}"{}}, \$Subject = \textcolor{stringliteral}{"{}"{}}, \$Message = \textcolor{stringliteral}{"{}"{}})}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00023}00023     \{}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00024}00024         \$this-\/>From\_ = \$From;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00025}00025         \$this-\/>To\_ = \$To;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00026}00026         \$this-\/>Subject\_ = \$Subject;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00027}00027         \$this-\/>Message\_ = \$Message;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00028}00028     \}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00032}00032 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00033}\mbox{\hyperlink{class_c_mail_manager_ae61c6c9747dc4644a84c0f149dd7720b}{00033}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_mail_manager_ae61c6c9747dc4644a84c0f149dd7720b}{SendMail}}()}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00034}00034     \{}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00035}00035         mail(\$this-\/>To\_, \$this-\/>Subject\_, \$this-\/>Message\_, \textcolor{stringliteral}{"{}From: \$this-\/>From\_"{}} . \textcolor{stringliteral}{"{}\(\backslash\)r\(\backslash\)n"{}} . \textcolor{stringliteral}{"{}Reply-\/To: \$this-\/>From\_"{}} . \textcolor{stringliteral}{"{}\(\backslash\)r\(\backslash\)n"{}} . \textcolor{stringliteral}{'X-\/Mailer: PHP/'} . phpversion() . \textcolor{stringliteral}{"{}\(\backslash\)r\(\backslash\)n"{}} . \textcolor{stringliteral}{'MIME-\/Version: 1.0'} . \textcolor{stringliteral}{"{}\(\backslash\)r\(\backslash\)n"{}} . \textcolor{stringliteral}{'Content-\/type: text/html; charset=iso-\/8859-\/1'} . \textcolor{stringliteral}{"{}\(\backslash\)r\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00036}00036     \}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00037}00037 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00038}00038     \textcolor{comment}{/*     public function SendQuick\_MAIL(\$QuickName)}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00039}00039 \textcolor{comment}{    \{}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00040}00040 \textcolor{comment}{        mail(\$this-\/>to, \$this-\/>subject, \$this-\/>message, \$this-\/>headers);}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00041}00041 \textcolor{comment}{    \} */}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00042}00042 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00046}00046 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00047}\mbox{\hyperlink{class_c_mail_manager_a6dc7496ef0b4f20df560ea00cfcf6f77}{00047}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_mail_manager_a6dc7496ef0b4f20df560ea00cfcf6f77}{Get\_Email\_To}}()}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00048}00048     \{}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00049}00049         \textcolor{keywordflow}{return} \$this-\/>To\_;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00050}00050     \}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00051}00051 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00052}\mbox{\hyperlink{class_c_mail_manager_adb919d6abb6ec73166a2b6eb66ac1110}{00052}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_mail_manager_adb919d6abb6ec73166a2b6eb66ac1110}{Set\_Email\_To}}(\$To)}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00053}00053     \{}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00054}00054 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00055}00055         \$this-\/>To\_ = \$To;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00056}00056     \}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00057}00057 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00058}\mbox{\hyperlink{class_c_mail_manager_a2e869fe8daa915fe8f2691a50dcad40c}{00058}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_mail_manager_a2e869fe8daa915fe8f2691a50dcad40c}{Get\_Email\_From}}()}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00059}00059     \{}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00060}00060         \textcolor{keywordflow}{return} \$this-\/>From\_;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00061}00061     \}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00062}00062 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00063}\mbox{\hyperlink{class_c_mail_manager_af15a06952483dc2861b49b60e52089c0}{00063}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_mail_manager_af15a06952483dc2861b49b60e52089c0}{Set\_Email\_From}}(\$From)}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00064}00064     \{}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00065}00065 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00066}00066         \$this-\/>From\_ = \$From;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00067}00067     \}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00068}00068 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00069}\mbox{\hyperlink{class_c_mail_manager_aa4376c2763d8afc800ebbed03cdbd0bd}{00069}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_mail_manager_aa4376c2763d8afc800ebbed03cdbd0bd}{Get\_Email\_Subject}}()}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00070}00070     \{}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00071}00071         \textcolor{keywordflow}{return} \$this-\/>Subject\_;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00072}00072     \}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00073}00073 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00074}\mbox{\hyperlink{class_c_mail_manager_a42aee12e39c87dcbc3515887e02ada1d}{00074}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_mail_manager_a42aee12e39c87dcbc3515887e02ada1d}{Set\_Email\_Subject}}(\$Subject)}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00075}00075     \{}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00076}00076 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00077}00077         \$this-\/>Subject\_ = \$Subject;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00078}00078     \}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00079}00079 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00080}\mbox{\hyperlink{class_c_mail_manager_add9c02b7ca0982c07fd854cbfe3bef5d}{00080}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_mail_manager_add9c02b7ca0982c07fd854cbfe3bef5d}{Get\_Email\_Message}}()}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00081}00081     \{}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00082}00082         \textcolor{keywordflow}{return} \$this-\/>Message\_;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00083}00083     \}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00084}00084 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00085}\mbox{\hyperlink{class_c_mail_manager_ad8cbfc9837c8413b3004e73270ee4ae2}{00085}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_mail_manager_ad8cbfc9837c8413b3004e73270ee4ae2}{Set\_Email\_Message}}(\$Message)}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00086}00086     \{}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00087}00087 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00088}00088         \$this-\/>Message\_ = \$Message;}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00089}00089     \}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00090}00090 \};}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00091}00091 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00092}00092 }
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00093}00093 \textcolor{comment}{/* \$o\_mailTest = new CCorrespondencia\_MailManager("{}HerrerosGPa@hegalpa.es"{}, "{}hegalpainfo@gmail.com"{}, "{}Asunto"{}, "{}Mensaje....."{});}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00094}00094 \textcolor{comment}{}}
+\DoxyCodeLine{\Hypertarget{_c_mail_manager_8php_source_l00095}00095 \textcolor{comment}{\$o\_mailTest-\/>SendMail(); */}}
+
+\end{DoxyCode}

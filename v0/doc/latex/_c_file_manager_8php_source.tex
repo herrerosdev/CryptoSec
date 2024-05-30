@@ -1,0 +1,63 @@
+\hypertarget{_c_file_manager_8php_source}{}\doxysection{CFile\+Manager.\+php}
+\label{_c_file_manager_8php_source}\index{resources/inc/CFileManager.php@{resources/inc/CFileManager.php}}
+\mbox{\hyperlink{_c_file_manager_8php}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00001}00001 <?php}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00002}\mbox{\hyperlink{class_c_file_manager}{00002}} \textcolor{keyword}{class }\mbox{\hyperlink{class_c_file_manager}{CFileManager}}}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00003}00003 \{}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00007}00007 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00008}00008     \textcolor{keyword}{private} \$path; \textcolor{comment}{//Atributo privado, solo puede ser modificado por metodos de la propia clase.}}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00009}00009 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00013}00013 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00014}00014 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00016}\mbox{\hyperlink{class_c_file_manager_a03853ceaa393e487835b287de58aba5a}{00016}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_file_manager_a03853ceaa393e487835b287de58aba5a}{\_\_construct}}(\$path)}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00017}00017     \{}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00018}00018         \$this-\/>path = \$path;}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00019}00019     \}}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00020}00020 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00021}\mbox{\hyperlink{class_c_file_manager_ab497ec94de52c396dee9b353669807b6}{00021}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_file_manager_ab497ec94de52c396dee9b353669807b6}{WriteFile}}(\$txt)}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00022}00022     \{}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00023}00023 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00024}00024         \$myfile = fopen(\$this-\/>path, \textcolor{stringliteral}{"{}a"{}}) or die(\textcolor{stringliteral}{"{}Unable to open file!"{}});}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00025}00025         fwrite(\$myfile, \$txt);}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00026}00026         fclose(\$myfile);}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00027}00027     \}}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00028}00028 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00029}00029 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00030}\mbox{\hyperlink{class_c_file_manager_a468f27b26848e99368a29515b562caeb}{00030}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_file_manager_a468f27b26848e99368a29515b562caeb}{ReadFile}}()}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00031}00031     \{}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00032}00032         \$myfile = fopen(\$this-\/>path, \textcolor{stringliteral}{"{}r"{}}) or die(\textcolor{stringliteral}{"{}Unable to open file!"{}});}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00033}00033 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00034}00034         \textcolor{keywordflow}{if} (filesize(\$this-\/>path) > 0) \{}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00035}00035             \$txt = fread(\$myfile, filesize(\$this-\/>path));}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00036}00036             fclose(\$myfile);}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00037}00037 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00038}00038             \textcolor{keywordflow}{return} \$txt;}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00039}00039         \}}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00040}00040     \}}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00041}00041 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00042}\mbox{\hyperlink{class_c_file_manager_a565cad88f56a9dbbbd9c7fd176efb0d5}{00042}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_file_manager_a565cad88f56a9dbbbd9c7fd176efb0d5}{DeleteFile}}()}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00043}00043     \{}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00044}00044         \textcolor{keywordflow}{if} (unlink(\$this-\/>path)) \{}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00045}00045             \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}OK"{}};}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00046}00046         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00047}00047             \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}KO"{}};}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00048}00048         \}}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00049}00049     \}}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00050}00050 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00051}\mbox{\hyperlink{class_c_file_manager_a25d813ec20a1a4f7743add824d275409}{00051}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_file_manager_a25d813ec20a1a4f7743add824d275409}{CheckFile}}()}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00052}00052     \{}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00053}00053 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00054}00054         \textcolor{keywordflow}{if} (file\_exists(\$this-\/>path)) \{}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00055}00055           \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}OK"{}};}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00056}00056 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00057}00057         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00058}00058             \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}KO"{}};}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00059}00059 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00060}00060         \}}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00061}00061     \}}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00062}00062 \}}
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00063}00063 }
+\DoxyCodeLine{\Hypertarget{_c_file_manager_8php_source_l00064}00064 ?>}
+
+\end{DoxyCode}

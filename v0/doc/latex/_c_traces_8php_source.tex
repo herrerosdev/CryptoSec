@@ -1,0 +1,109 @@
+\hypertarget{_c_traces_8php_source}{}\doxysection{CTraces.\+php}
+\label{_c_traces_8php_source}\index{resources/inc/CTraces.php@{resources/inc/CTraces.php}}
+\mbox{\hyperlink{_c_traces_8php}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00001}00001 <?php}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00002}00002 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00003}00003 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00004}00004 require\_once \textcolor{stringliteral}{'CFileManager.php'};}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00005}00005 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00009}00009 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00010}00010 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00011}\mbox{\hyperlink{class_c_traces}{00011}} \textcolor{keyword}{class }\mbox{\hyperlink{class_c_traces}{CTraces}}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00012}00012 \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00013}00013 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00014}00014 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00018}00018 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00019}00019     \textcolor{keyword}{private} \textcolor{keyword}{static} \$Singleton\_dir = \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00020}00020 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00021}\mbox{\hyperlink{class_c_traces_ac93fbec81f07e5d15f80db907e63dc10}{00021}}     \textcolor{keyword}{public} \textcolor{keyword}{static} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_traces_ac93fbec81f07e5d15f80db907e63dc10}{getInstance}}()}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00022}00022     \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00023}00023 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00024}00024         \textcolor{keywordflow}{if} (CTraces::\$Singleton\_dir == \textcolor{keyword}{false}) \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00025}00025 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00026}00026             CTraces::\$Singleton\_dir = \textcolor{keyword}{new} \mbox{\hyperlink{class_c_traces}{CTraces}}();}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00027}00027         \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00028}00028 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00029}00029         \textcolor{keywordflow}{return} CTraces::\$Singleton\_dir;}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00030}00030     \}    }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00031}00031 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00035}00035 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00036}00036     \textcolor{keyword}{private} \$path = HEGALPA\_DOCUMENT\_LogsProd\_PATH;}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00037}00037 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00038}00038     \textcolor{keyword}{private} \$nameScriptFile;}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00039}00039 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00040}00040     \textcolor{keyword}{private} \$Hour;}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00041}00041 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00042}00042     \textcolor{keyword}{private} \$IPUser;}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00043}00043 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00044}00044     \textcolor{keyword}{private} \$NameUser;}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00045}00045 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00046}00046     \textcolor{keyword}{private} \$Message;}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00047}00047 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00051}00051 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00052}00052 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00054}\mbox{\hyperlink{class_c_traces_a095c5d389db211932136b53f25f39685}{00054}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_traces_a095c5d389db211932136b53f25f39685}{\_\_construct}}()}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00055}00055     \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00056}00056         \$this-\/>nameFile = date(\textcolor{stringliteral}{'dmY'});}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00057}00057         \textcolor{keywordflow}{if} (!empty(\$\_SESSION[\textcolor{stringliteral}{'login\_user'}])) \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00058}00058             \$this-\/>NameUser = \$\_SESSION[\textcolor{stringliteral}{'login\_user'}];}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00059}00059         \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00060}00060 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00061}00061 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00062}00062         \textcolor{keywordflow}{if} (isset(\$\_SERVER[\textcolor{stringliteral}{"{}HTTP\_CLIENT\_IP"{}}]))}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00063}00063             \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00064}00064                 \$this-\/>IPUser = \$\_SERVER[\textcolor{stringliteral}{"{}HTTP\_CLIENT\_IP"{}}];}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00065}00065             \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00066}00066         elseif (isset(\$\_SERVER[\textcolor{stringliteral}{"{}HTTP\_X\_FORWARDED\_FOR"{}}]))}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00067}00067             \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00068}00068                 \$this-\/>IPUser =  \$\_SERVER[\textcolor{stringliteral}{"{}HTTP\_X\_FORWARDED\_FOR"{}}];}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00069}00069             \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00070}00070         elseif (isset(\$\_SERVER[\textcolor{stringliteral}{"{}HTTP\_X\_FORWARDED"{}}]))}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00071}00071             \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00072}00072                 \$this-\/>IPUser = \$\_SERVER[\textcolor{stringliteral}{"{}HTTP\_X\_FORWARDED"{}}];}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00073}00073             \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00074}00074         elseif (isset(\$\_SERVER[\textcolor{stringliteral}{"{}HTTP\_FORWARDED\_FOR"{}}]))}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00075}00075             \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00076}00076                 \$this-\/>IPUser =  \$\_SERVER[\textcolor{stringliteral}{"{}HTTP\_FORWARDED\_FOR"{}}];}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00077}00077             \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00078}00078         elseif (isset(\$\_SERVER[\textcolor{stringliteral}{"{}HTTP\_FORWARDED"{}}]))}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00079}00079             \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00080}00080                 \$this-\/>IPUser =  \$\_SERVER[\textcolor{stringliteral}{"{}HTTP\_FORWARDED"{}}];}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00081}00081             \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00082}00082         \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00083}00083             \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00084}00084                 \$this-\/>IPUser =  \$\_SERVER[\textcolor{stringliteral}{"{}REMOTE\_ADDR"{}}];}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00085}00085             \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00086}00086 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00087}00087         \$this-\/>\mbox{\hyperlink{class_c_traces_ae2b57129f4ea699fb70956c42fb587e1}{Get\_Script\_File\_Name}}();}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00088}00088     \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00089}00089 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00090}\mbox{\hyperlink{class_c_traces_a1ea536d548420f02026da4a55d3041f6}{00090}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_traces_a1ea536d548420f02026da4a55d3041f6}{LogTrace}}(\$message = \textcolor{stringliteral}{"{}"{}})}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00091}00091     \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00092}00092         \$o\_FileManager = \textcolor{keyword}{new} \mbox{\hyperlink{class_c_file_manager}{CFileManager}}(\$this-\/>path . \$this-\/>nameFile . \textcolor{stringliteral}{"{}.txt"{}});}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00093}00093         \$HoraActual = date(\textcolor{stringliteral}{'G:i:s'});}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00094}00094         \$this-\/>\mbox{\hyperlink{class_c_traces_ae2b57129f4ea699fb70956c42fb587e1}{Get\_Script\_File\_Name}}();}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00095}00095 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00096}00096 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00097}00097         \$o\_FileManager-\/>WriteFile(\$HoraActual . \textcolor{stringliteral}{"{}  "{}} . \$this-\/>IPUser . \textcolor{stringliteral}{"{} "{}} . \$this-\/>nameScriptFile . \textcolor{stringliteral}{"{}  "{}} . \$message . \textcolor{stringliteral}{"{}  "{}} . \$this-\/>NameUser . \textcolor{stringliteral}{"{}\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00098}00098     \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00099}00099 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00100}00100 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00101}\mbox{\hyperlink{class_c_traces_ae2b57129f4ea699fb70956c42fb587e1}{00101}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_traces_ae2b57129f4ea699fb70956c42fb587e1}{Get\_Script\_File\_Name}}()}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00102}00102     \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00103}00103         \$aux = \$\_SERVER[\textcolor{stringliteral}{'SCRIPT\_NAME'}];}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00104}00104         \$this-\/>nameScriptFile = basename(\$aux);}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00105}00105     \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00106}00106 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00107}\mbox{\hyperlink{class_c_traces_a9dfa50dc55cd7b893574bd28c475f296}{00107}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_traces_a9dfa50dc55cd7b893574bd28c475f296}{Get\_path}}()}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00108}00108     \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00109}00109         \textcolor{keywordflow}{return} \$this-\/>path;}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00110}00110     \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00111}00111 }
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00112}\mbox{\hyperlink{class_c_traces_aa5692f1a757f1134ff43fe885b4d17a9}{00112}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_traces_aa5692f1a757f1134ff43fe885b4d17a9}{Set\_path}}(\$path)}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00113}00113     \{}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00114}00114         \$this-\/>path = \$path;}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00115}00115     \}}
+\DoxyCodeLine{\Hypertarget{_c_traces_8php_source_l00116}00116 \}}
+
+\end{DoxyCode}

@@ -1,0 +1,79 @@
+\hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source}{}\doxysection{CID\+\_\+\+UNIQUE\+\_\+\+Manager.\+php}
+\label{_c_i_d___u_n_i_q_u_e___manager_8php_source}\index{resources/inc/CID\_UNIQUE\_Manager.php@{resources/inc/CID\_UNIQUE\_Manager.php}}
+\mbox{\hyperlink{_c_i_d___u_n_i_q_u_e___manager_8php}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00001}00001 <?php}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00002}00002 require\_once \textcolor{stringliteral}{'CBBDD.php'};}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00006}00006 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00007}00007 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00008}00008 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00009}00009 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00010}\mbox{\hyperlink{class_c_i_d___u_n_i_q_u_e___manager}{00010}} \textcolor{keyword}{class }\mbox{\hyperlink{class_c_i_d___u_n_i_q_u_e___manager}{CID\_UNIQUE\_Manager}} }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00011}00011 \{}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00012}00012 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00013}\mbox{\hyperlink{class_c_i_d___u_n_i_q_u_e___manager_a0ca0f706502f21b86f93399e1bda6521}{00013}}     \textcolor{keyword}{protected} \mbox{\hyperlink{class_c_i_d___u_n_i_q_u_e___manager_a0ca0f706502f21b86f93399e1bda6521}{\$o\_Biblioteca}};}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00014}00014     }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00015}00015 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00019}00019 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00020}00020     \textcolor{keyword}{private} \$path; \textcolor{comment}{//Atributo privado, solo puede ser modificado por metodos de la propia clase.}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00021}00021 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00022}00022 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00026}00026 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00027}00027 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00030}\mbox{\hyperlink{class_c_i_d___u_n_i_q_u_e___manager_a095c5d389db211932136b53f25f39685}{00030}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_i_d___u_n_i_q_u_e___manager_a095c5d389db211932136b53f25f39685}{\_\_construct}}()}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00031}00031     \{}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00032}00032         \$this-\/>o\_Biblioteca = \textcolor{keyword}{new} \mbox{\hyperlink{class_c_b_b_d_d___my_s_q_l}{CBBDD\_MySQL}}(\mbox{\hyperlink{class_c_o_n_s_t_a_n_t_s_a0475aa7f81a52be3b84ce7db5a83fb39}{CONSTANTS::\$MySQL\_SERVER\_DIR}}, \mbox{\hyperlink{class_c_o_n_s_t_a_n_t_s_ad0bcb3926ea2ef3a1196a532e3de720b}{CONSTANTS::\$MySQL\_HEGALPA\_DB\_NAME}}, \textcolor{stringliteral}{"{}PabloHEGALPA"{}}, \textcolor{stringliteral}{"{}Informatica124**"{}});}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00033}00033         \$this-\/>o\_Biblioteca-\/>SetQueriesArray(array(}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00034}00034             \textcolor{stringliteral}{"{}AddTOKEN\_QUERY"{}} => \textcolor{stringliteral}{"{}INSERT INTO Tokens\_table (TOKEN, t\_Status) VALUES (:0,:1)"{}},}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00035}00035             \textcolor{stringliteral}{"{}DeleteTOKEN\_QUERY"{}} => \textcolor{stringliteral}{"{}DELETE FROM Tokens\_table WHERE TOKEN LIKE :0"{}},}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00036}00036             \textcolor{stringliteral}{"{}FreeTOKEN\_QUERY"{}} => \textcolor{stringliteral}{"{}UPDATE Tokens\_table SET t\_Status = 'FREE', Concept = :1 WHERE TOKEN = :0"{}},}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00037}00037             \textcolor{stringliteral}{"{}TakeTOKEN\_QUERY"{}} => \textcolor{stringliteral}{"{}UPDATE Tokens\_table SET t\_Status = 'TAKEN', Concept = :1 WHERE TOKEN = :0"{}},}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00038}00038             \textcolor{stringliteral}{"{}GetFreeTOKEN\_QUERY"{}} => \textcolor{stringliteral}{"{}SELECT TOKEN FROM Tokens\_table WHERE t\_Status = 'FREE' LIMIT 1"{}}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00039}00039         ));}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00040}00040     \}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00041}00041 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00042}00042 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00043}00043 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00044}00044 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00045}\mbox{\hyperlink{class_c_i_d___u_n_i_q_u_e___manager_a6bb3820af66c276386199d3f94a7dfd5}{00045}}      \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_i_d___u_n_i_q_u_e___manager_a6bb3820af66c276386199d3f94a7dfd5}{GetFreeTOKEN}}(\$CONCEPT)}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00046}00046     \{}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00047}00047             \$data = \$this-\/>o\_Biblioteca-\/>ExecuteQuery(\textcolor{stringliteral}{"{}GetFreeTOKEN\_QUERY"{}}); \textcolor{comment}{//Busca un token que este libre y lo devuelve}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00048}00048              }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00049}00049             }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00050}00050             \textcolor{keywordflow}{foreach} (\$data as \$row) \{}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00051}00051                  \$this-\/>o\_Biblioteca-\/>ExecuteQuery(\textcolor{stringliteral}{"{}TakeTOKEN\_QUERY"{}}, array(\$row[\textcolor{stringliteral}{'TOKEN'}], \$CONCEPT));}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00052}00052                  \textcolor{keywordflow}{return} \$row[\textcolor{stringliteral}{'TOKEN'}];}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00053}00053                 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00054}00054              }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00055}00055             \}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00056}00056          }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00057}00057 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00058}00058     \}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00059}00059 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00060}00060 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00061}\mbox{\hyperlink{class_c_i_d___u_n_i_q_u_e___manager_a133c1137c8334fe246e96755a8cc9966}{00061}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_i_d___u_n_i_q_u_e___manager_a133c1137c8334fe246e96755a8cc9966}{FreeTOKEN}}(\$TOKEN)}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00062}00062     \{}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00063}00063 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00064}00064         \$this-\/>o\_Biblioteca-\/>ExecuteQuery(\textcolor{stringliteral}{"{}FreeTOKEN\_QUERY"{}}, array(\$TOKEN, NULL)); \textcolor{comment}{//Libera una ID para ser usado}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00065}00065 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00066}00066     \}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00067}00067     }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00068}00068 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00069}00069 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00070}00070 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00071}00071 \}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00072}00072 \textcolor{comment}{/* \$o\_Biblio = new CID\_UNIQUE\_Manager();}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00073}00073 \textcolor{comment}{\$o\_Biblio-\/>FreeTOKEN(2);}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00074}00074 \textcolor{comment}{ */}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00075}00075 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00077}00077 \textcolor{comment}{//herencia de clases}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00078}00078 \textcolor{comment}{//privadas: estas variables/metodos solo pueden ser accedidas por los metodos de la clase en la que se definen}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00079}00079 \textcolor{comment}{//no se heredan a las clases hijas por lo tanto no se puede acceder a ellas mediante las clases hijas a }}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00080}00080 \textcolor{comment}{//diferencia de las variables y metodos protegidas.}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00081}00081 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00082}00082 \textcolor{comment}{//variables y metodos protected: al igual que en las variables/metodos privados no se puede acceder a ellos desde}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00083}00083 \textcolor{comment}{//fuera de las clases, pero a diferencia de los privados SI se heredan a las clases hijas.}}
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00084}00084 }
+\DoxyCodeLine{\Hypertarget{_c_i_d___u_n_i_q_u_e___manager_8php_source_l00085}00085 \textcolor{comment}{//variables y metodos publicos: se puede acceder a ellos desde cualquier sitio y se heredan a las clases hijas.}}
+
+\end{DoxyCode}

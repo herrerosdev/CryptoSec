@@ -1,0 +1,55 @@
+.CreatePostSection {
+
+    background-color: #7da4b8;
+    width           : 80%;
+    margin          : 0 auto;
+}
+
+.formCreatePost {
+    display              : grid;
+    justify-items        : center;
+    align-items          : center;
+    margin               : 0 auto;
+    justify-content      : center;
+    grid-template-columns: 90%;
+}
+
+.DivEnterTheme {
+
+    width          : 100%;
+    display        : flex;
+    height         : auto;
+    padding        : 3vw;
+    align-items    : center;
+    justify-content: space-evenly;
+}
+
+.DivEnterCategory {
+
+    width          : 100%;
+    padding        : 3vw;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-evenly;
+}
+
+.DivTextArea {
+
+    width          : 100%;
+    padding        : 3vw;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.inputPost {
+    font-size: 2vw;
+
+    width : 40%;
+    height: 3vw;
+}
+
+.labelPost {
+    font-size: 2vw;
+}

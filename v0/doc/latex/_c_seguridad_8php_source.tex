@@ -1,0 +1,65 @@
+\hypertarget{_c_seguridad_8php_source}{}\doxysection{CSeguridad.\+php}
+\label{_c_seguridad_8php_source}\index{resources/inc/CSeguridad.php@{resources/inc/CSeguridad.php}}
+\mbox{\hyperlink{_c_seguridad_8php}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00001}00001 <?php}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00002}00002 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00006}00006 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00007}00007 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00008}\mbox{\hyperlink{class_c_seguridad}{00008}} \textcolor{keyword}{class }\mbox{\hyperlink{class_c_seguridad}{CSeguridad}}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00009}00009 \{}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00010}00010 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00014}00014 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00015}00015 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00019}00019 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00020}00020 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00022}\mbox{\hyperlink{class_c_seguridad_a095c5d389db211932136b53f25f39685}{00022}}     \textcolor{keyword}{function} \mbox{\hyperlink{class_c_seguridad_a095c5d389db211932136b53f25f39685}{\_\_construct}}()}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00023}00023     \{}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00024}00024         \textcolor{comment}{/* \$this-\/>path = \$path; */}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00025}00025     \}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00026}00026  \textcolor{comment}{/*    Upload\_image(\$\_FILES['file']); */}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00027}00027 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00028}00028 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00029}\mbox{\hyperlink{class_c_seguridad_ac63287ed2d034e2510350921f1823f07}{00029}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_seguridad_ac63287ed2d034e2510350921f1823f07}{hash\_message}}(\$password) \{}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00030}00030         \textcolor{keywordflow}{return} password\_hash(\$password, PASSWORD\_DEFAULT, [\textcolor{stringliteral}{'cost'} => 15]);}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00031}00031 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00032}00032         \textcolor{comment}{//¿Y qué ocurre con las contraseñas antiguas? Para eso está la función \_password\_needsrehash(), }}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00033}00033         \textcolor{comment}{//que detecta si una contraseña almacenada no cumple con las necesidades de seguridad de la aplicación. en login}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00034}00034 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00035}00035         \textcolor{comment}{//return password\_needs\_rehash(\$password, PASSWORD\_DEFAULT, ['cost' => 15]);}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00036}00036     \}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00037}\mbox{\hyperlink{class_c_seguridad_a0fd3e2e05bd4df7bdd2519046626be96}{00037}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_seguridad_a0fd3e2e05bd4df7bdd2519046626be96}{verify\_pass}}(\$password, \$hash) \{}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00038}00038 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00039}00039         \textcolor{keywordflow}{return} password\_verify(\$password, \$hash);}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00040}00040 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00041}00041     \}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00042}00042 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00043}\mbox{\hyperlink{class_c_seguridad_a8a65f8ff57c069aa5bfd128c816e4960}{00043}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_seguridad_a8a65f8ff57c069aa5bfd128c816e4960}{If\_Pass\_Need\_Rehash}}(\$password, \$hash) \{}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00044}00044 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00045}00045         \textcolor{keywordflow}{if} (password\_needs\_rehash(\$hash, PASSWORD\_DEFAULT,  [\textcolor{stringliteral}{'cost'} => 15])) \{}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00046}00046             \textcolor{comment}{// Si es así, crear un nuevo hash y reemplazar el antiguo}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00047}00047             \textcolor{keywordflow}{return} password\_hash(\$password, PASSWORD\_DEFAULT,  [\textcolor{stringliteral}{'cost'} => 15]);}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00048}00048         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00049}00049             \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}NO\_REHASH"{}};}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00050}00050         \}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00051}00051     \}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00052}00052 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00053}00053 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00054}\mbox{\hyperlink{class_c_seguridad_aa535a883d8df304b4509533c89eedbbe}{00054}}     \textcolor{keyword}{public} \textcolor{keyword}{function} \mbox{\hyperlink{class_c_seguridad_aa535a883d8df304b4509533c89eedbbe}{verification}}(\$param, \$pattern) \{}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00055}00055 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00056}00056         \textcolor{keywordflow}{if}(preg\_match(\$pattern, \$param)) \{}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00057}00057 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00058}00058             echo \textcolor{stringliteral}{"{}formato no permitido"{}};}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00059}00059         \}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00060}00060 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00061}00061         \textcolor{keywordflow}{return} htmlspecialchars(\$param);}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00062}00062 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00063}00063 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00064}00064 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00065}00065     \}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00066}00066 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00067}00067 \}}
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00068}00068 }
+\DoxyCodeLine{\Hypertarget{_c_seguridad_8php_source_l00069}00069 ?>}
+
+\end{DoxyCode}

@@ -1,0 +1,10 @@
+
+<Files \.(php)$">
+Order deny,allow
+Deny from all
+</Files>
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>

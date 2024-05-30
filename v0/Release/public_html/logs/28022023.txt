@@ -1,0 +1,245 @@
+16:21:21   index.php  13: Init CReporters Class  
+16:21:21   index.php  130: Init BBDD MySQL Class  
+16:21:21   index.php  96: Init BBDD SQLite Class  
+16:21:21   index.php  25: Init Register Visit Functions  
+16:21:21   index.php  55 Query Key: REGISTER_VISIT_QUERY  
+16:21:21   index.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:21:22   index.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:21:32   index.php  13: Init CReporters Class  
+16:21:32   index.php  130: Init BBDD MySQL Class  
+16:21:32   index.php  96: Init BBDD SQLite Class  
+16:21:32   index.php  55 Query Key: GET_USER_QUERY  
+16:21:32   index.php  56 Query Before treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+16:21:32   index.php  72 Query after treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+16:21:42   index.php  13: Init CReporters Class  
+16:21:42   index.php  130: Init BBDD MySQL Class  
+16:21:43   index.php  96: Init BBDD SQLite Class  
+16:21:43   index.php  55 Query Key: GET_USER_QUERY  
+16:21:43   index.php  56 Query Before treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+16:21:43   index.php  72 Query after treatment: SELECT * FROM USERS WHERE NAME = :0 AND PASS = :1  
+16:21:43   welcome.php  13: Init CReporters Class  
+16:21:43   welcome.php  130: Init BBDD MySQL Class  
+16:21:43   welcome.php  96: Init BBDD SQLite Class  
+16:21:43   welcome.php  25: Init Register Visit Functions  
+16:21:43   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+16:21:43   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:21:43   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:21:44   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+16:21:44   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+16:21:44   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+16:21:44   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+16:21:44   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:21:44   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:21:44   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+16:21:44   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+16:21:44   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+16:21:44   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+16:21:44   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+16:21:44   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+16:21:50   read_article.php  13: Init CReporters Class  
+16:21:50   read_article.php  130: Init BBDD MySQL Class  
+16:21:51   read_article.php  96: Init BBDD SQLite Class  
+16:21:51   read_article.php  25: Init Register Visit Functions  
+16:21:51   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+16:21:51   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:21:51   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:21:51   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:21:51   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:21:51   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:21:51   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+16:21:51   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:21:51   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:21:51   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+16:21:51   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:21:51   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:21:51   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+16:21:51   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+16:21:51   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+16:21:51   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+16:21:51   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+16:21:51   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+16:21:51   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:21:51   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:21:51   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:21:55   welcome.php  13: Init CReporters Class  
+16:21:55   welcome.php  130: Init BBDD MySQL Class  
+16:21:55   welcome.php  96: Init BBDD SQLite Class  
+16:21:55   welcome.php  25: Init Register Visit Functions  
+16:21:55   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+16:21:55   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:21:55   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:21:55   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+16:21:55   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+16:21:55   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+16:21:55   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+16:21:55   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:21:55   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:21:55   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+16:21:55   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+16:21:55   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+16:21:55   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+16:21:55   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+16:21:55   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+16:21:58   welcome.php  13: Init CReporters Class  
+16:21:58   welcome.php  130: Init BBDD MySQL Class  
+16:21:58   welcome.php  96: Init BBDD SQLite Class  
+16:21:58   welcome.php  25: Init Register Visit Functions  
+16:21:58   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+16:21:58   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:21:58   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:21:58   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+16:21:58   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+16:21:58   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+16:21:58   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+16:21:58   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:21:58   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:21:58   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+16:21:58   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+16:21:58   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+16:21:58   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+16:21:58   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+16:21:58   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+16:22:00   read_article.php  13: Init CReporters Class  
+16:22:00   read_article.php  130: Init BBDD MySQL Class  
+16:22:00   read_article.php  96: Init BBDD SQLite Class  
+16:22:00   read_article.php  25: Init Register Visit Functions  
+16:22:00   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+16:22:00   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:22:00   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:22:00   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:22:00   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:22:00   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:22:00   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+16:22:00   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:22:00   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:22:00   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+16:22:00   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:22:00   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:22:00   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+16:22:00   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+16:22:00   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+16:22:00   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+16:22:00   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+16:22:00   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+16:22:00   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:22:00   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:22:00   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:22:00   read_article.php  13: Init CReporters Class  
+16:22:00   read_article.php  130: Init BBDD MySQL Class  
+16:22:01   read_article.php  96: Init BBDD SQLite Class  
+16:22:01   read_article.php  25: Init Register Visit Functions  
+16:22:01   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+16:22:01   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:22:01   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:22:01   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:22:01   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:22:01   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:22:01   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+16:22:01   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:22:01   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:22:01   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+16:22:01   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:22:01   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:22:01   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+16:22:01   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+16:22:01   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+16:22:01   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+16:22:01   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+16:22:01   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+16:22:01   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:22:01   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:22:01   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:22:48   welcome.php  13: Init CReporters Class  
+16:22:48   welcome.php  130: Init BBDD MySQL Class  
+16:22:48   welcome.php  96: Init BBDD SQLite Class  
+16:22:48   welcome.php  25: Init Register Visit Functions  
+16:22:48   welcome.php  55 Query Key: REGISTER_VISIT_QUERY  
+16:22:48   welcome.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:22:48   welcome.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:22:48   welcome.php  55 Query Key: GET_A_MESSAGE_QUERY  
+16:22:48   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+16:22:48   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+16:22:48   welcome.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+16:22:48   welcome.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:22:48   welcome.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:22:48   welcome.php  55 Query Key: GET_PARAMETERS_QUERY  
+16:22:48   welcome.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+16:22:48   welcome.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+16:22:48   welcome.php  55 Query Key: GET_MESSAGES_QUERY  
+16:22:48   welcome.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+16:22:48   welcome.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+16:23:37   read_article.php  13: Init CReporters Class  
+16:23:37   read_article.php  130: Init BBDD MySQL Class  
+16:23:38   read_article.php  96: Init BBDD SQLite Class  
+16:23:38   read_article.php  25: Init Register Visit Functions  
+16:23:38   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+16:23:38   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:23:38   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:23:38   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:23:38   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:23:38   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:23:38   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+16:23:38   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:23:38   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:23:38   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+16:23:38   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:23:38   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:23:38   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+16:23:38   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+16:23:38   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+16:23:38   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+16:23:38   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+16:23:38   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+16:23:38   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:23:38   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:23:38   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:23:42   read_article.php  13: Init CReporters Class  
+16:23:42   read_article.php  130: Init BBDD MySQL Class  
+16:23:42   read_article.php  96: Init BBDD SQLite Class  
+16:23:42   read_article.php  25: Init Register Visit Functions  
+16:23:42   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+16:23:42   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:23:42   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:23:43   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:23:43   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:23:43   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:23:43   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+16:23:43   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:23:43   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:23:43   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+16:23:43   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:23:43   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:23:43   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+16:23:43   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+16:23:43   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+16:23:43   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+16:23:43   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+16:23:43   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+16:23:43   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:23:43   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:23:43   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:24:14   read_article.php  13: Init CReporters Class  
+16:24:14   read_article.php  130: Init BBDD MySQL Class  
+16:24:14   read_article.php  96: Init BBDD SQLite Class  
+16:24:14   read_article.php  25: Init Register Visit Functions  
+16:24:14   read_article.php  55 Query Key: REGISTER_VISIT_QUERY  
+16:24:14   read_article.php  56 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:24:14   read_article.php  72 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+16:24:15   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:24:15   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:24:15   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:24:15   read_article.php  55 Query Key: GET_FOLDERS_AND_FILES_QUERY  
+16:24:15   read_article.php  56 Query Before treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:24:15   read_article.php  72 Query after treatment: SELECT * FROM GROUPS WHERE ID != 'NULL' UNION SELECT ID, NAME, FATHER, INFO FROM ARTICLES;  
+16:24:15   read_article.php  55 Query Key: GET_CONTENTS_BY_ArticleID  
+16:24:15   read_article.php  56 Query Before treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:24:15   read_article.php  72 Query after treatment: SELECT * FROM CONTENTS WHERE ARTICLE_ID = :0 ORDER BY [ORDER] ASC;  
+16:24:15   read_article.php  55 Query Key: GET_PARAMETERS_QUERY  
+16:24:15   read_article.php  56 Query Before treatment: SELECT * FROM PARAMETERS;  
+16:24:15   read_article.php  72 Query after treatment: SELECT * FROM PARAMETERS;  
+16:24:15   read_article.php  55 Query Key: GET_MESSAGES_QUERY  
+16:24:15   read_article.php  56 Query Before treatment: SELECT * FROM MESSAGES;  
+16:24:15   read_article.php  72 Query after treatment: SELECT * FROM MESSAGES;  
+16:24:15   read_article.php  55 Query Key: GET_ARTICLE_BY_ID  
+16:24:15   read_article.php  56 Query Before treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  
+16:24:15   read_article.php  72 Query after treatment: SELECT ID, NAME, FATHER, STRFTIME('%d/%m/%Y ', DATE) AS DATE, VISIBILITY, INFO FROM ARTICLES WHERE ID = :0;  

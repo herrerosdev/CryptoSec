@@ -1,0 +1,653 @@
+1:24:14   index.php  15: Init CSolutionINFO Class  
+1:24:14   index.php  129: Init BBDD MySQL Class  
+1:24:14   index.php  31: Init GetSchemaBB Functions  
+1:24:15   index.php  54 Query Key: GET_SchemaBD_QUERY  
+1:24:15   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:15   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:15   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+1:24:15   index.php  31: Init GetSchemaBB Functions  
+1:24:15   index.php  54 Query Key: GET_SchemaBD_QUERY  
+1:24:15   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:15   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:24:15   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+1:24:15   index.php  14: Init CReporters Class  
+1:24:15   index.php  129: Init BBDD MySQL Class  
+1:24:15   index.php  95: Init BBDD SQLite Class  
+1:24:15   index.php  27: Init Register Visit Functions  
+1:24:16   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+1:24:16   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:24:16   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:24:16   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:24:16   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:16   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:16   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:24:16   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:16   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:16   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:24:16   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:16   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:16   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:24:16   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:16   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:16   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+1:24:16   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:24:16   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:24:16   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:24:16   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:16   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:24:16   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+1:24:16   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:24:16   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:24:16   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:24:16   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:24:16   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:24:16   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:24:16   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:24:16   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:24:16   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:24:16   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:24:16   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+1:24:16   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+1:24:16   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+1:24:16   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+1:24:16   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+1:24:16   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
+1:27:16   index.php  15: Init CSolutionINFO Class  
+1:27:16   index.php  129: Init BBDD MySQL Class  
+1:27:16   index.php  31: Init GetSchemaBB Functions  
+1:27:16   index.php  54 Query Key: GET_SchemaBD_QUERY  
+1:27:16   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:27:16   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:27:16   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+1:27:16   index.php  31: Init GetSchemaBB Functions  
+1:27:16   index.php  54 Query Key: GET_SchemaBD_QUERY  
+1:27:16   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:27:16   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:27:16   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+1:27:16   index.php  14: Init CReporters Class  
+1:27:16   index.php  129: Init BBDD MySQL Class  
+1:27:17   index.php  95: Init BBDD SQLite Class  
+1:27:17   index.php  27: Init Register Visit Functions  
+1:27:17   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+1:27:17   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:27:17   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:27:17   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:27:17   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:27:17   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:27:17   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:27:17   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:27:17   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:27:17   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:27:17   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:27:17   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:27:17   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:27:17   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:27:17   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:27:17   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+1:27:17   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:27:17   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:27:17   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:27:17   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:27:17   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:27:17   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+1:27:17   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:27:17   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:27:17   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:27:17   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:27:17   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:27:17   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:27:17   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:27:17   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:27:17   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:27:17   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:27:17   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+1:27:17   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+1:27:17   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+1:27:17   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+1:27:17   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+1:27:17   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
+1:30:39   index.php  15: Init CSolutionINFO Class  
+1:30:39   index.php  129: Init BBDD MySQL Class  
+1:30:39   index.php  31: Init GetSchemaBB Functions  
+1:30:39   index.php  54 Query Key: GET_SchemaBD_QUERY  
+1:30:39   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:30:39   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:30:40   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+1:30:40   index.php  31: Init GetSchemaBB Functions  
+1:30:40   index.php  54 Query Key: GET_SchemaBD_QUERY  
+1:30:40   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:30:40   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:30:40   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+1:30:40   index.php  14: Init CReporters Class  
+1:30:40   index.php  129: Init BBDD MySQL Class  
+1:30:40   index.php  95: Init BBDD SQLite Class  
+1:30:40   index.php  27: Init Register Visit Functions  
+1:30:40   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+1:30:40   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:30:40   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:30:40   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:30:40   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:30:40   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:30:40   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:30:40   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:30:40   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:30:40   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:30:40   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:30:40   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:30:40   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:30:40   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:30:40   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:30:40   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+1:30:40   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:30:40   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:30:40   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:30:40   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:30:40   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:30:40   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+1:30:40   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:30:40   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:30:40   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:30:40   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:30:40   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:30:40   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:30:40   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:30:40   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:30:40   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:30:40   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:30:40   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+1:30:40   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+1:30:40   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+1:30:40   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+1:30:40   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"","1":"","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+1:30:40   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
+1:37:59   index.php  15: Init CSolutionINFO Class  
+1:37:59   index.php  129: Init BBDD MySQL Class  
+1:37:59   index.php  31: Init GetSchemaBB Functions  
+1:37:59   index.php  54 Query Key: GET_SchemaBD_QUERY  
+1:37:59   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:37:59   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:37:59   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+1:37:59   index.php  31: Init GetSchemaBB Functions  
+1:37:59   index.php  54 Query Key: GET_SchemaBD_QUERY  
+1:37:59   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:38:00   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+1:38:00   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+1:38:00   index.php  14: Init CReporters Class  
+1:38:00   index.php  129: Init BBDD MySQL Class  
+1:38:00   index.php  95: Init BBDD SQLite Class  
+1:38:00   index.php  27: Init Register Visit Functions  
+1:38:00   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+1:38:00   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:38:00   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+1:38:00   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:38:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:00   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:38:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:00   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:38:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:00   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:38:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:00   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+1:38:00   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:38:00   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:38:00   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+1:38:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+1:38:00   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+1:38:00   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:38:00   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+1:38:00   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+1:38:00   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+1:38:00   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:38:00   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+1:38:00   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+1:38:00   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+1:38:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:38:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+1:38:00   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+1:38:00   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+1:38:00   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+1:38:00   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+1:38:00   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"","1":"","BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+1:38:00   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:48:29   index.php  15: Init CSolutionINFO Class  
+11:48:29   index.php  129: Init BBDD MySQL Class  
+11:48:30   index.php  31: Init GetSchemaBB Functions  
+11:48:30   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:48:30   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:48:30   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:48:30   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:48:30   index.php  31: Init GetSchemaBB Functions  
+11:48:30   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:48:30   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:48:30   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:48:30   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:48:30   index.php  14: Init CReporters Class  
+11:48:30   index.php  129: Init BBDD MySQL Class  
+11:48:31   index.php  95: Init BBDD SQLite Class  
+11:48:31   index.php  27: Init Register Visit Functions  
+11:48:31   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+11:48:31   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:48:32   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:48:32   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:48:32   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:48:32   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:48:32   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:48:32   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:48:32   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:48:32   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:48:32   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:48:32   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:48:32   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:48:32   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:48:32   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:48:32   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:48:32   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:48:32   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:48:32   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:48:32   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:48:32   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:48:32   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:48:32   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:48:32   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:48:32   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+11:48:32   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+11:48:32   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:48:32   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:48:32   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+11:48:32   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+11:48:32   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:48:32   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:48:32   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:48:32   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+11:48:32   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:48:32   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:48:32   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"","1":"","BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+11:48:32   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:54:09   index.php  15: Init CSolutionINFO Class  
+11:54:09   index.php  129: Init BBDD MySQL Class  
+11:54:31   index.php  31: Init GetSchemaBB Functions  
+11:54:31   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:54:31   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:54:48   index.php  15: Init CSolutionINFO Class  
+11:54:48   index.php  129: Init BBDD MySQL Class  
+11:54:49   index.php  31: Init GetSchemaBB Functions  
+11:54:49   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:54:49   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:54:49   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:54:49   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:54:49   index.php  31: Init GetSchemaBB Functions  
+11:54:49   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:54:49   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:54:50   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:54:50   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:54:50   index.php  14: Init CReporters Class  
+11:54:50   index.php  129: Init BBDD MySQL Class  
+11:54:51   index.php  95: Init BBDD SQLite Class  
+11:54:51   index.php  27: Init Register Visit Functions  
+11:54:51   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+11:54:51   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:54:52   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:54:52   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:54:52   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:54:52   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:54:52   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:54:52   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:54:52   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:54:52   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:54:52   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:54:52   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:54:52   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:54:52   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:54:52   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:54:52   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:54:52   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:54:52   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:54:52   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:54:52   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:54:52   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:54:52   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:54:52   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:54:52   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:54:52   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+11:54:52   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+11:54:52   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:54:52   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:54:52   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+11:54:52   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+11:54:52   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:54:52   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:54:52   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:54:52   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+11:54:52   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:54:52   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:54:52   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"","1":"","BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+11:54:52   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:54:56   index.php  15: Init CSolutionINFO Class  
+11:54:56   index.php  129: Init BBDD MySQL Class  
+11:54:57   index.php  31: Init GetSchemaBB Functions  
+11:54:57   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:54:57   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:54:58   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:54:58   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:54:58   index.php  31: Init GetSchemaBB Functions  
+11:54:58   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:54:58   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:54:58   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:54:58   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:54:58   index.php  14: Init CReporters Class  
+11:54:58   index.php  129: Init BBDD MySQL Class  
+11:54:59   index.php  95: Init BBDD SQLite Class  
+11:54:59   index.php  27: Init Register Visit Functions  
+11:54:59   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+11:54:59   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:55:00   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:55:00   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:55:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:00   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:55:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:00   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:55:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:00   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:55:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:00   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:55:00   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:55:00   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:55:00   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:55:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:00   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:55:00   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:55:00   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:55:00   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+11:55:00   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+11:55:00   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:55:00   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:55:00   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+11:55:00   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+11:55:00   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:55:00   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:55:00   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:55:00   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+11:55:00   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:55:00   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:55:00   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"","1":"","BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+11:55:00   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:55:39   index.php  15: Init CSolutionINFO Class  
+11:55:39   index.php  129: Init BBDD MySQL Class  
+11:55:39   index.php  31: Init GetSchemaBB Functions  
+11:55:39   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:55:39   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:55:40   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:55:40   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:55:40   index.php  31: Init GetSchemaBB Functions  
+11:55:40   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:55:40   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:55:40   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:55:40   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:55:40   index.php  14: Init CReporters Class  
+11:55:40   index.php  129: Init BBDD MySQL Class  
+11:55:40   index.php  95: Init BBDD SQLite Class  
+11:55:40   index.php  27: Init Register Visit Functions  
+11:55:40   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+11:55:40   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:55:41   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:55:41   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:55:41   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:41   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:41   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:55:41   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:41   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:41   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:55:41   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:41   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:41   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:55:41   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:41   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:41   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:55:41   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:55:41   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:55:41   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:55:41   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:41   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:55:41   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:55:41   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:55:41   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:55:41   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+11:55:41   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+11:55:41   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:55:41   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:55:41   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+11:55:41   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+11:55:41   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:55:41   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:55:41   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:55:41   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+11:55:41   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:55:41   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:55:41   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"","1":"","BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+11:55:41   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:56:18   index.php  15: Init CSolutionINFO Class  
+11:56:18   index.php  129: Init BBDD MySQL Class  
+11:56:19   index.php  31: Init GetSchemaBB Functions  
+11:56:19   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:56:19   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:56:19   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:56:19   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:56:19   index.php  31: Init GetSchemaBB Functions  
+11:56:19   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:56:19   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:56:19   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:56:19   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:56:19   index.php  14: Init CReporters Class  
+11:56:19   index.php  129: Init BBDD MySQL Class  
+11:56:20   index.php  95: Init BBDD SQLite Class  
+11:56:20   index.php  27: Init Register Visit Functions  
+11:56:20   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+11:56:20   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:56:20   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:56:20   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:56:20   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:20   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:20   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:56:20   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:20   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:20   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:56:20   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:20   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:20   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:56:20   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:20   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:20   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:56:20   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:56:20   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:56:20   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:56:20   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:20   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:20   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:56:20   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:56:20   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:56:20   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+11:56:20   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+11:56:20   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:56:20   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:56:20   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+11:56:20   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+11:56:20   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:56:20   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:56:20   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:56:20   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+11:56:20   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:56:20   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:56:20   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"","1":"","BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+11:56:20   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:56:33   index.php  15: Init CSolutionINFO Class  
+11:56:33   index.php  129: Init BBDD MySQL Class  
+11:56:34   index.php  31: Init GetSchemaBB Functions  
+11:56:34   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:56:34   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:56:34   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:56:34   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:56:34   index.php  31: Init GetSchemaBB Functions  
+11:56:34   index.php  54 Query Key: GET_SchemaBD_QUERY  
+11:56:34   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:56:35   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+11:56:35   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+11:56:35   index.php  14: Init CReporters Class  
+11:56:35   index.php  129: Init BBDD MySQL Class  
+11:56:35   index.php  95: Init BBDD SQLite Class  
+11:56:35   index.php  27: Init Register Visit Functions  
+11:56:35   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+11:56:35   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:56:35   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+11:56:35   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:56:35   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:35   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:35   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:56:35   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:35   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:35   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:56:35   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:35   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:35   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:56:35   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:35   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:35   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:56:35   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:56:35   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:56:35   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+11:56:35   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:35   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+11:56:35   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+11:56:35   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:56:35   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+11:56:35   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+11:56:35   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+11:56:35   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:56:35   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+11:56:35   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+11:56:35   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+11:56:35   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:56:35   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+11:56:35   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+11:56:35   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+11:56:35   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:56:35   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+11:56:35   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"","1":"","BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+11:56:35   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
+12:15:05   index.php  15: Init CSolutionINFO Class  
+12:15:05   index.php  129: Init BBDD MySQL Class  
+12:15:16   index.php  31: Init GetSchemaBB Functions  
+12:15:16   index.php  54 Query Key: GET_SchemaBD_QUERY  
+12:15:16   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+12:15:16   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+12:15:16   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+12:15:16   index.php  31: Init GetSchemaBB Functions  
+12:15:16   index.php  54 Query Key: GET_SchemaBD_QUERY  
+12:15:16   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+12:15:16   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+12:15:16   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+12:15:16   index.php  14: Init CReporters Class  
+12:15:16   index.php  129: Init BBDD MySQL Class  
+12:15:27   index.php  95: Init BBDD SQLite Class  
+12:15:27   index.php  27: Init Register Visit Functions  
+12:15:27   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+12:15:27   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+12:15:27   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+12:15:27   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+12:15:27   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+12:15:27   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+12:15:27   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+12:15:27   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+12:15:27   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+12:15:27   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+12:15:27   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+12:15:27   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+12:15:27   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+12:15:27   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+12:15:27   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+12:15:27   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+12:15:27   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+12:15:27   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+12:15:27   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+12:15:27   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+12:15:27   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+12:15:27   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+12:15:27   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+12:15:27   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+12:15:27   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+12:15:27   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+12:15:27   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+12:15:27   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+12:15:27   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+12:15:27   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+12:15:27   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+12:15:27   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+12:15:27   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+12:15:27   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+12:15:27   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+12:15:27   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+12:15:27   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"","1":"","BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+12:15:27   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
+23:24:38   index.php  15: Init CSolutionINFO Class  
+23:24:38   index.php  129: Init BBDD MySQL Class  
+23:24:43   index.php  31: Init GetSchemaBB Functions  
+23:24:43   index.php  54 Query Key: GET_SchemaBD_QUERY  
+23:24:43   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:24:43   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:24:43   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+23:24:43   index.php  31: Init GetSchemaBB Functions  
+23:24:43   index.php  54 Query Key: GET_SchemaBD_QUERY  
+23:24:43   index.php  55 Query Before treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:24:43   index.php  71 Query after treatment: SELECT BD_SCHEMA FROM ACTIVE_SOLUTIONS WHERE DOMAIN = :0  
+23:24:43   index.php  35: SchemaBD_Name Getted = pabloherreros.db  
+23:24:43   index.php  14: Init CReporters Class  
+23:24:43   index.php  129: Init BBDD MySQL Class  
+23:24:54   index.php  95: Init BBDD SQLite Class  
+23:24:54   index.php  27: Init Register Visit Functions  
+23:24:54   index.php  54 Query Key: REGISTER_VISIT_QUERY  
+23:24:54   index.php  55 Query Before treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:24:54   index.php  71 Query after treatment: INSERT INTO Visitas (Project, Page, IP, DATE) VALUES(:0, :1, :2, NOW());  
+23:24:54   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+23:24:54   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:24:54   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:24:54   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+23:24:54   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:24:54   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:24:54   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+23:24:54   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:24:54   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:24:54   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+23:24:54   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:24:54   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:24:54   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+23:24:54   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:24:54   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:24:54   index.php  54 Query Key: GET_A_MESSAGE_QUERY  
+23:24:54   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:24:54   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
+23:24:54   index.php  54 Query Key: GET_A_PARAMETER_QUERY  
+23:24:54   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:24:54   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PARAM_NAME = :0;  
+23:24:54   index.php  108: Init GET_PUBLIC_PARAMETERS_OPERATION  
+23:24:54   index.php  54 Query Key: GET_PUBLIC_PARAMETERS_QUERY  
+23:24:54   index.php  55 Query Before treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+23:24:54   index.php  71 Query after treatment: SELECT * FROM PARAMETERS WHERE PRIVACY = 'PUBLIC';  
+23:24:54   index.php  120: End GET_PUBLIC_PARAMETERS_OPERATION  
+23:24:54   index.php  54 Query Key: GET_PUBLIC_MESSAGES_QUERY  
+23:24:54   index.php  55 Query Before treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+23:24:54   index.php  71 Query after treatment: SELECT * FROM MESSAGES WHERE PRIVACY = 'PUBLIC';  
+23:24:54   index.php  126: Init GET_BLOCKS_AND_PARAMETERS_OPERATION  
+23:24:54   index.php  54 Query Key: GET_BLOCKS_AND_PARAMETERS  
+23:24:54   index.php  55 Query Before treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+23:24:54   index.php  71 Query after treatment: SELECT * FROM Blocks_Parameters UNION SELECT * FROM Blocks ORDER BY BLOCK_ID, BLOCK_NAME DESC;  
+23:24:54   index.php  132: RESULTS QUERY =  [{"BLOCK_ID":"-3","0":"-3","BLOCK_PARAMS":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","1":"Pablo Herreros G\u00e1lvez # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Informatico-Analista-Desarrollador-Redsys-CiberSeguridad-Administrador-De-Sistemas-Carrefour.png # https:\/\/drive.pabloherreros.net\/Pablo-Herreros-Galvez-Ingeniero-Software-Analista-Desarrollador-Programador-TechLead.png  # Pablo Herreros G\u00e1lvez Ingeniero Inform\u00e1tico Profesional Carrefour Redsys","BLOCK_NAME":"CabeceraProfesional","2":"CabeceraProfesional"},{"BLOCK_ID":"-2","0":"-2","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"Button_AtulPrajapati","2":"Button_AtulPrajapati"},{"BLOCK_ID":"-1","0":"-1","BLOCK_PARAMS":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","1":"Acceso Contrataci\u00f3n # -1 # POPUP_Login.ShowLoginFADE()","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"MaquinaEscribir","2":"MaquinaEscribir"},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Analista Desarrollador # 1000","1":"Analista Desarrollador # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Arquitecto de Software # 1000","1":"Arquitecto de Software # 1000","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"0","0":"0","BLOCK_PARAMS":"Ingeniero Inform\u00e1tico # 10","1":"Ingeniero Inform\u00e1tico # 10","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":null,"1":null,"BLOCK_NAME":"HegalpaFooter","2":"HegalpaFooter"},{"BLOCK_ID":"8","0":"8","BLOCK_PARAMS":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","1":"https:\/\/drive.hegalpa.es\/commons\/RRSS\/linkedin.jpg # https:\/\/www.linkedin.com\/in\/pabloherrerosgalvez\/","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"9","0":"9","BLOCK_PARAMS":"HerrerosGalvezPablo@gmail.com # 664412260","1":"HerrerosGalvezPablo@gmail.com # 664412260","BLOCK_NAME":"SimpleOneLineFoot","2":"SimpleOneLineFoot"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"","1":"","BLOCK_NAME":"ButtonsContactBlock","2":"ButtonsContactBlock"},{"BLOCK_ID":"10","0":"10","BLOCK_PARAMS":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"664412260 # 34664412260 # \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":null,"2":null},{"BLOCK_ID":"99","0":"99","BLOCK_PARAMS":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","1":"asdfasdf # asefasd # https:\/\/wa.me\/34664412260?text= \u00a1Hola soy Pablo Herreros! Escribe aqu\u00ed tu consulta, te responder\u00e9 cuanto antes.","BLOCK_NAME":"POPUP_Login","2":"POPUP_Login"}]  
+23:24:54   index.php  136: End GET_BLOCKS_AND_PARAMETERS_OPERATION  
