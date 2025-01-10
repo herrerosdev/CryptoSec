@@ -1224,3 +1224,133 @@ CRITICAL FAILURE (UNEXPECTED AND UNKNOWED RESULT)
 
           ...---- ***End Test*** ----...          
 
+[20:23:45:0145] CTest.php::__construct(22) 
+   SERVICE LOGIN SOLUTION TESTS  
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #0 [TEST: DELETE ALL Users WithOut SuperUser]
+
+EXPECTED RESULT = -200 (API_SUPERUSER_REQUIRED)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #1 [TEST: Register SUPERUSER]
+
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #2 [Logging with SUPERUSER]
+
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+1 (GALSAN_OK)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #3 [Delete ALL USER With SuperUser Logged]
+
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+1 (GALSAN_OK)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #4 [TEST: Register User John Doe (ROL: USER)]
+
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+502 (LOGIN_USER_REGISTER_OK)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #5 [Logging with John Doe (ROL: USER)]
+
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+1 (GALSAN_OK)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #6 [Check if I am Logged as USER ROL]
+
+EXPECTED RESULT = 500 (LOGIN_USER_LOGGED_OK)
+
+TEST EXECUTION RESULT = 
+<br />
+<b>Warning</b>:  Undefined array key "LOGIN_LOGIN_USER_LOGGED_OK" in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\GALSAN_SERVER\CConstants.php</b> on line <b>38</b><br />
+ ()
+
+
+Conclusion:
+CRITICAL FAILURE (UNEXPECTED AND UNKNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+

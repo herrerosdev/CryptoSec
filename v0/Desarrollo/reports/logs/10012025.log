@@ -772,3 +772,99 @@ C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php
 <br />
 <b>Warning</b>:  Undefined array key "LOGIN_LOGIN_USER_LOGGED_OK" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CConstants.php</b> on line <b>38</b><br />
   
+[20:23:45:0145] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(72) 
+   DELETE_ALL_Users_OPERATION  
+[20:23:46:0146] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[20:23:46:0146] Is_User_Logged::110(134) 
+   SESSION ID: s003hhn5rrk2khmj638o3sq9ab
+C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\GALSAN_SERVER\CSession.php  
+[20:23:46:0146] CSession.php::Is_User_Logged(139) 
+   ERROR CHECKING SESSION: BIT_USER: 1CheckResult: 5  
+[20:23:46:0146] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+-200  
+[20:23:46:0146] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[20:23:46:0146] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[20:23:46:0146] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(100) 
+   REGISTER_SUPERUSER_OPERATION  
+[20:23:46:0146] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[20:23:48:0148] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+-502  
+[20:23:48:0148] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[20:23:48:0148] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[20:23:48:0148] LOGIN_SOLUTION.php::LOG_USER_OPERATION(40) 
+   LOG_USER_OPERATION  
+[20:23:49:0149] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[20:23:49:0149] RestAPI.php::{closure}(176) 
+   User SUPERUSER found in data base  
+[20:23:51:0151] RestAPI.php::{closure}(181) 
+   PASS OK  
+[20:23:51:0151] CSession.php::Logged_User(104) 
+    SESSION ID: s003hhn5rrk2khmj638o3sq9ab
+ USER: SUPERUSER
+ ROL: 10
+ URL: localhost
+  
+[20:23:51:0151] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+1  
+[20:23:51:0151] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(72) 
+   DELETE_ALL_Users_OPERATION  
+[20:23:52:0152] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[20:23:52:0152] Is_User_Logged::110(134) 
+   SESSION ID: s003hhn5rrk2khmj638o3sq9ab
+C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\GALSAN_SERVER\CSession.php  
+[20:23:52:0152] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+1  
+[20:23:52:0152] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[20:23:52:0152] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[20:23:53:0153] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[20:23:55:0155] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+502  
+[20:23:55:0155] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[20:23:55:0155] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[20:23:55:0155] LOGIN_SOLUTION.php::LOG_USER_OPERATION(40) 
+   LOG_USER_OPERATION  
+[20:23:55:0155] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[20:23:55:0155] RestAPI.php::{closure}(176) 
+   User John Doe found in data base  
+[20:23:57:0157] RestAPI.php::{closure}(181) 
+   PASS OK  
+[20:23:57:0157] CSession.php::Logged_User(104) 
+    SESSION ID: s003hhn5rrk2khmj638o3sq9ab
+ USER: John Doe
+ ROL: 1
+ URL: localhost
+  
+[20:23:57:0157] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+1  
+[20:23:57:0157] LOGIN_SOLUTION.php::CHECK_LOGIN_AS_OPERATION(122) 
+   CHECK_LOGIN_AS_OPERATION  
+[20:23:58:0158] CRestAPI.php::CommandListener(51) 
+   StartCHECK_LOGIN_AS_OPERATION  
+[20:23:58:0158] Is_User_Logged::110(134) 
+   SESSION ID: s003hhn5rrk2khmj638o3sq9ab
+C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\GALSAN_SERVER\CSession.php  
+[20:23:58:0158] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+<br />
+<b>Warning</b>:  Undefined array key "LOGIN_LOGIN_USER_LOGGED_OK" in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\GALSAN_SERVER\CConstants.php</b> on line <b>38</b><br />
+  
