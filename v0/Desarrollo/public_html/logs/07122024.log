@@ -1,0 +1,3090 @@
+[1:39:37:1237] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[1:39:37:1237] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[1:39:37:1237] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[1:39:37:1237] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[1:39:37:1237] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to https://login.bitbugtheory.es): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:https://login.bitbugtheory.esServer_output: 
+-502TEST RESULT = 
+-502RESULT EXPECTED = 1KO: UNKNOW BEHAVIOR[1:40:48:1248] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[1:40:48:1248] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[1:40:48:1248] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[1:40:48:1248] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[1:40:48:1248] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to https://login.bitbugtheory.es): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:https://login.bitbugtheory.es
+Server_output: 
+-502
+TEST RESULT = 
+-502
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+[2:15:44:1244] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[2:15:44:1244] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[2:15:44:1244] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:15:44:1244] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:15:44:1244] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to https://login.bitbugtheory.es): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:https://login.bitbugtheory.es
+Server_output: 
+-502
+TEST RESULT = 
+-502
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2:18:58:1258] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[2:18:58:1258] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[2:18:58:1258] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:18:58:1258] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:18:58:1258] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to https://login.bitbugtheory.es): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:https://login.bitbugtheory.es
+Server_output: 
+-502
+TEST RESULT = 
+-502
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+[2:20:38:1238] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[2:20:38:1238] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[2:20:38:1238] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:20:38:1238] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:20:38:1238] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to https://login.bitbugtheory.es): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:https://login.bitbugtheory.es
+Server_output: 
+-502
+TEST RESULT = 
+-502
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+[2:44:34:1234] CTest.php::__construct(16) 
+   SERVICE LOGIN SOLUTION TESTS  
+[2:44:34:1234] CTest.php::Execute_TestSet(28) 
+   Executing Test #0 [TEST_Register_User]  
+[2:44:34:1234] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:44:34:1234] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:44:34:1234] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to https://login.bitbugtheory.es): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:https://login.bitbugtheory.es
+Server_output: 
+-502
+[2:44:38:1238] CTest.php::Execute_TestSet(33) 
+   TEST RESULT = 
+-502  
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+[2:49:42:1242] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[2:49:42:1242] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[2:50:10:1210] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[2:50:10:1210] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[2:50:10:1210] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:50:10:1210] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:50:10:1210] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to https://login.bitbugtheory.es): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:https://login.bitbugtheory.es
+Server_output: 
+-502
+TEST RESULT = 
+-502
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+[2:50:53:1253] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[2:50:53:1253] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[2:50:53:1253] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:50:53:1253] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:50:53:1253] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-503
+TEST RESULT = 
+-503
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+[3:36:10:1210] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[3:36:10:1210] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[3:36:10:1210] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[3:36:10:1210] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:36:10:1210] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[4:05:01:1201] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[4:05:01:1201] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[4:05:01:1201] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[4:05:01:1201] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[4:05:01:1201] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+<br />
+<b>Warning</b>:  Undefined variable $Constants_o in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>91</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Call to a member function CODE() on null in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php:91
+Stack trace:
+#0 C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php(49): {closure}()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(331): CRestAPI-&gt;CommandListener()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#3 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>91</b><br />
+
+TEST RESULT = 
+<br />
+<b>Warning</b>:  Undefined variable $Constants_o in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>91</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Call to a member function CODE() on null in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php:91
+Stack trace:
+#0 C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php(49): {closure}()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(331): CRestAPI-&gt;CommandListener()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#3 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>91</b><br />
+
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+[4:13:32:1232] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[4:13:32:1232] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[4:13:32:1232] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[4:13:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[4:13:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+<br />
+<b>Fatal error</b>:  Uncaught ArgumentCountError: Too few arguments to function CRestAPI::InitConstants(), 0 passed in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php on line 13 and exactly 2 expected in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php:187
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(13): CRestAPI::InitConstants()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#2 {main}
+  thrown in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php</b> on line <b>187</b><br />
+
+TEST RESULT = 
+<br />
+<b>Fatal error</b>:  Uncaught ArgumentCountError: Too few arguments to function CRestAPI::InitConstants(), 0 passed in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php on line 13 and exactly 2 expected in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php:187
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(13): CRestAPI::InitConstants()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#2 {main}
+  thrown in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php</b> on line <b>187</b><br />
+
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+[4:14:55:1255] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[4:14:55:1255] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[4:14:55:1255] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[4:14:55:1255] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[4:14:55:1255] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+
+TEST RESULT = 
+
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+[4:16:01:1201] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[4:16:01:1201] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[4:16:01:1201] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[4:16:01:1201] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[4:16:01:1201] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+[4:33:34:1234] CTest.php::__construct(17) 
+   SERVICE LOGIN SOLUTION TESTS  
+[4:33:34:1234] CTest.php::Execute_TestSet(29) 
+   Executing Test #0 [TEST_Register_User]  
+[4:33:34:1234] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[4:33:34:1234] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[4:33:34:1234] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+RESULT EXPECTED = 1
+KO: UNKNOW BEHAVIOR
+[4:50:28:1228] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[4:50:28:1228] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[4:50:28:1228] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[4:50:28:1228] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[4:50:28:1228] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+RESULT EXPECTED = 502
+KO: UNEXPECTED BEHAVIOR
+[4:55:27:1227] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[4:55:27:1227] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[4:56:48:1248] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[4:56:48:1248] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[4:56:48:1248] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[4:56:48:1248] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[4:56:48:1248] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+RESULT EXPECTED = 502
+[5:02:12:1212] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[5:02:12:1212] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[5:02:12:1212] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[5:02:12:1212] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:02:12:1212] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+[5:03:19:1219] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[5:03:19:1219] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[5:03:19:1219] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[5:03:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:03:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+SUCCESS RESULT = 
+FAILED BUT KNOW BEHAVIOR
+[5:04:49:1249] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[5:04:49:1249] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[5:04:49:1249] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[5:04:49:1249] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:04:49:1249] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+[5:13:25:1225] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[5:13:25:1225] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[5:13:25:1225] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[5:13:25:1225] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:13:25:1225] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+[5:15:21:1221] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[5:15:21:1221] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[5:15:21:1221] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[5:15:21:1221] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:15:21:1221] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+[5:17:16:1216] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[5:17:16:1216] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[5:17:16:1216] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[5:17:16:1216] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:17:16:1216] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+Executing Test #1 [TEST_Check_Access]
+[5:17:20:1220] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[5:17:20:1220] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:17:20:1220] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+<br />
+<b>Fatal error</b>:  Uncaught ArgumentCountError: Too few arguments to function CConstants::CODE(), 1 passed in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php on line 122 and exactly 2 expected in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CConstants.php:35
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(122): CConstants-&gt;CODE('GALSAN_OK')
+#1 C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php(49): {closure}()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(328): CRestAPI-&gt;CommandListener()
+#3 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#4 {main}
+  thrown in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CConstants.php</b> on line <b>35</b><br />
+
+TEST RESULT = 
+<br />
+<b>Fatal error</b>:  Uncaught ArgumentCountError: Too few arguments to function CConstants::CODE(), 1 passed in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php on line 122 and exactly 2 expected in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CConstants.php:35
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(122): CConstants-&gt;CODE('GALSAN_OK')
+#1 C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php(49): {closure}()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(328): CRestAPI-&gt;CommandListener()
+#3 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#4 {main}
+  thrown in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CConstants.php</b> on line <b>35</b><br />
+
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+[5:18:58:1258] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[5:18:58:1258] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[5:18:58:1258] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[5:18:58:1258] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:18:58:1258] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+Executing Test #1 [TEST_Check_Access]
+[5:19:03:1203] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[5:19:03:1203] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:19:03:1203] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CConstants.php</b> on line <b>37</b><br />
+
+TEST RESULT = 
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CConstants.php</b> on line <b>37</b><br />
+
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+[5:20:27:1227] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[5:20:27:1227] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[5:20:27:1227] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[5:20:27:1227] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:20:27:1227] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+Executing Test #1 [TEST_Check_Access]
+[5:20:32:1232] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[5:20:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:20:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CConstants.php</b> on line <b>37</b><br />
+
+TEST RESULT = 
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CConstants.php</b> on line <b>37</b><br />
+
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+[5:25:34:1234] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[5:25:34:1234] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[5:25:34:1234] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[5:25:34:1234] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:25:34:1234] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+Executing Test #1 [TEST_Check_Access]
+[5:25:39:1239] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[5:25:39:1239] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:25:39:1239] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+1
+TEST RESULT = 
+1
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+[5:33:31:1231] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[5:33:31:1231] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[5:33:31:1231] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[5:33:31:1231] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:33:31:1231] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+-502
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+Executing Test #1 [TEST_Check_Access]
+[5:33:35:1235] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[5:33:35:1235] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[5:33:35:1235] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+EndPoint CURLOPT_URL:localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server_output: 
+1
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+[12:58:56:1256] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+[12:58:56:1256] CTest.php::Execute_TestSet(30) 
+   Executing Test #0 [TEST_Register_User]  
+[12:58:56:1256] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[12:58:56:1256] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[12:58:56:1256] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[12:58:56:1256] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[12:59:16:1216] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[12:59:16:1216] CTest.php::Execute_TestSet(35) 
+   TEST RESULT = 
+-502  
+[12:59:16:1216] CTest.php::Execute_TestSet(37) 
+   SUCCESS RESULT = 502  
+[12:59:16:1216] CTest.php::Execute_TestSet(47) 
+   FAILED BUT KNOW BEHAVIOR  
+
+
+          ...---- ****** ----...          
+
+[12:59:16:1216] CTest.php::Execute_TestSet(30) 
+   Executing Test #1 [TEST_Check_Access]  
+[12:59:16:1216] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[12:59:16:1216] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[12:59:16:1216] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[12:59:16:1216] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[12:59:20:1220] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[12:59:20:1220] CTest.php::Execute_TestSet(35) 
+   TEST RESULT = 
+1  
+[12:59:20:1220] CTest.php::Execute_TestSet(37) 
+   SUCCESS RESULT = 1  
+[12:59:20:1220] CTest.php::Execute_TestSet(42) 
+   TEST OK, SUCCESS CODE OBTAINED AS RESULT  
+
+
+          ...---- ****** ----...          
+
+[13:04:16:1216] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[13:04:16:1216] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[13:04:16:1216] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:04:16:1216] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[13:04:16:1216] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:04:21:1221] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ****** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[13:04:21:1221] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[13:04:21:1221] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:04:21:1221] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[13:04:21:1221] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:04:25:1225] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ****** ----...          
+
+[13:05:30:1230] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[13:05:30:1230] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[13:05:30:1230] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:05:30:1230] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[13:05:30:1230] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:05:34:1234] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ****** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[13:05:34:1234] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[13:05:34:1234] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:05:34:1234] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[13:05:34:1234] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:05:38:1238] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ****** ----...          
+
+[13:06:57:1257] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[13:06:57:1257] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[13:06:57:1257] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:06:57:1257] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[13:06:57:1257] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:07:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Fatal error</b>:  Uncaught Error: Call to a member function prepare() on null in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CBBDD.php:63
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(33): CBIBLIOTECA_BBDD-&gt;ExecuteQuery('GET_SchemaBD_QU...', Array)
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(24): CSolutionINFO-&gt;Get_SchemaBD_NAME()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(42): CSolutionINFO-&gt;__construct()
+#3 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CReporters.php(3): require_once('C:\\PROJECTS\\LOG...')
+#4 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(4): require_once('C:\\PROJECTS\\LOG...')
+#5 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#6 {main}
+  thrown in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CBBDD.php</b> on line <b>63</b><br />
+  
+TEST RESULT = 
+<br />
+<b>Fatal error</b>:  Uncaught Error: Call to a member function prepare() on null in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CBBDD.php:63
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(33): CBIBLIOTECA_BBDD-&gt;ExecuteQuery('GET_SchemaBD_QU...', Array)
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(24): CSolutionINFO-&gt;Get_SchemaBD_NAME()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(42): CSolutionINFO-&gt;__construct()
+#3 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CReporters.php(3): require_once('C:\\PROJECTS\\LOG...')
+#4 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(4): require_once('C:\\PROJECTS\\LOG...')
+#5 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#6 {main}
+  thrown in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CBBDD.php</b> on line <b>63</b><br />
+
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[13:07:18:1218] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[13:07:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:07:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[13:07:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:07:39:1239] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Fatal error</b>:  Uncaught Error: Call to a member function prepare() on null in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CBBDD.php:63
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(33): CBIBLIOTECA_BBDD-&gt;ExecuteQuery('GET_SchemaBD_QU...', Array)
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(24): CSolutionINFO-&gt;Get_SchemaBD_NAME()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(42): CSolutionINFO-&gt;__construct()
+#3 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CReporters.php(3): require_once('C:\\PROJECTS\\LOG...')
+#4 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(4): require_once('C:\\PROJECTS\\LOG...')
+#5 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#6 {main}
+  thrown in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CBBDD.php</b> on line <b>63</b><br />
+  
+TEST RESULT = 
+<br />
+<b>Fatal error</b>:  Uncaught Error: Call to a member function prepare() on null in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CBBDD.php:63
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(33): CBIBLIOTECA_BBDD-&gt;ExecuteQuery('GET_SchemaBD_QU...', Array)
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(24): CSolutionINFO-&gt;Get_SchemaBD_NAME()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php(42): CSolutionINFO-&gt;__construct()
+#3 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CReporters.php(3): require_once('C:\\PROJECTS\\LOG...')
+#4 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(4): require_once('C:\\PROJECTS\\LOG...')
+#5 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#6 {main}
+  thrown in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CBBDD.php</b> on line <b>63</b><br />
+
+SUCCESS RESULT = 1
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+[13:09:12:1212] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[13:09:12:1212] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[13:09:12:1212] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:09:12:1212] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[13:09:12:1212] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:09:16:1216] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[13:09:16:1216] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[13:09:16:1216] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:09:16:1216] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[13:09:16:1216] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:09:21:1221] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+[13:12:58:1258] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[13:12:58:1258] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[13:12:58:1258] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:12:58:1258] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[13:12:58:1258] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:13:03:1203] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[13:13:03:1203] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[13:13:03:1203] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:13:03:1203] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[13:13:03:1203] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:13:08:1208] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+[13:20:04:1204] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[13:20:04:1204] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[13:20:04:1204] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:20:04:1204] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[13:20:04:1204] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:20:08:1208] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[13:20:08:1208] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[13:20:08:1208] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[13:20:08:1208] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[13:20:08:1208] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[13:20:12:1212] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+[14:12:45:1245] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[14:12:45:1245] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[14:12:45:1245] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[14:12:45:1245] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[14:12:45:1245] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[14:12:53:1253] CCOM.php::CURL_Petition(37) 
+   Server_output: C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/public_htmlC:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/
+-502  
+TEST RESULT = C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/public_htmlC:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/
+-502
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[14:12:53:1253] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[14:12:53:1253] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[14:12:53:1253] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[14:12:53:1253] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[14:12:56:1256] CCOM.php::CURL_Petition(37) 
+   Server_output: C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/public_htmlC:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/
+1  
+TEST RESULT = C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/public_htmlC:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/
+1
+SUCCESS RESULT = 1
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_AUTHORIZED_API_CLIENT]
+[17:26:10:1210] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[17:26:10:1210] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[17:26:10:1210] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:26:10:1210] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[17:26:10:1210] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:26:10:1210] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Warning</b>:  require_once(./config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>2</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required './config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php:2
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once()
+#1 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>2</b><br />
+  
+TEST RESULT = <br />
+<b>Warning</b>:  require_once(./config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>2</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required './config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php:2
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once()
+#1 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>2</b><br />
+
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[17:26:10:1210] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[17:26:10:1210] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:26:10:1210] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[17:26:10:1210] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:26:10:1210] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Warning</b>:  require_once(./config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>2</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required './config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php:2
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once()
+#1 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>2</b><br />
+  
+TEST RESULT = <br />
+<b>Warning</b>:  require_once(./config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>2</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required './config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php:2
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once()
+#1 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>2</b><br />
+
+SUCCESS RESULT = 1
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_AUTHORIZED_API_CLIENT]
+[17:26:52:1252] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[17:26:52:1252] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[17:26:52:1252] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:26:52:1252] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[17:26:52:1252] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:26:52:1252] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Warning</b>:  require_once(./config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php</b> on line <b>2</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required './config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php:2
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CReporters.php(3): require_once()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(4): require_once('C:\\PROJECTS\\LOG...')
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#3 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php</b> on line <b>2</b><br />
+  
+TEST RESULT = 
+<br />
+<b>Warning</b>:  require_once(./config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php</b> on line <b>2</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required './config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php:2
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CReporters.php(3): require_once()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(4): require_once('C:\\PROJECTS\\LOG...')
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#3 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php</b> on line <b>2</b><br />
+
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[17:26:52:1252] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[17:26:52:1252] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:26:52:1252] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[17:26:52:1252] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:26:52:1252] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Warning</b>:  require_once(./config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php</b> on line <b>2</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required './config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php:2
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CReporters.php(3): require_once()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(4): require_once('C:\\PROJECTS\\LOG...')
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#3 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php</b> on line <b>2</b><br />
+  
+TEST RESULT = 
+<br />
+<b>Warning</b>:  require_once(./config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php</b> on line <b>2</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required './config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php:2
+Stack trace:
+#0 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CReporters.php(3): require_once()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(4): require_once('C:\\PROJECTS\\LOG...')
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#3 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\resources\inc\Hegalpa\CSolutionINFO.php</b> on line <b>2</b><br />
+
+SUCCESS RESULT = 1
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_AUTHORIZED_API_CLIENT]
+[17:27:12:1212] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[17:27:12:1212] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[17:27:12:1212] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:27:12:1212] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[17:27:12:1212] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:27:16:1216] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[17:27:16:1216] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[17:27:16:1216] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:27:16:1216] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[17:27:16:1216] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:27:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_AUTHORIZED_API_CLIENT]
+[17:35:32:1232] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[17:35:32:1232] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[17:35:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:35:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[17:35:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:35:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+  
+TEST RESULT = <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[17:35:32:1232] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[17:35:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:35:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[17:35:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:35:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+  
+TEST RESULT = <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+
+SUCCESS RESULT = 1
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_AUTHORIZED_API_CLIENT]
+[17:36:46:1246] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[17:36:46:1246] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[17:36:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:36:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[17:36:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:36:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+  
+TEST RESULT = <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[17:36:46:1246] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[17:36:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:36:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[17:36:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:36:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+  
+TEST RESULT = <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+
+SUCCESS RESULT = 1
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_AUTHORIZED_API_CLIENT]
+[17:36:46:1246] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[17:36:46:1246] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[17:36:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:36:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[17:36:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:36:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+  
+TEST RESULT = <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[17:36:46:1246] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[17:36:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:36:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[17:36:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:36:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+  
+TEST RESULT = <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+
+SUCCESS RESULT = 1
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_AUTHORIZED_API_CLIENT]
+[17:36:47:1247] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[17:36:47:1247] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[17:36:47:1247] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:36:47:1247] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[17:36:47:1247] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:36:47:1247] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+  
+TEST RESULT = <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+
+SUCCESS RESULT = 502
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[17:36:47:1247] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[17:36:47:1247] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:36:47:1247] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[17:36:47:1247] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:36:47:1247] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+  
+TEST RESULT = <br />
+<b>Warning</b>:  require_once(C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php): Failed to open stream: No such file or directory in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required 'C:/PROJECTS/LOGIN_SOLUTION/v0/Desarrollo/resources/config.php' (include_path='C:\xampp\php\PEAR') in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php</b> on line <b>1</b><br />
+
+SUCCESS RESULT = 1
+KO: UNKNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_AUTHORIZED_API_CLIENT]
+[17:38:21:1221] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[17:38:21:1221] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[17:38:21:1221] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:38:21:1221] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[17:38:21:1221] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:38:29:1229] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[17:38:29:1229] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[17:38:29:1229] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:38:29:1229] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[17:38:29:1229] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:38:33:1233] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_AUTHORIZED_API_CLIENT]
+[17:49:48:1248] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[17:49:48:1248] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[17:49:48:1248] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:49:48:1248] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[17:49:48:1248] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:49:51:1251] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[17:49:51:1251] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[17:49:51:1251] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[17:49:51:1251] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[17:49:51:1251] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[17:49:57:1257] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_Request_API_Token_Access]
+[18:05:53:1253] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[18:05:53:1253] CSeguridad.php::Hash(76) 
+   Hash () Calculation over (PruebaPASS0) data  
+[18:05:53:1253] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:05:53:1253] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[18:05:53:1253] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:05:53:1253] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[18:05:53:1253] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:06:03:1203] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[18:06:03:1203] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[18:06:03:1203] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:06:03:1203] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[18:06:03:1203] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:06:08:1208] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+[18:07:24:1224] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[18:07:24:1224] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PruebaPASS0) data  
+[18:07:24:1224] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:07:24:1224] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[18:07:24:1224] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:07:24:1224] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[18:07:24:1224] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:07:28:1228] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[18:07:28:1228] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[18:07:28:1228] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:07:28:1228] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[18:07:28:1228] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:07:35:1235] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+[18:08:06:1206] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[18:08:06:1206] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PruebaPASS0) data  
+[18:08:06:1206] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:08:06:1206] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[18:08:06:1206] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:08:06:1206] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0000000
+    [PASS] => fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1
+    [ROL] => 55
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0000000&PASS=fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1&ROL=55&OPERATION=REGISTER_ACCES_OPERATION  
+[18:08:06:1206] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:08:11:1211] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+502  
+TEST RESULT = 
+502
+SUCCESS RESULT = 502
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[18:08:11:1211] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[18:08:11:1211] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:08:11:1211] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 55
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=55&OPERATION=CHECK_ACCES_OPERATION  
+[18:08:11:1211] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:08:15:1215] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+[18:21:23:1223] RestAPI.php::{closure}(129) 
+   Server_output:   
+[18:39:44:1244] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[18:39:44:1244] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PruebaPASS0) data  
+[18:39:44:1244] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:40:53:1253] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[18:40:53:1253] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PruebaPASS0) data  
+[18:40:53:1253] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:40:53:1253] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[18:40:53:1253] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:40:53:1253] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0000000
+    [PASS] => fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0000000&PASS=fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[18:40:53:1253] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:40:56:1256] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[18:40:56:1256] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[18:40:56:1256] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:40:56:1256] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 1
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=1&OPERATION=CHECK_ACCES_OPERATION  
+[18:40:56:1256] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:40:57:1257] RestAPI.php::{closure}(127) 
+   CHECK_ACCES_OPERATION  
+[18:40:57:1257] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-503  
+TEST RESULT = 
+-503
+SUCCESS RESULT = 1
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_Register_API_Token_Access]
+[18:40:57:1257] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PruebaPASS0) data  
+[18:40:57:1257] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:40:57:1257] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[18:40:57:1257] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:40:57:1257] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => LOCALHOSTLOCALHOST
+    [PASS] => fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1
+    [ROL] => 10
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=LOCALHOSTLOCALHOST&PASS=fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1&ROL=10&OPERATION=REGISTER_ACCES_OPERATION  
+[18:40:57:1257] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:41:00:1200] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+502  
+TEST RESULT = 
+502
+SUCCESS RESULT = 502
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+[18:45:00:1200] RestAPI.php::{closure}(127) 
+   CHECK_ACCES_OPERATION  
+[18:46:06:1206] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[18:46:06:1206] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PruebaPASS0) data  
+[18:46:06:1206] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:46:06:1206] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[18:46:06:1206] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:46:06:1206] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0000000
+    [PASS] => fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0000000&PASS=fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[18:46:06:1206] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:46:09:1209] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[18:46:09:1209] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[18:46:09:1209] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:46:09:1209] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 1
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=1&OPERATION=CHECK_ACCES_OPERATION  
+[18:46:09:1209] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:46:10:1210] RestAPI.php::{closure}(127) 
+   CHECK_ACCES_OPERATION  
+[18:46:10:1210] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-503  
+TEST RESULT = 
+-503
+SUCCESS RESULT = 1
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_Register_API_Token_Access]
+[18:46:10:1210] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PruebaPASS0) data  
+[18:46:10:1210] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:46:10:1210] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[18:46:10:1210] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:46:10:1210] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => LOCALHOSTLOCALHOST
+    [PASS] => fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1
+    [ROL] => 10
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=LOCALHOSTLOCALHOST&PASS=fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1&ROL=10&OPERATION=REGISTER_ACCES_OPERATION  
+[18:46:10:1210] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:46:14:1214] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #3 [TEST_Check_Register_API_Token_Access]
+[18:46:14:1214] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PruebaPASS0) data  
+[18:46:14:1214] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:46:14:1214] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[18:46:14:1214] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:46:14:1214] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => LOCALHOSTLOCALHOST
+    [PASS] => fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1
+    [ROL] => 10
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=LOCALHOSTLOCALHOST&PASS=fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1&ROL=10&OPERATION=CHECK_ACCES_OPERATION  
+[18:46:14:1214] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:46:14:1214] RestAPI.php::{closure}(127) 
+   CHECK_ACCES_OPERATION  
+[18:46:16:1216] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+[18:47:23:1223] CTest.php::__construct(18) 
+   SERVICE LOGIN SOLUTION TESTS  
+Executing Test #0 [TEST_Register_User]
+[18:47:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PruebaPASS0) data  
+[18:47:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:47:23:1223] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[18:47:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:47:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0000000
+    [PASS] => fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0000000&PASS=fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[18:47:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:47:26:1226] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #1 [TEST_Check_Access]
+[18:47:26:1226] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[18:47:26:1226] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:47:26:1226] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => Prueba0
+    [PASS] => PruebaPASS0
+    [ROL] => 1
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=Prueba0&PASS=PruebaPASS0&ROL=1&OPERATION=CHECK_ACCES_OPERATION  
+[18:47:26:1226] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:47:27:1227] RestAPI.php::{closure}(127) 
+   CHECK_ACCES_OPERATION  
+[18:47:27:1227] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-503  
+TEST RESULT = 
+-503
+SUCCESS RESULT = 1
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #2 [TEST_Register_API_Token_Access]
+[18:47:27:1227] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PruebaPASS0) data  
+[18:47:27:1227] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:47:27:1227] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[18:47:27:1227] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:47:27:1227] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => LOCALHOSTLOCALHOST
+    [PASS] => fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1
+    [ROL] => 10
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=LOCALHOSTLOCALHOST&PASS=fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1&ROL=10&OPERATION=REGISTER_ACCES_OPERATION  
+[18:47:27:1227] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:47:30:1230] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+TEST RESULT = 
+-502
+SUCCESS RESULT = 502
+FAILED BUT KNOW BEHAVIOR
+
+
+          ...---- ***End Test*** ----...          
+
+Executing Test #3 [TEST_Check_Register_API_Token_Access]
+[18:47:30:1230] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PruebaPASS0) data  
+[18:47:30:1230] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1  
+[18:47:30:1230] LOGIN_SOLUTION.php::CHECK_ACCES_OPERATION(29) 
+   REGISTER_ACCES_OPERATION  
+[18:47:30:1230] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[18:47:30:1230] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => LOCALHOSTLOCALHOST
+    [PASS] => fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1
+    [ROL] => 10
+    [OPERATION] => CHECK_ACCES_OPERATION
+)
+/ Http_build_query: NAME=LOCALHOSTLOCALHOST&PASS=fe98f6bca5168b1eb67106750cb6958879043b3fc578f6184ba7c8f765a525d1&ROL=10&OPERATION=CHECK_ACCES_OPERATION  
+[18:47:30:1230] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[18:47:31:1231] RestAPI.php::{closure}(127) 
+   CHECK_ACCES_OPERATION  
+[18:47:33:1233] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+TEST RESULT = 
+1
+SUCCESS RESULT = 1
+TEST OK, SUCCESS CODE OBTAINED AS RESULT
+
+
+          ...---- ***End Test*** ----...          
+
+[18:49:01:1201] RestAPI.php::{closure}(127) 
+   CHECK_ACCES_OPERATION  
+[19:45:45:1245] RestAPI.php::{closure}(127) 
+   CHECK_ACCES_OPERATION  

@@ -1,0 +1,2083 @@
+[1:57:46:1246] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[1:57:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[1:57:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[1:57:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[1:57:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[1:57:46:1246] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[1:57:46:1246] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[1:57:46:1246] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[1:57:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[1:57:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[1:57:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[1:57:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[1:57:46:1246] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[1:57:46:1246] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[1:57:46:1246] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[1:57:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[1:57:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[1:57:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[1:57:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[1:57:46:1246] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[1:57:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[1:57:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[1:57:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[1:57:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[1:57:46:1246] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[1:57:46:1246] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[1:57:46:1246] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[1:57:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[1:57:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[1:57:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[1:57:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:18:1218] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:18:1218] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:02:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:02:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:18:1218] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:02:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:02:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:18:1218] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:02:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:02:18:1218] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:02:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:02:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:18:1218] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:18:1218] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:02:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:02:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:18:1218] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:02:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:02:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:19:1219] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:19:1219] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:02:19:1219] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:02:19:1219] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:02:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:02:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:31:1231] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:31:1231] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:31:1231] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:31:1231] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:31:1231] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:31:1231] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:31:1231] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:31:1231] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:02:31:1231] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:31:1231] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:02:31:1231] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:31:1231] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:31:1231] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:31:1231] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:31:1231] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:02:31:1231] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:31:1231] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:02:31:1231] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:31:1231] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:31:1231] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:31:1231] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:31:1231] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:31:1231] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:31:1231] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:31:1231] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:02:31:1231] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:02:31:1231] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:02:31:1231] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:31:1231] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:02:31:1231] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:31:1231] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:32:1232] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:32:1232] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:32:1232] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:32:1232] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:02:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:02:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:32:1232] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:32:1232] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:32:1232] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:02:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:02:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:32:1232] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:32:1232] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:02:32:1232] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:02:32:1232] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:02:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:02:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:32:1232] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:32:1232] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:32:1232] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:32:1232] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:02:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:02:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:32:1232] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:32:1232] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:32:1232] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:02:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:02:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:32:1232] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:32:1232] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:02:32:1232] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:02:32:1232] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:02:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:02:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:50:1250] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:50:1250] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:50:1250] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:50:1250] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:50:1250] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:50:1250] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:50:1250] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:50:1250] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:02:50:1250] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:50:1250] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:02:50:1250] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:50:1250] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:50:1250] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:50:1250] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:50:1250] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:02:50:1250] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:50:1250] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:02:50:1250] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:50:1250] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:50:1250] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:50:1250] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:50:1250] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:50:1250] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:50:1250] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:50:1250] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:02:50:1250] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:02:50:1250] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:02:50:1250] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:50:1250] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:02:50:1250] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:50:1250] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:51:1251] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:51:1251] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:51:1251] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:51:1251] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:51:1251] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:51:1251] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:51:1251] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:51:1251] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:02:51:1251] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:51:1251] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:02:51:1251] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:51:1251] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:51:1251] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:02:51:1251] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:02:51:1251] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:02:51:1251] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:51:1251] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:02:51:1251] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:51:1251] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:51:1251] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:02:51:1251] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:51:1251] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:02:51:1251] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:51:1251] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:02:51:1251] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:02:51:1251] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:02:51:1251] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:02:51:1251] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:02:51:1251] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:02:51:1251] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:02:51:1251] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:18:1218] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:03:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:03:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:03:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:03:18:1218] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:03:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:03:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:03:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:03:18:1218] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:03:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:03:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:18:1218] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:03:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:03:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:03:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:03:18:1218] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:03:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:03:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:19:1219] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:03:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:03:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:19:1219] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:03:19:1219] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:03:19:1219] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:03:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:03:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:19:1219] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:03:19:1219] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:03:19:1219] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:03:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:03:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:19:1219] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:03:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:03:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:19:1219] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:03:19:1219] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:03:19:1219] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:03:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:03:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:19:1219] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:03:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:03:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:19:1219] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:03:19:1219] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:03:19:1219] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:03:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:03:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:19:1219] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:03:19:1219] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:03:19:1219] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:03:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:03:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:19:1219] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:03:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:03:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:03:19:1219] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:03:19:1219] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:03:19:1219] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:03:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:03:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:03:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:03:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:18:1218] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:45:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:45:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:45:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:45:18:1218] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:45:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:45:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:45:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:45:18:1218] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:45:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:45:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:18:1218] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:45:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:45:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:45:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:45:18:1218] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:45:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:45:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:45:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:45:23:1223] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:45:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:45:23:1223] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:45:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:45:23:1223] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:45:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:45:23:1223] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:45:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:45:23:1223] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:45:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:45:23:1223] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:45:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:45:23:1223] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:45:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:45:23:1223] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:45:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:45:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:45:23:1223] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:45:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:45:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:45:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:45:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Fatal error</b>:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>121</b><br />
+  
+[2:47:12:1212] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:47:12:1212] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:47:12:1212] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:47:12:1212] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:47:14:1214] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:47:14:1214] CSession.php::Is_User_Logged(135) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[2:47:14:1214] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>113</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "ROL" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>113</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "DOMAIN" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>113</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>134</b><br />
+-200  
+[2:47:14:1214] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:47:14:1214] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:47:14:1214] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:47:14:1214] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:47:14:1214] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:47:14:1214] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:47:14:1214] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[2:47:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[2:47:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:47:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:47:18:1218] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:47:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:47:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:47:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:47:19:1219] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[2:47:19:1219] RestAPI.php::{closure}(176) 
+   User SUPERUSER found in data base  
+[2:47:22:1222] RestAPI.php::{closure}(181) 
+   PASS OK  
+[2:47:23:1223] CSession.php::Logged_User(107) 
+    USER: SUPERUSER ROL: 10 URL: localhost  
+[2:47:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[2:47:23:1223] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:47:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:47:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:47:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:47:23:1223] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:47:23:1223] CSession.php::Is_User_Logged(135) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[2:47:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>113</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "ROL" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>113</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "DOMAIN" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>113</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>134</b><br />
+-200  
+[2:47:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:47:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:47:23:1223] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:47:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:47:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:47:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:47:24:1224] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[2:47:27:1227] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[2:47:41:1241] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:47:41:1241] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:47:41:1241] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:47:41:1241] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:47:42:1242] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:47:42:1242] CSession.php::Is_User_Logged(135) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[2:47:42:1242] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>134</b><br />
+-200  
+[2:47:42:1242] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:47:42:1242] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:47:42:1242] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:47:42:1242] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:47:42:1242] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:47:42:1242] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:47:43:1243] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[2:47:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[2:47:46:1246] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:47:46:1246] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:47:46:1246] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:47:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:47:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:47:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:47:47:1247] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[2:47:47:1247] RestAPI.php::{closure}(176) 
+   User SUPERUSER found in data base  
+[2:47:51:1251] RestAPI.php::{closure}(181) 
+   PASS OK  
+[2:47:51:1251] CSession.php::Logged_User(107) 
+    USER: SUPERUSER ROL: 10 URL: localhost  
+[2:47:51:1251] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[2:47:51:1251] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:47:51:1251] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:47:51:1251] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:47:51:1251] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:47:52:1252] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:47:52:1252] CSession.php::Is_User_Logged(135) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[2:47:52:1252] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>134</b><br />
+-200  
+[2:47:52:1252] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:47:52:1252] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:47:52:1252] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:47:52:1252] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:47:52:1252] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:47:52:1252] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:47:52:1252] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[2:47:56:1256] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[2:51:44:1244] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:51:44:1244] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:51:44:1244] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:51:44:1244] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:51:45:1245] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:51:45:1245] CSession.php::Is_User_Logged(131) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[2:51:45:1245] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[2:51:45:1245] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:51:45:1245] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:51:45:1245] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:51:45:1245] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:51:45:1245] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:51:45:1245] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:51:46:1246] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[2:51:49:1249] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[2:51:49:1249] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:51:49:1249] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:51:49:1249] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:51:49:1249] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:51:49:1249] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:51:49:1249] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:51:50:1250] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[2:51:50:1250] RestAPI.php::{closure}(176) 
+   User SUPERUSER found in data base  
+[2:51:53:1253] RestAPI.php::{closure}(181) 
+   PASS OK  
+[2:51:53:1253] CSession.php::Logged_User(103) 
+    USER: SUPERUSER ROL: 10 URL: localhost  
+[2:51:53:1253] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[2:51:53:1253] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:51:53:1253] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:51:53:1253] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:51:53:1253] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:51:54:1254] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:51:54:1254] CSession.php::Is_User_Logged(131) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[2:51:54:1254] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[2:51:54:1254] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:51:54:1254] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:51:54:1254] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:51:54:1254] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:51:54:1254] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:51:54:1254] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:51:55:1255] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[2:51:58:1258] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:00:59:1259] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:01:00:1200] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:01:00:1200] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:01:00:1200] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:01:00:1200] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Parse error</b>:  syntax error, unexpected token &quot;,&quot; in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>101</b><br />
+  
+[3:01:00:1200] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:01:00:1200] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:01:00:1200] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[3:01:00:1200] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:01:00:1200] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[3:01:00:1200] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:01:00:1200] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Parse error</b>:  syntax error, unexpected token &quot;,&quot; in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>101</b><br />
+  
+[3:01:00:1200] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:01:00:1200] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:01:00:1200] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[3:01:00:1200] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:01:00:1200] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[3:01:00:1200] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:01:00:1200] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Parse error</b>:  syntax error, unexpected token &quot;,&quot; in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>101</b><br />
+  
+[3:01:00:1200] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:01:00:1200] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:01:00:1200] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:01:00:1200] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:01:00:1200] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Parse error</b>:  syntax error, unexpected token &quot;,&quot; in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>101</b><br />
+  
+[3:01:00:1200] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[3:01:00:1200] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[3:01:00:1200] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[3:01:00:1200] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:01:00:1200] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[3:01:00:1200] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:01:00:1200] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Parse error</b>:  syntax error, unexpected token &quot;,&quot; in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>101</b><br />
+  
+[3:01:20:1220] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:01:20:1220] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:01:20:1220] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:01:20:1220] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:01:21:1221] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:01:21:1221] CSession.php::Is_User_Logged(126) 
+   ERROR CHECKING SESSION: BIT_USER: CheckResult: 0  
+[3:01:21:1221] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[3:01:21:1221] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:01:21:1221] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:01:21:1221] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[3:01:21:1221] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:01:21:1221] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[3:01:21:1221] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:01:22:1222] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[3:01:25:1225] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:01:25:1225] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:01:25:1225] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:01:25:1225] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[3:01:25:1225] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:01:25:1225] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[3:01:25:1225] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:01:26:1226] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[3:01:26:1226] RestAPI.php::{closure}(176) 
+   User SUPERUSER found in data base  
+[3:01:30:1230] RestAPI.php::{closure}(181) 
+   PASS OK  
+[3:01:30:1230] CSession.php::Logged_User(103) 
+    USER: SUPERUSER
+ ROL: 10
+ URL: localhost
+  
+[3:01:30:1230] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[3:01:30:1230] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:01:30:1230] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:01:30:1230] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:01:30:1230] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:01:31:1231] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:01:31:1231] CSession.php::Is_User_Logged(126) 
+   ERROR CHECKING SESSION: BIT_USER: CheckResult: 0  
+[3:01:31:1231] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[3:01:31:1231] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[3:01:31:1231] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[3:01:31:1231] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[3:01:31:1231] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:01:31:1231] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[3:01:31:1231] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:01:32:1232] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[3:01:36:1236] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  

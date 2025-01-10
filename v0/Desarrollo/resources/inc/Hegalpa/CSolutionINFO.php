@@ -1,5 +1,5 @@
 <?php
-require_once './config.php';
+require_once PATH_DEFINES_FILE;
 require_once HEGALPA_ROOT_PATH . 'resources/inc/GALSAN_SERVER/CConstants.php';
 require_once HEGALPA_ROOT_PATH . 'resources/inc/GALSAN_SERVER/CUtils.php';
 
@@ -23,7 +23,7 @@ class CSolutionINFO
 
         $this->Get_SchemaBD_NAME();
 
-        CSolutionINFO::$PROJECT_SchemaBD_NAME =  $this->Get_SchemaBD_NAME();
+        CSolutionINFO::$PROJECT_SchemaBD_NAME =  'bitbugtheory.db'; //$this->Get_SchemaBD_NAME();
     }
 
     function Get_SchemaBD_NAME(){

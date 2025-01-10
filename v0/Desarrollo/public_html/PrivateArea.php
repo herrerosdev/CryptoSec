@@ -1,4 +1,5 @@
-<?php require_once('./config.php');?>
+<?php require_once(dirname($_SERVER['DOCUMENT_ROOT']) . '/resources/inc/GALSAN_SERVER/DEFINES.php');?>
+
 <?php require_once(HEGALPA_ROOT_PATH . 'public_html/Public_APIs/RestAPI.php');?>
 <?php $CHegalpaReporters_o->Register_Visit(basename(__FILE__, '.php')); ?>
 
@@ -35,16 +36,10 @@
 <script src='js/GALSAN_CLIENT/CTrees.js?=<? filesize('js/GALSAN_CLIENT/CTrees.js') ?>'></script>
 <script src='js/GALSAN_CLIENT/CUtils.js?=<? filesize('js/GALSAN_CLIENT/CUtils.js') ?>'></script>
 <script src='js/GALSAN_CLIENT/CPetition.js?=<? filesize('js/GALSAN_CLIENT/CPetition.js') ?>'></script>
-<!-- <script src='js/GALSAN_CLIENT/CBlocks.js?=<? filesize('js/GALSAN_CLIENT/CBlocks.js') ?>'></script> -->
+<script src='js/GALSAN_CLIENT/CBlocks.js?=<? filesize('js/GALSAN_CLIENT/CBlocks.js') ?>'></script>
  <script src='js/GALSAN_CLIENT/CSession.js?=<? filesize('js/GALSAN_CLIENT/CSession.js') ?>'></script>
  <script src='js/GALSAN_CLIENT/CSecurity.js?=<? filesize('js/GALSAN_CLIENT/CSecurity.js') ?>'></script>
  <script src='js/GALSAN_CLIENT/CAPIs.js?=<? filesize('js/GALSAN_CLIENT/CAPIs.js') ?>'></script>
-
-
-
-
-
-
 
 <!-- Maquetacion -->
 <script src='layout.js?=<? filesize('layout.js') ?>'></script>
@@ -68,22 +63,7 @@
 <script src='js/blocks/CMS_BLOCKs/POPUP_Dynamic.js?=<? filesize('js/blocks/CMS_BLOCKs/POPUP_Dynamic.js') ?>'></script>
 <script src='js/blocks/CMS_BLOCKs/Table1.js?=<? filesize('js/blocks/CMS_BLOCKs/Table1.js') ?>'></script>
 
-
-
-
-
-
-
-
-
 <!-- Footers Footers -->
 <script src='PrivateArea.js?=<? filesize('PrivateArea.js') ?>'></script>
-
-<!-- GET_DATA_FROM_BBDD -->
-<script> CConstants.GetBBDD_Parameters(<?php $o_RestAPI->CommandProcessor("GET_PUBLIC_PARAMETERS_OPERATION")();?>) </script>
-<script> CConstants.GetBBDD_Messages(<?php $o_RestAPI->CommandProcessor("GET_PUBLIC_MESSAGES_OPERATION")();?>) </script>
-<!-- <script> CBlocks.Processor(<?php $o_RestAPI->CommandProcessor("GET_BLOCKS_AND_PARAMETERS_OPERATION")();?>) </script> -->
-
-<!-- Page Manager JS General Manager of this page -->
 
 </html>

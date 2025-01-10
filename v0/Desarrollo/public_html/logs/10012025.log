@@ -1,0 +1,128 @@
+[2:14:47:0147] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(72) 
+   DELETE_ALL_Users_OPERATION  
+[2:14:48:0148] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:14:48:0148] Is_User_Logged::110(126) 
+   SESSION ID: 0u08ehom6sg579tnrmvhguuqr4
+C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php  
+[2:14:48:0148] CSession.php::Is_User_Logged(127) 
+   ERROR CHECKING SESSION: BIT_USER: CheckResult: 0  
+[2:14:48:0148] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+-200  
+[2:14:48:0148] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:14:48:0148] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:14:48:0148] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(100) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:14:49:0149] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[2:14:54:0154] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+-502  
+[2:14:54:0154] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:14:54:0154] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:14:54:0154] LOGIN_SOLUTION.php::LOG_USER_OPERATION(40) 
+   LOG_USER_OPERATION  
+[2:14:55:0155] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[2:14:55:0155] RestAPI.php::{closure}(176) 
+   User SUPERUSER found in data base  
+[2:14:59:0159] RestAPI.php::{closure}(181) 
+   PASS OK  
+[2:14:59:0159] CSession.php::Logged_User(104) 
+    SESSION ID: un5bo0mm96kbj32sg12s3r6vn6
+ USER: SUPERUSER
+ ROL: 10
+ URL: localhost
+  
+[2:14:59:0159] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+1  
+[2:14:59:0159] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(72) 
+   DELETE_ALL_Users_OPERATION  
+[2:15:00:0100] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:15:00:0100] Is_User_Logged::110(126) 
+   SESSION ID: sdmrksnmh69s1lvo2qb999glfn
+C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php  
+[2:15:00:0100] CSession.php::Is_User_Logged(127) 
+   ERROR CHECKING SESSION: BIT_USER: CheckResult: 0  
+[2:15:00:0100] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+-200  
+[2:15:00:0100] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:15:00:0100] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:15:01:0101] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[2:15:06:0106] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+-502  
+[2:15:41:0141] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(72) 
+   DELETE_ALL_Users_OPERATION  
+[2:15:42:0142] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:15:42:0142] Is_User_Logged::110(126) 
+   SESSION ID: s003hhn5rrk2khmj638o3sq9ab
+C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php  
+[2:15:42:0142] CSession.php::Is_User_Logged(127) 
+   ERROR CHECKING SESSION: BIT_USER: CheckResult: 0  
+[2:15:42:0142] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+-200  
+[2:15:42:0142] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:15:42:0142] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:15:42:0142] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(100) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:15:43:0143] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[2:15:48:0148] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+-502  
+[2:15:48:0148] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:15:48:0148] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:15:48:0148] LOGIN_SOLUTION.php::LOG_USER_OPERATION(40) 
+   LOG_USER_OPERATION  
+[2:15:49:0149] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[2:15:49:0149] RestAPI.php::{closure}(176) 
+   User SUPERUSER found in data base  
+[2:15:54:0154] RestAPI.php::{closure}(181) 
+   PASS OK  
+[2:15:54:0154] CSession.php::Logged_User(104) 
+    SESSION ID: s003hhn5rrk2khmj638o3sq9ab
+ USER: SUPERUSER
+ ROL: 10
+ URL: localhost
+  
+[2:15:54:0154] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+1  
+[2:15:54:0154] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(72) 
+   DELETE_ALL_Users_OPERATION  
+[2:15:59:0159] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:15:59:0159] Is_User_Logged::110(126) 
+   SESSION ID: s003hhn5rrk2khmj638o3sq9ab
+C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php  
+[2:15:59:0159] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+1  
+[2:15:59:0159] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:15:59:0159] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:16:00:0100] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[2:16:05:0105] CCOM.php::CURL_Petition(33) 
+   Server_output: 
+502  

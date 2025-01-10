@@ -1,0 +1,2941 @@
+[0:01:54:1254] CTest.php::__construct(19) 
+   SERVICE LOGIN SOLUTION TESTS  
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #0 [TEST: DELETE ALL Users WithOut SuperUser]
+
+[0:01:54:1254] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:01:54:1254] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:01:54:1254] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:01:54:1254] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:01:55:1255] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:01:55:1255] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = -200 (API_SUPERUSER_REQUIRED)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #1 [TEST: Register SUPERUSER]
+
+[0:01:55:1255] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[0:01:55:1255] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[0:01:55:1255] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[0:01:55:1255] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:01:55:1255] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to ./index.php): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [0] => localhost
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&0=localhost&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[0:01:55:1255] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:./index.php  
+[0:01:55:1255] CCOM.php::CURL_Petition(37) 
+   Server_output:   
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT =  ()
+
+
+Conclusion:
+CRITICAL FAILURE (UNEXPECTED AND UNKNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #2 [TEST_LOG_SUPERUSER]
+
+[0:01:55:1255] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[0:01:55:1255] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:01:55:1255] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to ./index.php): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => SUPERUSER
+    [ROL] => 10
+    [0] => localhost
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=SUPERUSER&ROL=10&0=localhost&OPERATION=LOG_USER_OPERATION  
+[0:01:55:1255] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:./index.php  
+[0:01:55:1255] CCOM.php::CURL_Petition(37) 
+   Server_output:   
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT =  ()
+
+
+Conclusion:
+CRITICAL FAILURE (UNEXPECTED AND UNKNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #3 [TEST_DELETE_ALL_Users]
+
+[0:01:55:1255] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:01:55:1255] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:01:55:1255] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:01:55:1255] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:01:56:1256] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:01:56:1256] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #4 [TEST_Register_User]
+
+[0:01:56:1256] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[0:01:56:1256] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[0:01:56:1256] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[0:01:56:1256] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:01:56:1256] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[0:01:56:1256] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:01:57:1257] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[0:02:00:1200] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #5 [TEST_Check_Access]
+
+[0:04:44:1244] CTest.php::__construct(19) 
+   SERVICE LOGIN SOLUTION TESTS  
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #0 [TEST: DELETE ALL Users WithOut SuperUser]
+
+[0:04:44:1244] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:04:44:1244] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:04:44:1244] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:04:44:1244] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:04:45:1245] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:04:45:1245] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = -200 (API_SUPERUSER_REQUIRED)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #1 [TEST: Register SUPERUSER]
+
+[0:04:45:1245] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[0:04:45:1245] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[0:04:45:1245] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[0:04:45:1245] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:04:45:1245] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to ./index.php): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [0] => localhost
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&0=localhost&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[0:04:45:1245] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:./index.php  
+[0:04:45:1245] CCOM.php::CURL_Petition(37) 
+   Server_output:   
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT =  ()
+
+
+Conclusion:
+CRITICAL FAILURE (UNEXPECTED AND UNKNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #2 [TEST_LOG_SUPERUSER]
+
+[0:04:45:1245] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[0:04:45:1245] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:04:45:1245] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to ./index.php): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => SUPERUSER
+    [ROL] => 10
+    [0] => localhost
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=SUPERUSER&ROL=10&0=localhost&OPERATION=LOG_USER_OPERATION  
+[0:04:45:1245] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:./index.php  
+[0:04:45:1245] CCOM.php::CURL_Petition(37) 
+   Server_output:   
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT =  ()
+
+
+Conclusion:
+CRITICAL FAILURE (UNEXPECTED AND UNKNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #3 [TEST_DELETE_ALL_Users]
+
+[0:04:45:1245] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:04:45:1245] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:04:45:1245] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:04:45:1245] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:04:46:1246] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:04:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #4 [TEST_Register_User]
+
+[0:04:46:1246] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[0:04:46:1246] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[0:04:46:1246] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[0:04:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:04:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[0:04:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:04:47:1247] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[0:04:51:1251] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #5 [TEST_Check_Access]
+
+[0:10:34:1234] CTest.php::__construct(19) 
+   SERVICE LOGIN SOLUTION TESTS  
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #0 [TEST: DELETE ALL Users WithOut SuperUser]
+
+[0:10:34:1234] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:10:34:1234] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:10:34:1234] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:10:34:1234] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:10:35:1235] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:10:35:1235] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = -200 (API_SUPERUSER_REQUIRED)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #1 [TEST: Register SUPERUSER]
+
+[0:10:35:1235] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[0:10:35:1235] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[0:10:35:1235] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[0:10:35:1235] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:10:35:1235] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[0:10:35:1235] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:10:35:1235] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[0:10:35:1235] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Fatal error</b>:  Uncaught ArgumentCountError: Too few arguments to function {closure}(), 0 passed in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php on line 53 and exactly 3 expected in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php:118
+Stack trace:
+#0 C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php(53): {closure}()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(387): CRestAPI-&gt;CommandListener()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#3 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>118</b><br />
+  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+<br />
+<b>Fatal error</b>:  Uncaught ArgumentCountError: Too few arguments to function {closure}(), 0 passed in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php on line 53 and exactly 3 expected in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php:118
+Stack trace:
+#0 C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php(53): {closure}()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(387): CRestAPI-&gt;CommandListener()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#3 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>118</b><br />
+ ()
+
+
+Conclusion:
+CRITICAL FAILURE (UNEXPECTED AND UNKNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #2 [TEST_LOG_SUPERUSER]
+
+[0:10:35:1235] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[0:10:35:1235] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:10:35:1235] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => SUPERUSER
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=SUPERUSER&ROL=10&OPERATION=LOG_USER_OPERATION  
+[0:10:35:1235] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:10:36:1236] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[0:10:36:1236] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-503  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-503 (LOGIN_USER_NOT_FOUND)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #3 [TEST_DELETE_ALL_Users]
+
+[0:10:36:1236] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:10:36:1236] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:10:36:1236] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:10:36:1236] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:10:37:1237] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:10:37:1237] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #4 [TEST_Register_User]
+
+[0:10:37:1237] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[0:10:37:1237] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[0:10:37:1237] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[0:10:37:1237] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:10:37:1237] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[0:10:37:1237] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:10:38:1238] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[0:10:42:1242] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #5 [TEST_Check_Access]
+
+[0:14:49:1249] CTest.php::__construct(19) 
+   SERVICE LOGIN SOLUTION TESTS  
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #0 [TEST: DELETE ALL Users WithOut SuperUser]
+
+[0:14:49:1249] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:14:49:1249] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:14:49:1249] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:14:49:1249] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:14:50:1250] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:14:50:1250] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = -200 (API_SUPERUSER_REQUIRED)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #1 [TEST: Register SUPERUSER]
+
+[0:14:50:1250] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[0:14:50:1250] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[0:14:50:1250] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[0:14:50:1250] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:14:50:1250] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[0:14:50:1250] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:14:51:1251] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[0:14:51:1251] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Fatal error</b>:  Uncaught ArgumentCountError: Too few arguments to function {closure}(), 0 passed in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php on line 53 and exactly 3 expected in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php:118
+Stack trace:
+#0 C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php(53): {closure}()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(387): CRestAPI-&gt;CommandListener()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#3 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>118</b><br />
+  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+<br />
+<b>Fatal error</b>:  Uncaught ArgumentCountError: Too few arguments to function {closure}(), 0 passed in C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php on line 53 and exactly 3 expected in C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php:118
+Stack trace:
+#0 C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CRestAPI.php(53): {closure}()
+#1 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php(387): CRestAPI-&gt;CommandListener()
+#2 C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\index.php(2): require_once('C:\\PROJECTS\\LOG...')
+#3 {main}
+  thrown in <b>C:\PROJECTS\LOGIN_SOLUTION\v0\Desarrollo\public_html\Public_APIs\RestAPI.php</b> on line <b>118</b><br />
+ ()
+
+
+Conclusion:
+CRITICAL FAILURE (UNEXPECTED AND UNKNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #2 [TEST_LOG_SUPERUSER]
+
+[0:14:51:1251] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[0:14:51:1251] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:14:51:1251] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => SUPERUSER
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=SUPERUSER&ROL=10&OPERATION=LOG_USER_OPERATION  
+[0:14:51:1251] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:14:52:1252] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[0:14:52:1252] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-503  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-503 (LOGIN_USER_NOT_FOUND)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #3 [TEST_DELETE_ALL_Users]
+
+[0:14:52:1252] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:14:52:1252] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:14:52:1252] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:14:52:1252] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:14:53:1253] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:14:53:1253] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #4 [TEST_Register_User]
+
+[0:14:53:1253] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[0:14:53:1253] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[0:14:53:1253] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[0:14:53:1253] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:14:53:1253] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[0:14:53:1253] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:14:54:1254] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[0:14:58:1258] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #5 [TEST_Check_Access]
+
+[0:15:58:1258] CTest.php::__construct(19) 
+   SERVICE LOGIN SOLUTION TESTS  
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #0 [TEST: DELETE ALL Users WithOut SuperUser]
+
+[0:15:58:1258] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:15:58:1258] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:15:58:1258] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:15:58:1258] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:15:59:1259] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:15:59:1259] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = -200 (API_SUPERUSER_REQUIRED)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #1 [TEST: Register SUPERUSER]
+
+[0:15:59:1259] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[0:15:59:1259] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[0:15:59:1259] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[0:15:59:1259] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:15:59:1259] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[0:15:59:1259] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:16:00:1200] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[0:16:05:1205] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+502 (LOGIN_USER_REGISTER_OK)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #2 [TEST_LOG_SUPERUSER]
+
+[0:16:05:1205] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[0:16:05:1205] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:16:05:1205] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => SUPERUSER
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=SUPERUSER&ROL=10&OPERATION=LOG_USER_OPERATION  
+[0:16:05:1205] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:16:06:1206] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[0:16:09:1209] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-504  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-504 (LOGIN_USER_PASS_INCORRECT)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #3 [TEST_DELETE_ALL_Users]
+
+[0:16:09:1209] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:16:09:1209] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:16:09:1209] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:16:09:1209] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:16:10:1210] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:16:10:1210] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #4 [TEST_Register_User]
+
+[0:16:10:1210] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[0:16:10:1210] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[0:16:10:1210] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[0:16:10:1210] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:16:10:1210] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[0:16:10:1210] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:16:11:1211] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[0:16:14:1214] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #5 [TEST_Check_Access]
+
+[0:20:44:1244] CTest.php::__construct(19) 
+   SERVICE LOGIN SOLUTION TESTS  
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #0 [TEST: DELETE ALL Users WithOut SuperUser]
+
+[0:20:44:1244] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:20:44:1244] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:20:44:1244] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:20:44:1244] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:20:45:1245] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:20:45:1245] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = -200 (API_SUPERUSER_REQUIRED)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #1 [TEST: Register SUPERUSER]
+
+[0:20:45:1245] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[0:20:45:1245] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[0:20:45:1245] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[0:20:45:1245] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:20:45:1245] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[0:20:45:1245] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:20:45:1245] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[0:20:49:1249] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #2 [Logging with SUPERUSER]
+
+[0:20:49:1249] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[0:20:49:1249] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:20:49:1249] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => SUPERUSER
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=SUPERUSER&ROL=10&OPERATION=LOG_USER_OPERATION  
+[0:20:49:1249] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:20:50:1250] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[0:20:53:1253] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-504  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-504 (LOGIN_USER_PASS_INCORRECT)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #3 [TEST_DELETE_ALL_Users]
+
+[0:20:53:1253] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:20:53:1253] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:20:53:1253] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:20:53:1253] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:20:54:1254] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:20:54:1254] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #4 [TEST_Register_User]
+
+[0:20:54:1254] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[0:20:54:1254] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[0:20:54:1254] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[0:20:54:1254] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:20:54:1254] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[0:20:54:1254] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:20:55:1255] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[0:20:58:1258] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #5 [TEST_Check_Access]
+
+[0:28:30:1230] CTest.php::__construct(19) 
+   SERVICE LOGIN SOLUTION TESTS  
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #0 [TEST: DELETE ALL Users WithOut SuperUser]
+
+[0:28:30:1230] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:28:30:1230] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:28:30:1230] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:28:30:1230] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:28:31:1231] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:28:31:1231] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = -200 (API_SUPERUSER_REQUIRED)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #1 [TEST: Register SUPERUSER]
+
+[0:28:31:1231] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[0:28:31:1231] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[0:28:31:1231] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[0:28:31:1231] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:28:31:1231] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[0:28:31:1231] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:28:31:1231] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[0:28:35:1235] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #2 [Logging with SUPERUSER]
+
+[0:28:35:1235] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[0:28:35:1235] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[0:28:35:1235] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[0:28:35:1235] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:28:35:1235] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[0:28:35:1235] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:28:35:1235] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[0:28:38:1238] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+1 (GALSAN_OK)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #3 [Delete ALL USER With SuperUser Loged]
+
+[0:28:38:1238] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[0:28:38:1238] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:28:38:1238] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[0:28:38:1238] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:28:39:1239] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[0:28:39:1239] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #4 [TEST_Register_User]
+
+[0:28:39:1239] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[0:28:39:1239] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[0:28:39:1239] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[0:28:39:1239] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[0:28:39:1239] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[0:28:39:1239] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[0:28:40:1240] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[0:28:43:1243] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #5 [TEST_Check_Access]
+
+[2:30:44:1244] CTest.php::__construct(19) 
+   SERVICE LOGIN SOLUTION TESTS  
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #0 [TEST: DELETE ALL Users WithOut SuperUser]
+
+[2:30:44:1244] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:30:44:1244] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:30:44:1244] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:30:44:1244] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:30:46:1246] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:30:46:1246] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = -200 (API_SUPERUSER_REQUIRED)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #1 [TEST: Register SUPERUSER]
+
+[2:30:46:1246] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:30:46:1246] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:30:46:1246] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:30:46:1246] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:30:46:1246] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:30:46:1246] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:30:47:1247] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[2:30:52:1252] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #2 [Logging with SUPERUSER]
+
+[2:30:52:1252] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:30:52:1252] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:30:52:1252] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:30:52:1252] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:30:52:1252] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:30:52:1252] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:30:53:1253] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[2:30:57:1257] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+1 (GALSAN_OK)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #3 [Delete ALL USER With SuperUser Logged]
+
+[2:30:57:1257] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:30:57:1257] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:30:57:1257] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:30:57:1257] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:30:58:1258] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:30:58:1258] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #4 [TEST_Register_User]
+
+[2:30:58:1258] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:30:58:1258] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:30:58:1258] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:30:58:1258] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:30:58:1258] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:30:58:1258] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:30:59:1259] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[2:31:04:1204] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #5 [TEST_Check_Access]
+
+[2:35:50:1250] CTest.php::__construct(19) 
+   SERVICE LOGIN SOLUTION TESTS  
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #0 [TEST: DELETE ALL Users WithOut SuperUser]
+
+[2:35:50:1250] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:35:50:1250] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:35:50:1250] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:35:50:1250] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:35:50:1250] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:35:50:1250] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = -200 (API_SUPERUSER_REQUIRED)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #1 [TEST: Register SUPERUSER]
+
+[2:35:50:1250] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:35:50:1250] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:35:50:1250] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:35:50:1250] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:35:50:1250] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:35:50:1250] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:35:51:1251] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[2:35:56:1256] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #2 [Logging with SUPERUSER]
+
+[2:35:56:1256] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:35:56:1256] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:35:56:1256] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:35:56:1256] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:35:56:1256] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:35:56:1256] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:35:57:1257] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[2:36:02:1202] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+1 (GALSAN_OK)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #3 [Delete ALL USER With SuperUser Logged]
+
+[2:36:02:1202] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:36:02:1202] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:36:02:1202] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:36:02:1202] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:36:02:1202] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:36:02:1202] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #4 [TEST_Register_User]
+
+[2:36:02:1202] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:36:02:1202] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:36:02:1202] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:36:02:1202] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:36:02:1202] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:36:02:1202] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:36:03:1203] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[2:36:08:1208] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #5 [TEST_Check_Access]
+
+[2:46:24:1224] CTest.php::__construct(22) 
+   SERVICE LOGIN SOLUTION TESTS  
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #0 [TEST: DELETE ALL Users WithOut SuperUser]
+
+[2:46:24:1224] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:46:24:1224] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:46:24:1224] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:46:24:1224] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:46:25:1225] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:46:25:1225] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = -200 (API_SUPERUSER_REQUIRED)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #1 [TEST: Register SUPERUSER]
+
+[2:46:25:1225] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:46:25:1225] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:46:25:1225] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:46:25:1225] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:46:25:1225] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:46:25:1225] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:46:26:1226] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[2:46:31:1231] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #2 [Logging with SUPERUSER]
+
+[2:46:31:1231] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:46:31:1231] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:46:31:1231] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:46:31:1231] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:46:31:1231] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:46:31:1231] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:46:32:1232] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[2:46:36:1236] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+1 (GALSAN_OK)
+
+
+Conclusion:
+SUCCESS (EXPECTED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #3 [Delete ALL USER With SuperUser Logged]
+
+[2:46:36:1236] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:46:36:1236] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:46:36:1236] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:46:36:1236] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:46:37:1237] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:46:37:1237] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+EXPECTED RESULT = 1 (GALSAN_OK)
+
+TEST EXECUTION RESULT = 
+-200 (API_SUPERUSER_REQUIRED)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #4 [TEST_Register_User]
+
+[2:46:37:1237] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:46:37:1237] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:46:37:1237] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:46:37:1237] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:46:37:1237] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:46:37:1237] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:46:38:1238] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[2:46:43:1243] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+EXPECTED RESULT = 502 (LOGIN_USER_REGISTER_OK)
+
+TEST EXECUTION RESULT = 
+-502 (LOGIN_USER_REGISTER_KO)
+
+
+Conclusion:
+FAILURE (UNEXPECTED BUT KNOWED RESULT)
+
+
+          ...---- ***End Test*** ----...          
+
+
+
+          ...---- ***Start Test*** ----...          
+
+Executing Test #5 [TEST_Check_Access]
+
+[2:49:11:1211] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:49:11:1211] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:49:11:1211] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:49:11:1211] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:49:12:1212] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:49:12:1212] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[2:49:12:1212] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:49:12:1212] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:49:12:1212] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[2:49:12:1212] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:49:12:1212] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[2:49:12:1212] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:49:12:1212] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[2:49:17:1217] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[2:49:17:1217] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[2:49:17:1217] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[2:49:17:1217] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[2:49:17:1217] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:49:17:1217] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[2:49:17:1217] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:49:18:1218] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[2:49:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[2:49:23:1223] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[2:49:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:49:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[2:49:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:49:24:1224] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[2:49:24:1224] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[2:49:24:1224] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[2:49:24:1224] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[2:49:24:1224] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[2:49:24:1224] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[2:49:24:1224] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[2:49:24:1224] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[2:49:25:1225] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[2:49:29:1229] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:05:27:1227] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:05:27:1227] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:05:27:1227] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:05:27:1227] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:05:27:1227] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Parse error</b>:  syntax error, unexpected token &quot;=&quot;, expecting variable in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>10</b><br />
+  
+[3:05:27:1227] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:05:27:1227] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:05:27:1227] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[3:05:27:1227] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:05:27:1227] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[3:05:27:1227] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:05:27:1227] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Parse error</b>:  syntax error, unexpected token &quot;=&quot;, expecting variable in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>10</b><br />
+  
+[3:05:27:1227] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:05:27:1227] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:05:27:1227] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[3:05:27:1227] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:05:27:1227] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[3:05:27:1227] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:05:27:1227] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Parse error</b>:  syntax error, unexpected token &quot;=&quot;, expecting variable in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>10</b><br />
+  
+[3:05:27:1227] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:05:27:1227] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:05:27:1227] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:05:27:1227] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:05:27:1227] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Parse error</b>:  syntax error, unexpected token &quot;=&quot;, expecting variable in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>10</b><br />
+  
+[3:05:27:1227] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[3:05:27:1227] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[3:05:27:1227] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[3:05:27:1227] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:05:27:1227] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[3:05:27:1227] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:05:27:1227] CCOM.php::CURL_Petition(37) 
+   Server_output: <br />
+<b>Parse error</b>:  syntax error, unexpected token &quot;=&quot;, expecting variable in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>10</b><br />
+  
+[3:06:16:1216] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:06:16:1216] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:06:16:1216] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:06:16:1216] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:06:17:1217] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:06:17:1217] CSession.php::Is_User_Logged(127) 
+   ERROR CHECKING SESSION: BIT_USER  
+[3:06:17:1217] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[3:06:17:1217] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:06:17:1217] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:06:17:1217] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[3:06:17:1217] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:06:17:1217] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[3:06:17:1217] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:06:18:1218] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[3:06:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:06:23:1223] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:06:23:1223] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:06:23:1223] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[3:06:23:1223] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:06:23:1223] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[3:06:23:1223] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:06:23:1223] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[3:06:28:1228] CSession.php::Logged_User(107) 
+    USER: SUPERUSER ROL: 10 URL: localhost  
+[3:06:28:1228] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[3:06:28:1228] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:06:28:1228] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:06:28:1228] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:06:28:1228] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:06:29:1229] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:06:29:1229] CSession.php::Is_User_Logged(127) 
+   ERROR CHECKING SESSION: BIT_USER  
+[3:06:29:1229] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[3:06:29:1229] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[3:06:29:1229] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[3:06:29:1229] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[3:06:29:1229] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:06:29:1229] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[3:06:29:1229] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:06:30:1230] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[3:06:35:1235] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:17:55:1255] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:17:55:1255] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:17:55:1255] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:17:55:1255] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:17:57:1257] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:17:57:1257] CSession.php::Is_User_Logged(128) 
+   ERROR CHECKING SESSION: BIT_USER: USER  
+[3:17:57:1257] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[3:17:57:1257] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:17:57:1257] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:17:57:1257] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[3:17:57:1257] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:17:57:1257] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[3:17:57:1257] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:17:58:1258] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[3:18:02:1202] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:18:02:1202] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:18:02:1202] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:18:02:1202] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[3:18:02:1202] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:18:02:1202] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[3:18:02:1202] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:18:08:1208] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[3:18:13:1213] CSession.php::Logged_User(107) 
+    USER: SUPERUSER ROL: 10 URL: localhost  
+[3:18:13:1213] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[3:18:13:1213] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:18:13:1213] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:18:13:1213] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:18:13:1213] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:18:17:1217] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:18:17:1217] CSession.php::Is_User_Logged(128) 
+   ERROR CHECKING SESSION: BIT_USER: USER  
+[3:18:17:1217] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[3:18:17:1217] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[3:18:17:1217] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[3:18:17:1217] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[3:18:17:1217] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:18:17:1217] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[3:18:17:1217] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:18:18:1218] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[3:18:22:1222] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:20:52:1252] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:20:52:1252] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:20:52:1252] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:20:52:1252] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:20:54:1254] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:20:54:1254] CSession.php::Is_User_Logged(129) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[3:20:54:1254] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[3:20:54:1254] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:20:54:1254] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:20:54:1254] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[3:20:54:1254] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:20:54:1254] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[3:20:54:1254] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:20:54:1254] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[3:20:59:1259] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:20:59:1259] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:20:59:1259] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:20:59:1259] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[3:20:59:1259] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:20:59:1259] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[3:20:59:1259] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:21:00:1200] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[3:21:05:1205] CSession.php::Logged_User(107) 
+    USER: SUPERUSER ROL: 10 URL: localhost  
+[3:21:05:1205] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[3:21:05:1205] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:21:05:1205] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:21:05:1205] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:21:05:1205] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:21:06:1206] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:21:06:1206] CSession.php::Is_User_Logged(129) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[3:21:06:1206] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[3:21:06:1206] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[3:21:06:1206] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[3:21:06:1206] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[3:21:06:1206] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:21:06:1206] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[3:21:06:1206] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:21:07:1207] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[3:21:11:1211] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:30:12:1212] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:30:12:1212] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:30:12:1212] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:30:12:1212] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:30:18:1218] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:30:18:1218] CSession.php::Is_User_Logged(129) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[3:30:18:1218] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[3:30:18:1218] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:30:18:1218] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:30:18:1218] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[3:30:18:1218] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:30:18:1218] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[3:30:18:1218] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:30:19:1219] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[3:30:24:1224] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:30:24:1224] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:30:24:1224] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:30:24:1224] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[3:30:24:1224] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:30:24:1224] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[3:30:24:1224] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:30:25:1225] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[3:30:25:1225] RestAPI.php::{closure}(176) 
+   User SUPERUSER found in data base  
+[3:30:30:1230] RestAPI.php::{closure}(181) 
+   PASS OK  
+[3:30:30:1230] CSession.php::Logged_User(107) 
+    USER: SUPERUSER ROL: 10 URL: localhost  
+[3:30:30:1230] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[3:30:30:1230] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:30:30:1230] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:30:30:1230] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:30:30:1230] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:30:32:1232] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:30:32:1232] CSession.php::Is_User_Logged(129) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[3:30:32:1232] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-200  
+[3:30:32:1232] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[3:30:32:1232] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[3:30:32:1232] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[3:30:32:1232] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:30:32:1232] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[3:30:32:1232] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:30:34:1234] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[3:30:39:1239] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:59:10:1210] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:59:10:1210] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:59:10:1210] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:59:10:1210] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:59:11:1211] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:59:11:1211] CSession.php::Is_User_Logged(129) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[3:59:11:1211] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>115</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "ROL" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>116</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "DOMAIN" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>117</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>128</b><br />
+-200  
+[3:59:11:1211] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:59:11:1211] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:59:11:1211] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[3:59:11:1211] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:59:11:1211] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[3:59:11:1211] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:59:12:1212] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[3:59:15:1215] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[3:59:15:1215] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[3:59:15:1215] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[3:59:15:1215] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[3:59:15:1215] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:59:15:1215] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[3:59:15:1215] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:59:16:1216] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[3:59:16:1216] RestAPI.php::{closure}(176) 
+   User SUPERUSER found in data base  
+[3:59:19:1219] RestAPI.php::{closure}(181) 
+   PASS OK  
+[3:59:19:1219] CSession.php::Logged_User(107) 
+    USER: SUPERUSER ROL: 10 URL: localhost  
+[3:59:19:1219] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[3:59:19:1219] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[3:59:19:1219] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:59:19:1219] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[3:59:19:1219] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:59:20:1220] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[3:59:20:1220] CSession.php::Is_User_Logged(129) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[3:59:20:1220] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>115</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "ROL" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>116</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "DOMAIN" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>117</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>128</b><br />
+-200  
+[3:59:20:1220] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[3:59:20:1220] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[3:59:20:1220] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[3:59:20:1220] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[3:59:20:1220] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[3:59:20:1220] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[3:59:20:1220] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[3:59:23:1223] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[23:34:59:1259] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[23:34:59:1259] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[23:34:59:1259] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[23:34:59:1259] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[23:35:01:1201] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[23:35:01:1201] CSession.php::Is_User_Logged(129) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[23:35:01:1201] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>115</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "ROL" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>116</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "DOMAIN" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>117</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>128</b><br />
+-200  
+[23:35:01:1201] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[23:35:01:1201] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[23:35:01:1201] LOGIN_SOLUTION.php::REGISTER_SUPERUSER_OPERATION(46) 
+   REGISTER_SUPERUSER_OPERATION  
+[23:35:01:1201] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[23:35:01:1201] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [OPERATION] => REGISTER_SUPERUSER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&OPERATION=REGISTER_SUPERUSER_OPERATION  
+[23:35:01:1201] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[23:35:02:1202] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_SUPERUSER_OPERATION  
+[23:35:05:1205] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
+[23:35:05:1205] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (SUPERUSER) data  
+[23:35:05:1205] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7  
+[23:35:05:1205] LOGIN_SOLUTION.php::LOG_USER_OPERATION(29) 
+   LOG_USER_OPERATION  
+[23:35:05:1205] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[23:35:05:1205] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => SUPERUSER
+    [PASS] => d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7
+    [ROL] => 10
+    [OPERATION] => LOG_USER_OPERATION
+)
+/ Http_build_query: NAME=SUPERUSER&PASS=d1a87ae9cc010d8311d467edf854457b8cb4da3c1ea77326aecc75f532e523e7&ROL=10&OPERATION=LOG_USER_OPERATION  
+[23:35:05:1205] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[23:35:05:1205] CRestAPI.php::CommandListener(51) 
+   StartLOG_USER_OPERATION  
+[23:35:05:1205] RestAPI.php::{closure}(176) 
+   User SUPERUSER found in data base  
+[23:35:08:1208] RestAPI.php::{closure}(181) 
+   PASS OK  
+[23:35:08:1208] CSession.php::Logged_User(107) 
+    USER: SUPERUSER ROL: 10 URL: localhost  
+[23:35:08:1208] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+1  
+[23:35:08:1208] LOGIN_SOLUTION.php::DELETE_ALL_Users_OPERATION(38) 
+   DELETE_ALL_Users_OPERATION  
+[23:35:08:1208] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[23:35:08:1208] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [OPERATION] => DELETE_ALL_Users_OPERATION
+)
+/ Http_build_query: OPERATION=DELETE_ALL_Users_OPERATION  
+[23:35:08:1208] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[23:35:09:1209] CRestAPI.php::CommandListener(51) 
+   StartDELETE_ALL_Users_OPERATION  
+[23:35:09:1209] CSession.php::Is_User_Logged(129) 
+   ERROR CHECKING SESSION: BIT_USER:   
+[23:35:09:1209] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>115</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "ROL" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>116</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "DOMAIN" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>117</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "USER" in <b>C:\PROJECTS\DEPENDENCIAS_COMUNES\GALSAN_SERVER\CSession.php</b> on line <b>128</b><br />
+-200  
+[23:35:09:1209] CSeguridad.php::Hash(76) 
+   Hash (sha256) Calculation over (PassWORD123) data  
+[23:35:09:1209] CSeguridad.php::Hash(80) 
+   Hash Result (sha256)35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea  
+[23:35:09:1209] LOGIN_SOLUTION.php::REGISTER_ACCES_OPERATION(21) 
+   REGISTER_ACCES_OPERATION  
+[23:35:09:1209] CAPIs.php::Send_Operation_Command(12) 
+   Init Send_Operation_Command  
+[23:35:09:1209] CCOM.php::CURL_Petition(19) 
+   CURL Petition Data (to localhost): Array
+(
+    [NAME] => John Doe
+    [PASS] => 35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea
+    [ROL] => 1
+    [OPERATION] => REGISTER_ACCES_OPERATION
+)
+/ Http_build_query: NAME=John+Doe&PASS=35d4e47b2b036fb39030fed54332b6161f05405987061dcc518725f3e4765aea&ROL=1&OPERATION=REGISTER_ACCES_OPERATION  
+[23:35:09:1209] CCOM.php::CURL_Petition(22) 
+   EndPoint CURLOPT_URL:localhost  
+[23:35:10:1210] CRestAPI.php::CommandListener(51) 
+   StartREGISTER_ACCES_OPERATION  
+[23:35:12:1212] CCOM.php::CURL_Petition(37) 
+   Server_output: 
+-502  
