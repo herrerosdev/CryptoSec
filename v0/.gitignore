@@ -1,0 +1,6 @@
+/Release
+/Desarrollo/public_html/node_modules
+/Desarrollo/public_html/js/blocks/CMS_BLOCKs
+/Desarrollo/public_html/js/GALSAN_CLIENT
+/Desarrollo/resources/inc/GALSAN_SERVER
+*.log
