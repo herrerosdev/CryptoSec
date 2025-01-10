@@ -13,7 +13,7 @@ cd ..
 Server_USER="ubuntu"
 Server_IP="146.59.197.28"
 #Nombre del proyecto
-Project_name="LANDING_SOLUTION"
+Project_name="LOGIN_SOLUTION"
 #Variante del proyecto
 Project_Variant="v0"
 #Production Path

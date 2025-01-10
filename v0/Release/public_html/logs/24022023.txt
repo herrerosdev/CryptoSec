@@ -1,4 +1,0 @@
-10:12:40   index.php  96: Init BBDD SQLite Class  
-10:12:40   index.php  55 Query Key: GET_A_MESSAGE_QUERY  
-10:12:40   index.php  56 Query Before treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
-10:12:40   index.php  72 Query after treatment: SELECT * FROM MESSAGES WHERE MSG_NAME = :0;  
