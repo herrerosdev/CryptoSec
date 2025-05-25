@@ -1,7 +1,7 @@
 <?php require_once(dirname($_SERVER['DOCUMENT_ROOT']) . '/resources/inc/GALSAN_SERVER/DEFINES.php');?>
-
 <?php require_once(HEGALPA_ROOT_PATH . 'public_html/Public_APIs/RestAPI.php');?>
 <?php $CHegalpaReporters_o->Register_Visit(basename(__FILE__, '.php')); ?>
+<?php CRestAPI::Get_Session_Object()->Check_Only_Logged_Users(CRestAPI::GetConstants()->CODE('ROL', 'SUPERUSER'), 'index.php') ?>
 
 
 <!DOCTYPE html>
@@ -40,6 +40,11 @@
  <script src='js/GALSAN_CLIENT/CSession.js?=<? filesize('js/GALSAN_CLIENT/CSession.js') ?>'></script>
  <script src='js/GALSAN_CLIENT/CSecurity.js?=<? filesize('js/GALSAN_CLIENT/CSecurity.js') ?>'></script>
  <script src='js/GALSAN_CLIENT/CAPIs.js?=<? filesize('js/GALSAN_CLIENT/CAPIs.js') ?>'></script>
+ <script src='js/GALSAN_CLIENT/CService.js?=<? filesize('js/GALSAN_CLIENT/CService.js') ?>'></script>
+
+  <!--Services Classes -->
+  <script src='js/GALSAN_CLIENT/services/LOGIN_SOLUTION.js?=<? filesize('js/GALSAN_CLIENT/services/LOGIN_SOLUTION.js') ?>'></script>
+
 
 <!-- Maquetacion -->
 <script src='layout.js?=<? filesize('layout.js') ?>'></script>
@@ -60,8 +65,10 @@
 <script src='js/blocks/CMS_BLOCKs/POPUP_Info.js?=<? filesize('js/blocks/CMS_BLOCKs/POPUP_Info.js') ?>'></script>
 <script src='js/blocks/CMS_BLOCKs/loader.js?=<? filesize('js/blocks/CMS_BLOCKs/loader.js') ?>'></script>
 <script src='js/blocks/CMS_BLOCKs/BlogPost.js?=<? filesize('js/blocks/CMS_BLOCKs/BlogPost.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/POPUP_Dynamic.js?=<? filesize('js/blocks/CMS_BLOCKs/POPUP_Dynamic.js') ?>'></script>
+<script src='js/blocks/CMS_BLOCKs/POPUP.js?=<? filesize('js/blocks/CMS_BLOCKs/POPUP.js') ?>'></script>
 <script src='js/blocks/CMS_BLOCKs/Table1.js?=<? filesize('js/blocks/CMS_BLOCKs/Table1.js') ?>'></script>
+<script src='js/blocks/CMS_BLOCKs/Dynamic_Table.js?=<? filesize('js/blocks/CMS_BLOCKs/Dynamic_Table.js') ?>'></script>
+
 
 <!-- Footers Footers -->
 <script src='PrivateArea.js?=<? filesize('PrivateArea.js') ?>'></script>

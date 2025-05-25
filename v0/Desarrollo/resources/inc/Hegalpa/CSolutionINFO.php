@@ -23,7 +23,7 @@ class CSolutionINFO
 
         $this->Get_SchemaBD_NAME();
 
-        CSolutionINFO::$PROJECT_SchemaBD_NAME =  'bitbugtheory.db'; //$this->Get_SchemaBD_NAME();
+        CSolutionINFO::$PROJECT_SchemaBD_NAME = "bitbugtheory.db";
     }
 
     function Get_SchemaBD_NAME(){

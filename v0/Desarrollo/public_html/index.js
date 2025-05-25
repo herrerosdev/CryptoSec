@@ -8,22 +8,53 @@ CBlocks.Processor(
 );
 
 
+Block_obj = CBlocks.Processor(
+  [
+    {
+      BLOCK_NAME: "POPUP",
+      BLOCK_PARAMS: `[
+        {
+          "Type": ${POPUP.Type_PopUp_ID},
+          "Name": "DoLogin",
+          "Action_CallBack": ""
+        },
+        {
+          "Type": ${POPUP.Type_Title},
+          "Name": "Iniciar Sesion",
+          "Action_CallBack": ""
+        },
+      
+        {
+          "Type": ${POPUP.Type_Input_Text},
+          "Name": "Username",
+          "Action_CallBack": ""
+        },
+      
+        {
+          "Type": ${POPUP.Type_Input_Text_PassWord},
+          "Name": "Password",
+          "Action_CallBack": ""
+        },
 
-let login = new POPUP_Login(
-  {
-    Title: "Acceso",
-    userNameText: "username",
-    passText: "password",
-    Text_Button: "Entrar",
-    Text_AuxLink: "Ayuda",
-    Action_AuxLink: "hegalpa.es",
-    Delay: 6000,
-},
-  POPUP_Login.StartShow,
-  function () { CSession.GALSAN_DoLogin(POPUP_Login.GetName(), POPUP_Login.GetPass(), 10, "", "./index.php", "./PrivateArea.php") }
+        {
+          "Type": ${POPUP.Type_Button},
+          "Name": "Login",
+          "Action_CallBack": "{CSession.GALSAN_DoLogin(POPUP.GetValue('Username'), POPUP.GetValue('Password'), 10, '', './index.php', './PrivateArea.php')}"
+        }
+      ]`,
+    } 
+  ],
 );
 
-POPUP_Login.ShowLoginFADE();
-
-
-let RegisterButton = new Button_AtulPrajapati();
+CBlocks.Processor(
+  [
+    {
+      BLOCK_NAME: "Button_AtulPrajapati",
+      BLOCK_PARAMS: '{}'
+    },
+    {
+      BLOCK_NAME: null,
+      BLOCK_PARAMS: `{"Text":"Do Login","link":-1,"function":"POPUP.Show('DoLogin')"}`
+    }
+  ]
+)

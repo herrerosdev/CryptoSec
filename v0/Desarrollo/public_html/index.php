@@ -10,17 +10,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title><?php $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Title");?></title>
+    <title><?php echo $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Title");?></title>
 
-    <meta name="description" content="<?php $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Description");?>"/>
-    <meta property="og:title" content=<?php $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Title");?> />
+    <meta name="description" content="<?php echo $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Description");?>"/>
+    <meta property="og:title" content=<?php echo $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Title");?> />
     <meta property="og:url" content="<?php (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];?>" />
 
-    <meta property="og:description" content="<?php $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Description");?>"/> 
-    <meta property="og:image" itemprop="image" content= "<?php $o_RestAPI->CommandProcessor("GET_A_PARAMETER_OPERATION")("IMG_META_Preview");?>">
-    <meta name="keywords" content="<?php $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_KeyWords");?>"/>
+    <meta property="og:description" content="<?php echo $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Description");?>"/> 
+    <meta property="og:image" itemprop="image" content= "<?php echo $o_RestAPI->CommandProcessor("GET_A_PARAMETER_OPERATION")("IMG_META_Preview");?>">
+    <meta name="keywords" content="<?php echo $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_KeyWords");?>"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="shortcut icon" href="<?php $o_RestAPI->CommandProcessor("GET_A_PARAMETER_OPERATION")("IMG_shortcut_icon");?>">
+    <link rel="shortcut icon" href="<?php echo $o_RestAPI->CommandProcessor("GET_A_PARAMETER_OPERATION")("IMG_shortcut_icon");?>">
 </head>
 
 
@@ -54,7 +54,7 @@
 <script src='js/blocks/CMS_BLOCKs/Button_AtulPrajapati.js?=<? filesize('js/blocks/CMS_BLOCKs/Button_AtulPrajapati.js') ?>'></script>
 <script src='js/blocks/CMS_BLOCKs/simple_oneLine_Foot.js?=<? filesize('js/blocks/CMS_BLOCKs/simple_oneLine_Foot.js') ?>'></script>
 <script src='js/blocks/CMS_BLOCKs/HEGALPA_FOOTER.js?=<? filesize('js/blocks/CMS_BLOCKs/HEGALPA_FOOTER.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/POPUP_Login.js?=<? filesize('js/blocks/CMS_BLOCKs/POPUP_Login.js') ?>'></script>
+<script src='js/blocks/CMS_BLOCKs/POPUP.js?=<? filesize('js/blocks/CMS_BLOCKs/POPUP.js') ?>'></script>
 <script src='js/blocks/CMS_BLOCKs/POPUP_Info.js?=<? filesize('js/blocks/CMS_BLOCKs/POPUP_Info.js') ?>'></script>
 <script src='js/blocks/CMS_BLOCKs/loader.js?=<? filesize('js/blocks/CMS_BLOCKs/loader.js') ?>'></script>
 <script src='js/blocks/CMS_BLOCKs/BlogPost.js?=<? filesize('js/blocks/CMS_BLOCKs/BlogPost.js') ?>'></script>
