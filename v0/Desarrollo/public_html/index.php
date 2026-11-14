@@ -1,65 +1,65 @@
-<?php require_once(dirname($_SERVER['DOCUMENT_ROOT']) . '/resources/inc/GALSAN_SERVER/DEFINES.php');?>
-<?php require_once(HEGALPA_ROOT_PATH . 'public_html/Public_APIs/RestAPI.php');?>
-<?php $CHegalpaReporters_o->Register_Visit(basename(__FILE__, '.php')); ?>
+<?php
+/**
+ * @file index.php
+ * @brief Punto de entrada principal del CMS dinámico Hegalpa (Entorno Local/Desarrollo).
+ * @details Carga de forma desglosada los archivos del núcleo del cliente y subclases para facilitar
+ * las tareas de desarrollo y depuración.
+ * @author Hegalpa Dev Team
+ * @version 2.0
+ * @date 2026
+ */
 
+require_once(dirname($_SERVER['DOCUMENT_ROOT']) . '/resources/inc/GALSAN_SERVER/DEFINES.php');
+require_once(HEGALPA_ROOT_PATH . 'resources/inc/APIs/RestAPI.php');
+require_once(dirname($_SERVER['DOCUMENT_ROOT']) . '/resources/inc/GALSAN_SERVER/includes.php'); 
+include_js_Client_files('js/GALSAN_CLIENT/');
+?>
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title><?php echo $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Title");?></title>
-
-    <meta name="description" content="<?php echo $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Description");?>"/>
-    <meta property="og:title" content=<?php echo $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Title");?> />
-    <meta property="og:url" content="<?php (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];?>" />
-
-    <meta property="og:description" content="<?php echo $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_Description");?>"/> 
-    <meta property="og:image" itemprop="image" content= "<?php echo $o_RestAPI->CommandProcessor("GET_A_PARAMETER_OPERATION")("IMG_META_Preview");?>">
-    <meta name="keywords" content="<?php echo $o_RestAPI->CommandProcessor("GET_A_MESSAGE_OPERATION")("META_KeyWords");?>"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="shortcut icon" href="<?php echo $o_RestAPI->CommandProcessor("GET_A_PARAMETER_OPERATION")("IMG_shortcut_icon");?>">
+    </script>
 </head>
-
-
 <body>
-</body>
 
-<!--JS Utils Generic Classes -->
-<script src='js/GALSAN_CLIENT/CreateBlock.js?=<? filesize('js/GALSAN_CLIENT/CreateBlock.js') ?>'></script>
-<script src='js/GALSAN_CLIENT/CEffects.js?=<? filesize('js/GALSAN_CLIENT/CEffects.js') ?>'></script>
-<script src='js/GALSAN_CLIENT/CConstants.js?=<? filesize('js/GALSAN_CLIENT/CConstants.js') ?>'></script>
-<script src='js/GALSAN_CLIENT/CTrees.js?=<? filesize('js/GALSAN_CLIENT/CTrees.js') ?>'></script>
-<script src='js/GALSAN_CLIENT/CUtils.js?=<? filesize('js/GALSAN_CLIENT/CUtils.js') ?>'></script>
-<script src='js/GALSAN_CLIENT/CPetition.js?=<? filesize('js/GALSAN_CLIENT/CPetition.js') ?>'></script>
-<script src='js/GALSAN_CLIENT/CBlocks.js?=<? filesize('js/GALSAN_CLIENT/CBlocks.js') ?>'></script> 
- <script src='js/GALSAN_CLIENT/CSession.js?=<? filesize('js/GALSAN_CLIENT/CSession.js') ?>'></script>
- <script src='js/GALSAN_CLIENT/CSecurity.js?=<? filesize('js/GALSAN_CLIENT/CSecurity.js') ?>'></script>
- <script src='js/GALSAN_CLIENT/CAPIs.js?=<? filesize('js/GALSAN_CLIENT/CAPIs.js') ?>'></script>
+<script src='js/blocks/CMS_BLOCKs/class/data-model.js?=<?filesize('js/blocks/CMS_BLOCKs/class/data-model.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/class/DOMWrapper.js?=<?filesize('js/blocks/CMS_BLOCKs/class/DOMWrapper.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/class/layout.js?=<?filesize('js/blocks/CMS_BLOCKs/class/layout.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/class/image-processor.js?=<?filesize('js/blocks/CMS_BLOCKs/class/image-processor.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/class/builder.js?=<?filesize('js/blocks/CMS_BLOCKs/class/builder.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/class/cms-view.js?=<?filesize('js/blocks/CMS_BLOCKs/class/cms-view.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/class/cms-handler.js?=<?filesize('js/blocks/CMS_BLOCKs/class/cms-handler.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/class/router.js?=<?filesize('js/blocks/CMS_BLOCKs/class/router.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/class/block.js?=<?filesize('js/blocks/CMS_BLOCKs/class/block.js')?>' defer></script>
 
 
-<!-- Maquetacion -->
-<script src='layout.js?=<? filesize('layout.js') ?>'></script>
+<!-- === SUBCLASES === -->
+<script src='js/blocks/CMS_BLOCKs/subclass/nav.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/nav.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/gallery.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/gallery.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/popup.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/popup.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/toolbar.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/toolbar.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/treeview.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/treeview.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/hero.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/hero.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/about.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/about.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/footer.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/footer.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/portfolio.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/portfolio.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/services.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/services.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/form.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/form.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/panel.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/panel.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/accordion.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/accordion.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/social.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/social.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/plans.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/plans.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/banner.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/banner.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/contact.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/contact.js')?>' defer></script>
+<script src='js/blocks/CMS_BLOCKs/subclass/blog.js?=<?filesize('js/blocks/CMS_BLOCKs/subclass/blog.js')?>' defer></script>
 
-<!-- CMS_Blocks -->
-<script src='js/blocks/CMS_BLOCKs/HeaderLandingIT.js?=<? filesize('js/blocks/CMS_BLOCKs/HeaderLandingIT.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/PortadaIT.js?=<? filesize('js/blocks/CMS_BLOCKs/PortadaIT.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/GridItems.js?=<? filesize('js/blocks/CMS_BLOCKs/GridItems.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/SeparatorIT.js?=<? filesize('js/blocks/CMS_BLOCKs/SeparatorIT.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/ButtonsContact.js?=<? filesize('js/blocks/CMS_BLOCKs/ButtonsContact.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/CabeceraProfesional.js?=<? filesize('js/blocks/CMS_BLOCKs/CabeceraProfesional.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/MaquinaEscribir.js?=<? filesize('js/blocks/CMS_BLOCKs/MaquinaEscribir.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/Button_AtulPrajapati.js?=<? filesize('js/blocks/CMS_BLOCKs/Button_AtulPrajapati.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/simple_oneLine_Foot.js?=<? filesize('js/blocks/CMS_BLOCKs/simple_oneLine_Foot.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/HEGALPA_FOOTER.js?=<? filesize('js/blocks/CMS_BLOCKs/HEGALPA_FOOTER.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/POPUP.js?=<? filesize('js/blocks/CMS_BLOCKs/POPUP.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/POPUP_Info.js?=<? filesize('js/blocks/CMS_BLOCKs/POPUP_Info.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/loader.js?=<? filesize('js/blocks/CMS_BLOCKs/loader.js') ?>'></script>
-<script src='js/blocks/CMS_BLOCKs/BlogPost.js?=<? filesize('js/blocks/CMS_BLOCKs/BlogPost.js') ?>'></script>
+<!-- === TUS SOLUCIONES PRINCIPALES === -->
+<script src='js/GALSAN_CLIENT/services/CMS_SOLUTION.js?=<?filesize('js/GALSAN_CLIENT/services/CMS_SOLUTION.js')?>' defer></script>
+<script src='js/GALSAN_CLIENT/services/MAIL_SOLUTION.js?=<?filesize('js/GALSAN_CLIENT/services/MAIL_SOLUTION.js')?>' defer></script>
 
 
-<!-- Footers Footers -->
+
+
 <script src='index.js?=<? filesize('index.js') ?>'></script>
+
 </html>

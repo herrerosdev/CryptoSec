@@ -30,7 +30,7 @@ $o_RestAPI->Get_BBDD_CONECTION()->SetQueriesArray(array(
 
 
 ));
-$o_RestAPI->Set_OPERATIONS_Functions(array(
+$o_RestAPI->Set_API_OPERATIONS(array(
     "DO_LOGIN_OPERATION" => function () {
 
         //Si nos viene por GET, no lo cogemos del argumento, sino sí

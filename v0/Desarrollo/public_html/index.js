@@ -117,6 +117,6 @@ var Login_solution = [{
             isSpa: false,
             template: LAYOUT_TEMPLATE_DEFAULT,
             initPointer: {x: 0, y: 0}
-
         };
+        
   this.LOGIN_SOLUTION = new Builder(Login_solution)
