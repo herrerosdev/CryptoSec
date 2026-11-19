@@ -9,7 +9,7 @@ $o_RestAPI = new CRestAPI();
 $o_RestAPI->InitConstants();
 $o_RestAPI->InitServerSessions();
 //$o_RestAPI->Create_SQLiteBD_CONECTION(HEGALPA_ROOT_PATH . "resources/data/PaulCVV.db");
-$o_RestAPI->Create_SQLiteBD_CONECTION(HEGALPA_ROOT_PATH . "resources/data/" . CSolutionINFO::$PROJECT_SchemaBD_NAME);
+$o_RestAPI->Create_SQLiteBD_CONECTION(HEGALPA_ROOT_PATH . "resources/data/bitbugtheory.db");
 $o_RestAPI->Create_Seguridad_Server();
 $o_RestAPI->Create_Image_Server("../assets/img/customers/PhotoGerz/");
 $o_RestAPI->Get_BBDD_CONECTION()->SetQueriesArray(array(

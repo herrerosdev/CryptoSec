@@ -10,15 +10,16 @@
  */
 
 require_once(dirname($_SERVER['DOCUMENT_ROOT']) . '/resources/inc/GALSAN_SERVER/DEFINES.php');
-require_once(HEGALPA_ROOT_PATH . 'resources/inc/APIs/RestAPI.php');
 require_once(dirname($_SERVER['DOCUMENT_ROOT']) . '/resources/inc/GALSAN_SERVER/includes.php'); 
+require_once(HEGALPA_ROOT_PATH . 'public_html/Public_APIs/RestAPI.php'); //API publica?? tiene algun sentido?? mejor meter en resources ??
 include_js_Client_files('js/GALSAN_CLIENT/');
 ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
 
-    </script>
+     <!-- RECURSOS Y SCHEMA JSON-LD -->
+     <script src="assets/jquery.min.js" defer></script>
 </head>
 <body>
 

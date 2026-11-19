@@ -83,7 +83,7 @@ var Login_solution = [{
   {
     "item": get.item(ID.ITEM.INPUT_TEXT).bd_key,
     "innerHtml": "",
-    "attributes": { "class": [], "placeholder": "Username", "id": "Username"}
+    "attributes": { "class": [], "type": "text", "placeholder": "Username", "id": "Username"}
   },
   {
     "item": get.item(ID.ITEM.PASSWORD).bd_key,
@@ -102,7 +102,7 @@ var Login_solution = [{
     "attributes": { "class": [""] },
     "action": {
         click: `
-             CSession.DoLogin(document.getElementById("Username").value, document.getElementById("Password").value, 10, '', './index.php', './PrivateArea.php')
+             CSession.GALSAN_DoLogin(document.getElementById("Username").value, document.getElementById("Password").value, 10, '', './index.php', './PrivateArea.php')
           `}
    
   },
