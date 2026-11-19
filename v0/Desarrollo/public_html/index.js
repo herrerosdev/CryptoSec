@@ -67,6 +67,7 @@ var Login_solution = [{
       "order": 1,
       "autoincrement": "1",
       "config": {
+        
 
       },
       "item": [
@@ -98,7 +99,7 @@ var Login_solution = [{
   },
   {
     "item": get.item(ID.ITEM.BUTTON).bd_key,
-    "innerHtml": "LOGIN",
+    "innerHtml": "Login",
     "attributes": { "class": [""] },
     "action": {
         click: `
@@ -106,6 +107,18 @@ var Login_solution = [{
           `}
    
   },
+
+  {
+    "item": get.item(ID.ITEM.BUTTON).bd_key,
+    "innerHtml": "Register",
+    "attributes": { "class": [""] },
+    "action": {
+        click: `
+             CSession.GALSAN_DoLogin(document.getElementById("Username").value, document.getElementById("Password").value, 10, '', './index.php', './PrivateArea.php')
+          `}
+   
+  },
+  
 ],
         }]
 
