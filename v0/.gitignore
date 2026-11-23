@@ -1,6 +1,10 @@
 /Release
-/Desarrollo/public_html/node_modules
-/Desarrollo/public_html/js/blocks/CMS_BLOCKs
-/Desarrollo/public_html/js/GALSAN_CLIENT
-/Desarrollo/resources/inc/GALSAN_SERVER
+/Desarrollo/public_html/js/lib
+node_modules/ 
+package-lock.json
+package.json
+/Desarrollo/public_html/js/galsan
+/Desarrollo/public_html/js/services
+/Desarrollo/public_html/js/plasma
+/Desarrollo/resources/inc/galsan_server
 *.log

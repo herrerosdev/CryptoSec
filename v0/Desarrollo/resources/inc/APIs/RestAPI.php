@@ -1,6 +1,6 @@
 <?php
 require_once PATH_DEFINES_FILE;
-require_once HEGALPA_ROOT_PATH . 'resources/inc/GALSAN_SERVER/CRestAPI.php';
+require_once HEGALPA_ROOT_PATH . 'resources/inc/galsan_server/CRestAPI.php';
 require_once HEGALPA_ROOT_PATH . 'resources/inc/Hegalpa/CReporters.php';
 require_once HEGALPA_ROOT_PATH . 'resources/inc/Hegalpa/CSolutionINFO.php';
 

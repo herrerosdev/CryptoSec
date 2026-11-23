@@ -1,7 +1,7 @@
 <?php
 require_once PATH_DEFINES_FILE;
-require_once HEGALPA_ROOT_PATH . 'resources/inc/GALSAN_SERVER/CConstants.php';
-require_once HEGALPA_ROOT_PATH . 'resources/inc/GALSAN_SERVER/CUtils.php';
+require_once HEGALPA_ROOT_PATH . 'resources/inc/galsan_server/CConstants.php';
+require_once HEGALPA_ROOT_PATH . 'resources/inc/galsan_server/CUtils.php';
 
 //Stadistics reporters
 class CSolutionINFO
