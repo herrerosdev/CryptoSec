@@ -1,4 +1,4 @@
-<?php require_once(dirname($_SERVER['DOCUMENT_ROOT']) . '/resources/inc/GALSAN_SERVER/DEFINES.php');?>
+<?php require_once(dirname($_SERVER['DOCUMENT_ROOT']) . '/resources/inc/galsan_server/DEFINES.php');?>
 <?php require_once(HEGALPA_ROOT_PATH . 'public_html/Public_APIs/RestAPI.php');?>
 <?php $CHegalpaReporters_o->Register_Visit(basename(__FILE__, '.php')); ?>
 <?php CRestAPI::Get_Session_Object()->Check_Only_Logged_Users(CRestAPI::GetConstants()->CODE('ROL', 'SUPERUSER'), 'index.php') ?>
